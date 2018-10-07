@@ -1,23 +1,24 @@
 [
   {
     "body": {
-      "content": "alice-about.md",
+      "content": "jade-about.md",
       "format": "md"
     },
     "collections": [
       {
-        "experiment": "ALICE"
+        "experiment": "JADE"
       }
     ],
-    "experiment": "ALICE",
+    "experiment": "JADE",
     "short_description": {
-      "content": "ALICE is the acronym for A Large Ion Collider Experiment, the experiment at the Large Hadron Collider devoted to the physics of matter at infinitely small scale exploiting heavy-ion collisions."
+      "content": 
+      "JADE is an experiment"
     },
-    "slug": "about-alice",
+    "slug": "about-jade",
     "tags": [
       "Getting Started"
     ],
-    "title": "About ALICE",
+    "title": "About JADE",
     "type": {
       "primary": "Documentation",
       "secondary": [

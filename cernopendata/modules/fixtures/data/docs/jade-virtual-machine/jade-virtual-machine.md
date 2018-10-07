@@ -1,5 +1,5 @@
 1. [How to install VirtualBox](#vbox)
-2. [Download a LHCb virtual machine and run!](#download)
+2. [Download a JADE virtual machine and run!](#download)
 
 ## <a name="vbox">Step 1: Installing VirtualBox</a>
 
@@ -10,17 +10,17 @@ You will need administrative privileges ("root" privileges) on every platform to
 **Note:** the latest tested version of VirtualBox working with CernVM is 4.3.14\. If you have troubles with the latest verion of VirtualBox, pick that one: the full history of VirtualBox versions is available [on a different page.](https://www.VirtualBox.org/wiki/Download_Old_Builds)
 
 
-## <a name="download">Step 2: Download a LHCb virtual machine and run</a>
+## <a name="download">Step 2: Download a JADE virtual machine and run</a>
 
-Download LHCb virtual machine from [here.](https://lhcbproject.web.cern.ch/lhcbproject/dist/Masterclass/vm/LHCbMasterclass.ova)
+Download JADE virtual machine from [here.](https://jadeproject.web.cern.ch/jadeproject/dist/Masterclass/vm/JADEMasterclass.ova)
 
 Open it with VirtualBox.
 
-<img src="/static/docs/virtual-machines-lhcb/vm_lhcb_1.png" width="80%"><br>
+<img src="/static/docs/virtual-machines-jade/vm_jade_1.png" width="80%"><br>
 
-Once started there is a shortcut on the desktop to start the LHCb masterclass exercise itself.
+Once started there is a shortcut on the desktop to start the JADE masterclass exercise itself.
 
-<img src="/static/docs/virtual-machines-lhcb/vm_lhcb_2.png" width="80%"><br>
+<img src="/static/docs/virtual-machines-jade/vm_jade_2.png" width="80%"><br>
 
-The official web page of the [LHCb Masterclass exercise](http://lhcb-public.web.cern.ch/lhcb-public/en/LHCb-outreach/masterclasses/en/index.html) can be found [here](http://lhcb-public.web.cern.ch/lhcb-public/en/LHCb-outreach/masterclasses/en/index.html) and a video tutorial can be found on [Youtube](https://www.youtube.com/watch?v=x2qJUbF2qUQ).
+The official web page of the [JADE Masterclass exercise](http://jade-public.web.cern.ch/jade-public/en/JADE-outreach/masterclasses/en/index.html) can be found [here](http://jade-public.web.cern.ch/jade-public/en/JADE-outreach/masterclasses/en/index.html) and a video tutorial can be found on [Youtube](https://www.youtube.com/watch?v=x2qJUbF2qUQ).
 
