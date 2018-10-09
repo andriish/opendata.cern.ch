@@ -1,557 +1,555 @@
 [
   {
+    "authors": [
       {
         "affiliation": "Max-Planck Institut for Physics (Werner-Heisenberg Institut) ",
         "name": "Bethke, Siegfried"
-      }
-
+},
       {
         "affiliation": "Max-Planck Institut for Physics (Werner-Heisenberg Institut) ",
         "name": "Biebel, Otmar"
-      }
-
-
+      },
       {
         "affiliation": "Max-Planck Institut for Physics (Werner-Heisenberg Institut)  ",
         "name": "Blumenstengel, Mona "
-      }
-
+      },
       {
         "affiliation": "Max-Planck Institut for Physics (Werner-Heisenberg Institut) ",
         "name": " Kluth, Stefan"
-      }
-
+      },
       {
         "affiliation": " Deutsches Elektronen Synchrotron (DESY)",
         "name": "Olsson, Jan "
-      }
-
-
-
+      },
       {
         "affiliation": " Fermi National Accelerator Laboratory",
         "name": "Movilla Fernandez, Pedro "
-      }
-
-
+      },
       {
         "affiliation": "Max-Planck Institut for Physics (Werner-Heisenberg Institut) ",
         "name": " Christoph Pahl "
-      }
-      
-      
+      },
       {
         "affiliation": "Institut for High Energy Physics (HEPHY) ",
         "name": "Schieck, Jochen "
-      }
-      
+      },
       {
         "affiliation": "Max-Planck Institut for Physics (Werner-Heisenberg Institut) ",
         "name": "Verbytskyi,  Andrii"
-      },      
-    
-    
-    
-    
+      }
+,
       {
- "name": "J. Allison",
- "affiliation" : "University  of Manchester, England"
-},
-  {
- "name": "K. Ambrus",
- "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
-  {
- "name": "J. Armitage",
- "affiliation" : "University  of Manchester, England"
-  {
- "name": "J. Baines",
- "affiliation" : "University  of Manchester, England"
-  {
- "name": "A.H. Ball",
- "affiliation" : "University  of Manchester, England"
-  {
- "name": "G. Bamford",
- "affiliation" : "University  of Manchester, England"
-},
-  {
- "name": "R. Barlow",
- "affiliation" : "University  of Manchester, England"
-},
-  {
- "name": "W. Bartel",
- "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
-},
-  {
- "name": "L. Becker",
- "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
-},
-  {
- "name": "A. Bell",
- "affiliation" : "University of Lancaster, England"
-},
-  {
- "name": "S.  Bethke",
- "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
-},
-  {
- "name": "C. Bowdery",
- "affiliation" : "University of Lancaster, England"
-},
-  {
- "name": "T. Canzler",
- "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
-},
-  {
+       "name": "J. Allison",
+       "affiliation" : "University  of Manchester, England"
+      },
+      {
+       "name": "K. Ambrus",
+       "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
+      },
+      {
+       "name": "J. Armitage",
+       "affiliation" : "University  of Manchester, England"
+      },
+      {
+      "name": "J. Baines",
+      "affiliation" : "University  of Manchester, England"
+      },
+      {
+      "name": "A.H. Ball",
+      "affiliation" : "University  of Manchester, England"
+      },
+      {
+      "name": "G. Bamford",
+      "affiliation" : "University  of Manchester, England"
+      }, 
+      {
+      "name": "R. Barlow",
+      "affiliation" : "University  of Manchester, England"
+      },
+      {
+      "name": "W. Bartel",
+      "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+      },
+      {
+      "name": "L. Becker",
+      "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+      },
+      {
+      "name": "A. Bell",
+      "affiliation" : "University of Lancaster, England"
+      },
+      {
+      "name": "S.  Bethke",
+      "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
+      },
+      {
+      "name": "C. Bowdery",
+      "affiliation" : "University of Lancaster, England"
+      },
+      {
+      "name": "T. Canzler",
+      "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+      },
+{
  "name": "S.L. Cartwright",
  "affiliation" : "Rutherford Appleton Laboratory, Chilton, Didcot, England"
 },
-  {
+{
  "name": "J.  Chrin",
  "affiliation" : "University  of Manchester, England"
 },
-  {
+{
  "name": "D. Clarke",
  "affiliation" : "Rutherford Appleton Laboratory, Chilton, Didcot, England"
 },
-  {
+{
  "name": "D. Cords",
  "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
 },
-  {
+{
  "name": "D.C. Darvill",
  "affiliation" : "University of Lancaster, England"
 },
-  {
+{
  "name": "A. Dieckmann",
- "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany",
-    {
+ "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
+    
+},
+{
  "name": "G. Dietrich",
  "affiliation" : " II. Institut fur Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "P. Dittmann",
  "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
 },
-  {
+{
  "name": "H. Drumm",
  "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
 },
-  {
+{
  "name": "I.P. Duerdoth",
  "affiliation" : "University  of Manchester, England"
 },
-  {
+{
  "name": "G.  Eckerlin",
  "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
 },
-  {
+{
  "name": "R. Eichler",
  "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
 },
-  {
+{
  "name": "E. Elsen",
  "affiliation" : " II. Institut fur Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "R. Felst",
  "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
 },
-  {
+{
  "name": "A. Finch",
  "affiliation" : "University of Lancaster, England"
 },
-  {
+{
  "name": "F.Foster",
  "affiliation" : "University of Lancaster, England"
 },
-  {
+{
  "name": "R.G. Glasser",
  "affiliation" : "University of Maryland, College Park, MD, USA"
 },
-  {
+{
  "name": "I. Glendinning",
  "affiliation" : "University  of Manchester, England"
 },
-  {
+{
  "name": "M.C. Goddard",
  "affiliation" : "Rutherford Appleton Laboratory, Chilton, Didcot, England"
 },
-  {
+{
  "name": "T.Greenshaw",
  "affiliation" : "University  of Manchester, England"
 },
-  {
+{
  "name": "J. Hagemann",
  "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "D. Haidt",
  "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
 },
-  {
+{
  "name": "J.F. Hassard",
  "affiliation" : "University  of Manchester, England"
 },
-  {
+{
  "name": "R.Hedgecock",
  "affiliation" : "Rutherford Appleton Laboratory, Chilton, Didcot, England"
 },
-  {
+{
  "name": "J. Heintze",
  "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
 },
-  {
+{
  "name": "G. Heinzelmann",
  "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "G. Heinzelmann",
  "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "K.H.  Hellenbrand",
  "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
 },
-  {
+{
  "name": "M. Helm",
  "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "R. Heuer",
  "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
 },
-  {
+{
  "name": "P. Hill",
  "affiliation" : "University of Maryland, College Park, MD, USA"
 },
-  {
+{
  "name": "G. Hughes",
  "affiliation" : "University of Lancaster, England"
 },
-  {
+{
  "name": "M.  Imori",
  "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
 },
-  {
+{
  "name": "H. Junge",
  "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
 },
-  {
+{
  "name": "H. Kado",
  "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "J. Kanzaki",
  "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
 },
-  {
+{
  "name": "S. Kawabata",
  "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
 },
-  {
+{
  "name": "K.  Kawagoe",
  "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "T. Kawamoto",
  "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
 },
-  {
+{
  "name": "B.T. King",
  "affiliation" : "University  of Manchester, England"
 },
-  {
+{
  "name": "C. Kleinwort",
  "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "G. Knies",
- "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany",
-    {
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+{
  "name": "T. Kobayashi",
  "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
 },
-  {
+{
  "name": "S. Komamiya",
  "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
 },
-  {
+{
  "name": "M. Koshiba",
  "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
 },
-  {
+{
  "name": "H. Krehbiel",
  "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
 },
-  {
- "name": "M."Kuhlen",
+{
+ "name": "M. Kuhlen",
  "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "P. Laurikainen",
  "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
 },
-  {
+{
  "name": "P. Lennert",
  "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
 },
-  {
+{
  "name": "F.K. Loebinger",
  "affiliation" : "University  of Manchester, England"
 },
-  {
+{
  "name": "A.A.  Macbeth",
  "affiliation" : "University  of Manchester, England"
 },
-  {
+{
  "name": "N. Magnussen",
  "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "R. Marshall",
  "affiliation" : "Rutherford Appleton Laboratory, Chilton, Didcot, England"
 },
-  {
+{
  "name": "T. Mashimo",
  "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
 },
-  {
+{
  "name": "H.  Matsumura",
  "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
 },
-  {
+{
  "name": "H. McCann",
  "affiliation" : "University  of Manchester, England"
 },
-  {
+{
  "name": "K. Meier",
  "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "R. Meinke",
  "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
 },
-  {
+{
  "name": "R.P.  Middleton",
  "affiliation" : "Rutherford Appleton Laboratory, Chilton, Didcot, England"
 },
-  {
+{
  "name": "H.E. Mills",
  "affiliation" : "University  of Manchester, England"
 },
-  {
+{
  "name": "M. Minowa",
  "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
 },
-  {
+{
  "name": "P.G. Murphy",
  "affiliation" : "University  of Manchester, England"
 },
-  {
+{
  "name": "B.  Naroska",
  "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
 },
-  {
+{
  "name": "T. Nozaki",
  "affiliation" : "University of Lancaster, England"
 },
-  {
+{
  "name": "M. Nozaki",
  "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
 },
-  {
+{
  "name": "J. Nye",
  "affiliation" : "University of Lancaster, England"
 },
-  {
+{
  "name": "S. Odaka",
  "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
 },
-  {
+{
  "name": "T. Oest",
  "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "J. Olsson",
  "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
 },
-  {
+{
  "name": "L.H. O'Neill",
  "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
 },
-  {
+{
  "name": "S. Orito",
  "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
 },
-  {
+{
  "name": "F. Ould-Saada",
- "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany",
-    {
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
+},
+{
  "name": "G.F. Pearce",
  "affiliation" : "Rutherford Appleton Laboratory, Chilton, Didcot, England"
 },
-  {
+{
  "name": "A. Petersen",
  "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "E. Pietarienen",
  "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
 },
-  {
+{
  "name": "D. Pitzl",
  "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "H. Prosper",
  "affiliation" : "University  of Manchester, England"
 },
-  {
+{
  "name": "J.J. Pryce",
  "affiliation" : "University of Lancaster, England"
 },
-  {
+{
  "name": "R. Pust",
  "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "R. Ramcke",
  "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "H. Rieseberg",
  "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
 },
-  {
- "name": "P. "Rowe",
+{
+ "name": "P. Rowe",
  "affiliation" : "University  of Manchester, England"
 },
-  {
+{
  "name": "A. Sato",
  "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
 },
-  {
+{
  "name": "D. Schmidt",
  "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
 },
-  {
+{
  "name": "U. Schneekloth",
  "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "B. Sechi-Zorn",
- "affiliation" : "University of Maryland, College Park, MD, USA",
-    {
+ "affiliation" : "University of Maryland, College Park, MD, USA"
+},
+{
  "name": "J.A. Skard",
  "affiliation" : "University of Maryland, College Park, MD, USA"
 },
-  {
+{
  "name": "L. Smolik",
  "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
 },
-  {
+{
  "name": "J. Spitzer",
  "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
 },
-  {
+{
  "name": "P. Steffen",
  "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
 },
-  {
+{
  "name": "K.  Stephens",
  "affiliation" : "University  of Manchester, England"
 },
-  {
+{
  "name": "T. Suda",
  "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
 },
-  {
+{
  "name": "H. Takeda",
  "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
 },
-  {
+{
  "name": "T. Takeshita",
  "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
 },
-  {
+{
  "name": "Y. Totsuka",
- "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan",
-    {
+ "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
+},
+  
+{
  "name": "H. v.d.Schmitt",
  "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
 },
-  {
+{
  "name": "J. von Krogh",
  "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
 },
-  {
+{
  "name": "A. Wagner",
  "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
 },
-  {
+{
  "name": "S.R. Wagner",
  "affiliation" : "University of Maryland, College Park, MD, USA"
 },
-  {
+{
  "name": "I.  Walker",
  "affiliation" : "University of Lancaster, England"
 },
-  {
+{
  "name": "P. Warming",
  "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "Y. Watanabe",
  "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
 },
-  {
+{
  "name": "G. Weber",
  "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "A. Wegner",
  "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
 },
-  {
+{
  "name": "H.  Wenninger",
  "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
 },
-  {
+{
  "name": "J.B. Whittaker",
  "affiliation" : "Rutherford Appleton Laboratory, Chilton, Didcot, England"
 },
-  {
+{
  "name": "H. Wriedt",
  "affiliation" : "University of Lancaster, England"
 },
-  {
+{
  "name": "S. Yamada",
  "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
 },
-  {
+{
  "name": "C.  Yanagisawa",
  "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
 },
-  {
+{
  "name": "W.L. Yen",
  "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
 },
-  {
+{
  "name": "M. Zachara",
  "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
 },
-  {
+{
  "name": "Y. Zhang",
  "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
 },
-  {
+{
  "name": "M. Zimmer",
  "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
 },
-  {
+{
  "name": "  G.T. Zorn",
  "affiliation" : "University of Maryland, College Park, MD, USA" 
 }
+      
+      
     ],
     "collaboration": {
       "name": "JADE collaboration"
@@ -567,15 +565,8 @@
       ]
     },
     "experiment": "JADE",
-    "files": [
-      {
-        "checksum": "adler32:0cf746ba",
-        "size": 143315,
-        "uri": "root://eospublic.cern.ch//eos/opendata/jade/documentation/jade-author-list-2018.pdf"
-      }
-    ],
     "publisher": "CERN Open Data Portal",
-    "recid": "454",
+    "recid": "200455",
     "title": "JADE author list for the preserved data",
     "type": {
       "primary": "Documentation",
