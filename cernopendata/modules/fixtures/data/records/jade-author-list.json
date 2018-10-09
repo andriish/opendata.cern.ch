@@ -1,575 +1,582 @@
 [
   {
-    "authors": [
       {
-        "affiliation": "Aichi U. ",
-        "name": "Kodama, Koichi"
-      },
-      {
-        "affiliation": "Middle East Tech. U., Ankara",
-        "name": "Guler, Ali Murat"
-      },
-      {
-        "affiliation": "Middle East Tech. U., Ankara and Ankara U.",
-        "name": "Kamiscioglu, Cagin"
-      },
-      {
-        "affiliation": "Middle East Tech. U., Ankara",
-        "name": "Kamiscioglu, Mustafa"
-      },
-      {
-        "affiliation": "Annecy, LAPP",
-        "name": "del Amo Sanchez, Pablo"
-      },
-      {
-        "affiliation": "Annecy, LAPP",
-        "name": "Duchesneau, Dominique"
-      },
-      {
-        "affiliation": "Annecy, LAPP",
-        "name": "Favier, Jean"
-      },
-      {
-        "affiliation": "Annecy, LAPP",
-        "name": "Pessard, Henri"
-      },
-      {
-        "affiliation": "Bari U. and INFN, Bari",
-        "name": "De Serio, Marilisa"
-      },
-      {
-        "affiliation": "Bari U. and INFN, Bari",
-        "name": "Muciaccia, Maria Teresa"
-      },
-      {
-        "affiliation": "Bari U. and INFN, Bari",
-        "name": "Paparella, Luigi"
-      },
-      {
-        "affiliation": "Bari U.",
-        "name": "Pastore, Alessandra"
-      },
-      {
-        "affiliation": "Bari U. and INFN, Bari",
-        "name": "Simone, Saverio"
-      },
-      {
-        "affiliation": "INFN, Bari",
-        "name": "Fini, Rosa Anna"
-      },
-      {
-        "affiliation": "Bern U., LHEP",
-        "name": "Ereditato, Antonio"
-      },
-      {
-        "affiliation": "Bern U., LHEP",
-        "name": "Ariga, Akitaka"
-      },
-      {
-        "affiliation": "Bern U., LHEP and Kyushu U.",
-        "name": "Ariga, Tomoko"
-      },
-      {
-        "affiliation": "Bern U., LHEP",
-        "name": "Kreslo, Igor"
-      },
-      {
-        "affiliation": "Bern U., LHEP",
-        "name": "Pistillo, Ciro"
-      },
-      {
-        "affiliation": "Bern U., LHEP",
-        "name": "Tufanli, Sehran"
-      },
-      {
-        "affiliation": "Bern U., LHEP",
-        "name": "Vuilleumier, Jean-Luc"
-      },
-      {
-        "affiliation": "INFN, Bologna",
-        "name": "Di Ferdinando, Donato"
-      },
-      {
-        "affiliation": "INFN, Bologna and Bologna U.",
-        "name": "Fornari, Federico"
-      },
-      {
-        "affiliation": "INFN, Bologna",
-        "name": "Mandrioli, Gianni"
-      },
-      {
-        "affiliation": "INFN, Bologna and Bologna U.",
-        "name": "Mauri, Nicoletta"
-      },
-      {
-        "affiliation": "INFN, Bologna",
-        "name": "Patrizii, Laura"
-      },
-      {
-        "affiliation": "INFN, Bologna and Bologna U.",
-        "name": "Pasqualini, Laura"
-      },
-      {
-        "affiliation": "INFN, Bologna and Bologna U.",
-        "name": "Pozzato, Michele"
-      },
-      {
-        "affiliation": "INFN, Bologna",
-        "name": "Sirri, Gabriele"
-      },
-      {
-        "affiliation": "INFN, Bologna",
-        "name": "Tenti, Matteo"
-      },
-      {
-        "affiliation": "Brussels U., IIHE",
-        "name": "Vilain, Pierre"
-      },
-      {
-        "affiliation": "Brussels U., IIHE",
-        "name": "Wilquet, Gaston"
-      },
-      {
-        "affiliation": "Hamburg U.",
-        "name": "Ebert, Joachim"
-      },
-      {
-        "affiliation": "Hamburg U.",
-        "name": "Hagner, Caren"
-      },
-      {
-        "affiliation": "Hamburg U.",
-        "name": "Hollnagel, Annika"
-      },
-      {
-        "affiliation": "Hamburg U.",
-        "name": "Wonsak, Björn"
-      },
-      {
-        "affiliation": "Moscow, INR",
-        "name": "Agafonova, Natalia"
-      },
-      {
-        "affiliation": "Moscow, INR",
-        "name": "Malgin, Alexei"
-      },
-      {
-        "affiliation": "Moscow, INR",
-        "name": "Matveev, Vitaly"
-      },
-      {
-        "affiliation": "Moscow, INR",
-        "name": "Ryazhskaya, Olga"
-      },
-      {
-        "affiliation": "Moscow, INR",
-        "name": "Shakirianova, Irina"
-      },
-      {
-        "affiliation": "Higher Sch. of Economics, Moscow and INFN, Naples",
-        "name": "Ustyuzhanin, Andrey"
-      },
-      {
-        "affiliation": "Dubna, JINR",
-        "name": "Chukanov, Artem"
-      },
-      {
-        "affiliation": "Dubna, JINR",
-        "name": "Dmitrievsky, Sergey"
-      },
-      {
-        "affiliation": "Dubna, JINR",
-        "name": "Gornushkin, Yuri"
-      },
-      {
-        "affiliation": "Dubna, JINR",
-        "name": "Olchevsky, Alexander"
-      },
-      {
-        "affiliation": "Dubna, JINR",
-        "name": "Sadovsky, Andrey"
-      },
-      {
-        "affiliation": "Dubna, JINR",
-        "name": "Sotnikov, Albert Petrovich"
-      },
-      {
-        "affiliation": "Dubna, JINR",
-        "name": "Vasina, Svetlana"
-      },
-      {
-        "affiliation": "Gyeongsang Natl. U.",
-        "name": "Kim, Seung Hwan"
-      },
-      {
-        "affiliation": "Gyeongsang Natl. U.",
-        "name": "Park, Byung Do"
-      },
-      {
-        "affiliation": "Gyeongsang Natl. U.",
-        "name": "Yoon, Chun Sil"
-      },
-      {
-        "affiliation": "Kobe U.",
-        "name": "Aoki, Shigeki"
-      },
-      {
-        "affiliation": "Kobe U.",
-        "name": "Hara, Testuya"
-      },
-      {
-        "affiliation": "Kobe U.",
-        "name": "Mizutani, Fukashi"
-      },
-      {
-        "affiliation": "Kobe U.",
-        "name": "Ozaki, Kazuhiko"
-      },
-      {
-        "affiliation": "Kobe U.",
-        "name": "Shibayama, Emi"
-      },
-      {
-        "affiliation": "Kobe U.",
-        "name": "Takahashi, Shigeru"
-      },
-      {
-        "affiliation": "INFN, Rome",
-        "name": "Paoloni, Alessandro"
-      },
-      {
-        "affiliation": "INFN, Rome",
-        "name": "Spinetti, Mario"
-      },
-      {
-        "affiliation": "INFN, Rome",
-        "name": "Votano, Lucia"
-      },
-      {
-        "affiliation": "Milan Bicocca U.",
-        "name": "Terranova, Francesco"
-      },
-      {
-        "affiliation": "Gran Sasso",
-        "name": "D'Ambrosio, Nicola"
-      },
-      {
-        "affiliation": "Gran Sasso",
-        "name": "Di Marco, Natalia"
-      },
-      {
-        "affiliation": "Gran Sasso",
-        "name": "Schembri, Andrea"
-      },
-      {
-        "affiliation": "GSSI, Aquila",
-        "name": "Gentile, Valerio"
-      },
-      {
-        "affiliation": "Lebedev Inst.",
-        "name": "Chernyavskiy, Mikhail"
-      },
-      {
-        "affiliation": "Lebedev Inst.",
-        "name": "Gorbunov, Sergei"
-      },
-      {
-        "affiliation": "Lebedev Inst.",
-        "name": "Okateva, Natalia"
-      },
-      {
-        "affiliation": "Lebedev Inst. and Moscow Phys. Eng. Inst.",
-        "name": "Polukhina, Natalia"
-      },
-      {
-        "affiliation": "Lebedev Inst.",
-        "name": "Starkov, Nikolai"
-      },
-      {
-        "affiliation": "Lebedev Inst.",
-        "name": "Shchedrina, Tatiana"
-      },
-      {
-        "affiliation": "Nagoya U.",
-        "name": "Fukuda, Tomokazu"
-      },
-      {
-        "affiliation": "Nagoya U.",
-        "name": "Hayakawa, Takashi"
-      },
-      {
-        "affiliation": "Nagoya U.",
-        "name": "Ishiguro, Katsuya"
-      },
-      {
-        "affiliation": "Nagoya U.",
-        "name": "Kitagawa, Naomasa"
-      },
-      {
-        "affiliation": "Nagoya U.",
-        "name": "Komatsu, Masahiro"
-      },
-      {
-        "affiliation": "Nagoya U.",
-        "name": "Miyanishi, Motoaki"
-      },
-      {
-        "affiliation": "Nagoya U.",
-        "name": "Morishima, Kunihiro"
-      },
-      {
-        "affiliation": "Nagoya U.",
-        "name": "Naganawa, Naotaka"
-      },
-      {
-        "affiliation": "Nagoya U.",
-        "name": "Naka, Tatsuhiro"
-      },
-      {
-        "affiliation": "Nagoya U.",
-        "name": "Nakamura, Mitsuhiro"
-      },
-      {
-        "affiliation": "Nagoya U.",
-        "name": "Nakano, Takashi"
-      },
-      {
-        "affiliation": "Nagoya U.",
-        "name": "Niwa, Kimio"
-      },
-      {
-        "affiliation": "Nagoya U.",
-        "name": "Rokujo, Hiroki"
-      },
-      {
-        "affiliation": "Nagoya U.",
-        "name": "Sato, Osamu"
-      },
-      {
-        "affiliation": "Nagoya U.",
-        "name": "Shiraishi, Takuya"
-      },
-      {
-        "affiliation": "INFN, Naples",
-        "name": "Aleksandrov, Aleksandar"
-      },
-      {
-        "affiliation": "INFN, Naples and Naples U.",
-        "name": "Buonaura, Annarita"
-      },
-      {
-        "affiliation": "INFN, Naples",
-        "name": "Buontempo, Salvatore"
-      },
-      {
-        "affiliation": "INFN, Naples",
-        "name": "Consiglio, Lucia"
-      },
-      {
-        "affiliation": "INFN, Naples and Naples U.",
-        "name": "De Lellis, Giovanni"
-      },
-      {
-        "affiliation": "INFN, Naples",
-        "name": "Di Crescenzo, Antonia"
-      },
-      {
-        "affiliation": "INFN, Naples and Naples U.",
-        "name": "Galati, Giuliana"
-      },
-      {
-        "affiliation": "INFN, Naples and Naples U.",
-        "name": "Iuliano, Antonio"
-      },
-      {
-        "affiliation": "INFN, Naples and Naples U.",
-        "name": "Lauria, Adele"
-      },
-      {
-        "affiliation": "INFN, Naples and Naples U.",
-        "name": "Montesi, Maria Cristina"
-      },
-      {
-        "affiliation": "INFN, Naples and Naples U.",
-        "name": "Strolin, Paolo Emilio"
-      },
-      {
-        "affiliation": "INFN, Naples",
-        "name": "Tioukov, Valeri"
-      },
-      {
-        "affiliation": "INFN, Naples",
-        "name": "Voevodina, Elena"
-      },
-      {
-        "affiliation": "Nihon U., Narashino",
-        "name": "Mikado, Shoji"
-      },
-      {
-        "affiliation": "INFN, Padua",
-        "name": "Bertolin, Alessandro"
-      },
-      {
-        "affiliation": "INFN, Padua and Padua U.",
-        "name": "Brugnera, Riccardo"
-      },
-      {
-        "affiliation": "INFN, Padua",
-        "name": "Dusini, Stefano"
-      },
-      {
-        "affiliation": "INFN, Padua and Padua U.",
-        "name": "Garfagnini, Alberto"
-      },
-      {
-        "affiliation": "CERN",
-        "name": "Kose, Umut"
-      },
-      {
-        "affiliation": "INFN, Padua and Padua U.",
-        "name": "Laudisio, Fulvio"
-      },
-      {
-        "affiliation": "INFN, Padua",
-        "name": "Longhin, Andrea"
-      },
-      {
-        "affiliation": "Padua Observ.",
-        "name": "Medinaceli, Eduardo"
-      },
-      {
-        "affiliation": "INFN, Padua",
-        "name": "Pupilli, Fabio"
-      },
-      {
-        "affiliation": "Liverpool U.",
-        "name": "Roda, Marco"
-      },
-      {
-        "affiliation": "INFN, Padua and Padua U.",
-        "name": "Sirignano, Chiara"
-      },
-      {
-        "affiliation": "INFN, Padua",
-        "name": "Stanco, Luca"
-      },
-      {
-        "affiliation": "INFN, Rome",
-        "name": "Gustavino, Carlo"
-      },
-      {
-        "affiliation": "INFN, Rome",
-        "name": "Loverre, Pier Ferruccio"
-      },
-      {
-        "affiliation": "INFN, Rome",
-        "name": "Monacelli, Piero"
-      },
-      {
-        "affiliation": "INFN, Rome",
-        "name": "Rosa, Giovanni"
-      },
-      {
-        "affiliation": "Salerno U. and INFN, Salerno",
-        "name": "Grella, Giuseppe"
-      },
-      {
-        "affiliation": "Salerno U. and INFN, Salerno",
-        "name": "Bozza, Cristiano"
-      },
-      {
-        "affiliation": "Salerno U.",
-        "name": "Stellacci, Simona Maria"
-      },
-      {
-        "affiliation": "Strasbourg, IPHC",
-        "name": "Jollet, Cecile"
-      },
-      {
-        "affiliation": "Strasbourg, IPHC",
-        "name": "Meregaglia, Anselmo"
-      },
-      {
-        "affiliation": "Strasbourg, IPHC",
-        "name": "Dracos, Marcos"
-      },
-      {
-        "affiliation": "SINP, Moscow",
-        "name": "Anokhina, Anna"
-      },
-      {
-        "affiliation": "SINP, Moscow",
-        "name": "Dzhatdoev, Timur"
-      },
-      {
-        "affiliation": "SINP, Moscow",
-        "name": "Podgrudkov, Dmitry Abramovich"
-      },
-      {
-        "affiliation": "SINP, Moscow",
-        "name": "Roganova, Tatiana Mikhaylovna"
-      },
-      {
-        "affiliation": "Technion",
-        "name": "Goldberg, Jacques"
-      },
-      {
-        "affiliation": "Toho U.",
-        "name": "Matsuo, Toshihiro"
-      },
-      {
-        "affiliation": "Toho U.",
-        "name": "Ogawa, Satoru"
-      },
-      {
-        "affiliation": "Toho U.",
-        "name": "Shibuya, Hiroshi"
-      },
-      {
-        "affiliation": "Boskovic Inst., Zagreb",
-        "name": "Klicek, Budimir"
-      },
-      {
-        "affiliation": "Boskovic Inst., Zagreb",
-        "name": "Stipcevic, Mario"
-      },
-      {
-        "affiliation": "Boskovic Inst., Zagreb",
-        "name": "Jakovcic, Kresimir"
-      },
-      {
-        "affiliation": "Boskovic Inst., Zagreb",
-        "name": "Ljubicic, Tonko Ante"
-      },
-      {
-        "affiliation": "Boskovic Inst., Zagreb",
-        "name": "Malenica, Marko"
+        "affiliation": "Max-Planck Institut for Physics (Werner-Heisenberg Institut) ",
+        "name": "Bethke, Siegfried"
       }
+
+      {
+        "affiliation": "Max-Planck Institut for Physics (Werner-Heisenberg Institut) ",
+        "name": "Biebel, Otmar"
+      }
+
+
+      {
+        "affiliation": "Max-Planck Institut for Physics (Werner-Heisenberg Institut)  ",
+        "name": "Blumenstengel, Mona "
+      }
+
+      {
+        "affiliation": "Max-Planck Institut for Physics (Werner-Heisenberg Institut) ",
+        "name": " Kluth, Stefan"
+      }
+
+      {
+        "affiliation": " Deutsches Elektronen Synchrotron (DESY)",
+        "name": "Olsson, Jan "
+      }
+
+
+
+      {
+        "affiliation": " Fermi National Accelerator Laboratory",
+        "name": "Movilla Fernandez, Pedro "
+      }
+
+
+      {
+        "affiliation": "Max-Planck Institut for Physics (Werner-Heisenberg Institut) ",
+        "name": " Christoph Pahl "
+      }
+      
+      
+      {
+        "affiliation": "Institut for High Energy Physics (HEPHY) ",
+        "name": "Schieck, Jochen "
+      }
+      
+      {
+        "affiliation": "Max-Planck Institut for Physics (Werner-Heisenberg Institut) ",
+        "name": "Verbytskyi,  Andrii"
+      },      
+    
+    
+    
+    
+      {
+ "name": "J. Allison",
+ "affiliation" : "University  of Manchester, England"
+},
+  {
+ "name": "K. Ambrus",
+ "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
+  {
+ "name": "J. Armitage",
+ "affiliation" : "University  of Manchester, England"
+  {
+ "name": "J. Baines",
+ "affiliation" : "University  of Manchester, England"
+  {
+ "name": "A.H. Ball",
+ "affiliation" : "University  of Manchester, England"
+  {
+ "name": "G. Bamford",
+ "affiliation" : "University  of Manchester, England"
+},
+  {
+ "name": "R. Barlow",
+ "affiliation" : "University  of Manchester, England"
+},
+  {
+ "name": "W. Bartel",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "L. Becker",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "A. Bell",
+ "affiliation" : "University of Lancaster, England"
+},
+  {
+ "name": "S.  Bethke",
+ "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
+},
+  {
+ "name": "C. Bowdery",
+ "affiliation" : "University of Lancaster, England"
+},
+  {
+ "name": "T. Canzler",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "S.L. Cartwright",
+ "affiliation" : "Rutherford Appleton Laboratory, Chilton, Didcot, England"
+},
+  {
+ "name": "J.  Chrin",
+ "affiliation" : "University  of Manchester, England"
+},
+  {
+ "name": "D. Clarke",
+ "affiliation" : "Rutherford Appleton Laboratory, Chilton, Didcot, England"
+},
+  {
+ "name": "D. Cords",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "D.C. Darvill",
+ "affiliation" : "University of Lancaster, England"
+},
+  {
+ "name": "A. Dieckmann",
+ "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany",
+    {
+ "name": "G. Dietrich",
+ "affiliation" : " II. Institut fur Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "P. Dittmann",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "H. Drumm",
+ "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
+},
+  {
+ "name": "I.P. Duerdoth",
+ "affiliation" : "University  of Manchester, England"
+},
+  {
+ "name": "G.  Eckerlin",
+ "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
+},
+  {
+ "name": "R. Eichler",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "E. Elsen",
+ "affiliation" : " II. Institut fur Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "R. Felst",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "A. Finch",
+ "affiliation" : "University of Lancaster, England"
+},
+  {
+ "name": "F.Foster",
+ "affiliation" : "University of Lancaster, England"
+},
+  {
+ "name": "R.G. Glasser",
+ "affiliation" : "University of Maryland, College Park, MD, USA"
+},
+  {
+ "name": "I. Glendinning",
+ "affiliation" : "University  of Manchester, England"
+},
+  {
+ "name": "M.C. Goddard",
+ "affiliation" : "Rutherford Appleton Laboratory, Chilton, Didcot, England"
+},
+  {
+ "name": "T.Greenshaw",
+ "affiliation" : "University  of Manchester, England"
+},
+  {
+ "name": "J. Hagemann",
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "D. Haidt",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "J.F. Hassard",
+ "affiliation" : "University  of Manchester, England"
+},
+  {
+ "name": "R.Hedgecock",
+ "affiliation" : "Rutherford Appleton Laboratory, Chilton, Didcot, England"
+},
+  {
+ "name": "J. Heintze",
+ "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
+},
+  {
+ "name": "G. Heinzelmann",
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "G. Heinzelmann",
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "K.H.  Hellenbrand",
+ "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
+},
+  {
+ "name": "M. Helm",
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "R. Heuer",
+ "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
+},
+  {
+ "name": "P. Hill",
+ "affiliation" : "University of Maryland, College Park, MD, USA"
+},
+  {
+ "name": "G. Hughes",
+ "affiliation" : "University of Lancaster, England"
+},
+  {
+ "name": "M.  Imori",
+ "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
+},
+  {
+ "name": "H. Junge",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "H. Kado",
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "J. Kanzaki",
+ "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
+},
+  {
+ "name": "S. Kawabata",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "K.  Kawagoe",
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "T. Kawamoto",
+ "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
+},
+  {
+ "name": "B.T. King",
+ "affiliation" : "University  of Manchester, England"
+},
+  {
+ "name": "C. Kleinwort",
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "G. Knies",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany",
+    {
+ "name": "T. Kobayashi",
+ "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
+},
+  {
+ "name": "S. Komamiya",
+ "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
+},
+  {
+ "name": "M. Koshiba",
+ "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
+},
+  {
+ "name": "H. Krehbiel",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "M."Kuhlen",
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "P. Laurikainen",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "P. Lennert",
+ "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
+},
+  {
+ "name": "F.K. Loebinger",
+ "affiliation" : "University  of Manchester, England"
+},
+  {
+ "name": "A.A.  Macbeth",
+ "affiliation" : "University  of Manchester, England"
+},
+  {
+ "name": "N. Magnussen",
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "R. Marshall",
+ "affiliation" : "Rutherford Appleton Laboratory, Chilton, Didcot, England"
+},
+  {
+ "name": "T. Mashimo",
+ "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
+},
+  {
+ "name": "H.  Matsumura",
+ "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
+},
+  {
+ "name": "H. McCann",
+ "affiliation" : "University  of Manchester, England"
+},
+  {
+ "name": "K. Meier",
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "R. Meinke",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "R.P.  Middleton",
+ "affiliation" : "Rutherford Appleton Laboratory, Chilton, Didcot, England"
+},
+  {
+ "name": "H.E. Mills",
+ "affiliation" : "University  of Manchester, England"
+},
+  {
+ "name": "M. Minowa",
+ "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
+},
+  {
+ "name": "P.G. Murphy",
+ "affiliation" : "University  of Manchester, England"
+},
+  {
+ "name": "B.  Naroska",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "T. Nozaki",
+ "affiliation" : "University of Lancaster, England"
+},
+  {
+ "name": "M. Nozaki",
+ "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
+},
+  {
+ "name": "J. Nye",
+ "affiliation" : "University of Lancaster, England"
+},
+  {
+ "name": "S. Odaka",
+ "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
+},
+  {
+ "name": "T. Oest",
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "J. Olsson",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "L.H. O'Neill",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "S. Orito",
+ "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
+},
+  {
+ "name": "F. Ould-Saada",
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany",
+    {
+ "name": "G.F. Pearce",
+ "affiliation" : "Rutherford Appleton Laboratory, Chilton, Didcot, England"
+},
+  {
+ "name": "A. Petersen",
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "E. Pietarienen",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "D. Pitzl",
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "H. Prosper",
+ "affiliation" : "University  of Manchester, England"
+},
+  {
+ "name": "J.J. Pryce",
+ "affiliation" : "University of Lancaster, England"
+},
+  {
+ "name": "R. Pust",
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "R. Ramcke",
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "H. Rieseberg",
+ "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
+},
+  {
+ "name": "P. "Rowe",
+ "affiliation" : "University  of Manchester, England"
+},
+  {
+ "name": "A. Sato",
+ "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
+},
+  {
+ "name": "D. Schmidt",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "U. Schneekloth",
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "B. Sechi-Zorn",
+ "affiliation" : "University of Maryland, College Park, MD, USA",
+    {
+ "name": "J.A. Skard",
+ "affiliation" : "University of Maryland, College Park, MD, USA"
+},
+  {
+ "name": "L. Smolik",
+ "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
+},
+  {
+ "name": "J. Spitzer",
+ "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
+},
+  {
+ "name": "P. Steffen",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "K.  Stephens",
+ "affiliation" : "University  of Manchester, England"
+},
+  {
+ "name": "T. Suda",
+ "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
+},
+  {
+ "name": "H. Takeda",
+ "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
+},
+  {
+ "name": "T. Takeshita",
+ "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
+},
+  {
+ "name": "Y. Totsuka",
+ "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan",
+    {
+ "name": "H. v.d.Schmitt",
+ "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
+},
+  {
+ "name": "J. von Krogh",
+ "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
+},
+  {
+ "name": "A. Wagner",
+ "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
+},
+  {
+ "name": "S.R. Wagner",
+ "affiliation" : "University of Maryland, College Park, MD, USA"
+},
+  {
+ "name": "I.  Walker",
+ "affiliation" : "University of Lancaster, England"
+},
+  {
+ "name": "P. Warming",
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "Y. Watanabe",
+ "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
+},
+  {
+ "name": "G. Weber",
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "A. Wegner",
+ "affiliation" : " II. Institut fur  Experimentalphysik der Universitat  Hamburg, Germany"
+},
+  {
+ "name": "H.  Wenninger",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "J.B. Whittaker",
+ "affiliation" : "Rutherford Appleton Laboratory, Chilton, Didcot, England"
+},
+  {
+ "name": "H. Wriedt",
+ "affiliation" : "University of Lancaster, England"
+},
+  {
+ "name": "S. Yamada",
+ "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
+},
+  {
+ "name": "C.  Yanagisawa",
+ "affiliation" : "International Center for Elementary Particle Physics, ICEPP, University of  Tokyo, Tokyo, Japan"
+},
+  {
+ "name": "W.L. Yen",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "M. Zachara",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "Y. Zhang",
+ "affiliation" : "Deutsches Elektronen-Synchrotron DESY, Hamburg,  Germany"
+},
+  {
+ "name": "M. Zimmer",
+ "affiliation" : "Physikalisches Institut der Universitat  Heidelberg, Germany"
+},
+  {
+ "name": "  G.T. Zorn",
+ "affiliation" : "University of Maryland, College Park, MD, USA" 
+}
     ],
     "collaboration": {
-      "name": "OPERA collaboration"
+      "name": "JADE collaboration"
     },
     "collections": [
       "Author-Lists"
     ],
-    "date_created": "2010-2012",
+    "date_created": "2018",
     "date_published": "2018",
     "distribution": {
       "formats": [
         "pdf"
       ]
     },
-    "experiment": "OPERA",
+    "experiment": "JADE",
     "files": [
       {
         "checksum": "adler32:0cf746ba",
         "size": 143315,
-        "uri": "root://eospublic.cern.ch//eos/opendata/opera/documentation/opera-author-list-2018-tau.pdf"
+        "uri": "root://eospublic.cern.ch//eos/opendata/jade/documentation/jade-author-list-2018.pdf"
       }
     ],
     "publisher": "CERN Open Data Portal",
     "recid": "454",
-    "title": "OPERA author list for the release of tau appearance studies",
+    "title": "JADE author list for the preserved data",
     "type": {
       "primary": "Documentation",
       "secondary": [
