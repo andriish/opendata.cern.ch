@@ -19,7 +19,7 @@ every platform to perform the installation of VirtualBox.
 
 ## <a name="download">Step 2: Download a JADE virtual machine and run</a>
 
-Download JADE virtual machine from [here.](https://jadeproject.web.cern.ch/jadeproject/dist/Masterclass/vm/JADEMasterclass.ova)
+Download JADE virtual machine from [here.](https://eospublichttp.cern.ch/eos/opendata/jade/environment/MPP-JADE-CentOS-7-x86_64-DVD-1511.ova)
 
 Open it with VirtualBox.
 

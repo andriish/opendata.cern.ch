@@ -1,0 +1,648 @@
+[
+  {
+    "abstract": {
+      "description": "This is a list of JADE computing notes"
+    },
+    "accelerator": "DESY-PETRA",
+    "authors": [
+      {
+        "name": "Verbytskyi, Andrii"
+      }
+    ],
+    "collections": [
+      "JADE-Computing-Notes"
+    ],
+    "date_published": "2018",
+    "distribution": {
+      "formats": [
+        "pdf"
+      ]
+    },
+    "experiment": "JADE",
+    "files": [
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/0Index.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/101.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/102multiple.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/10.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/11a.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/11.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/12.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/12v2.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/13.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/14a.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/14c.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/14d.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/14.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/15.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/16.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/17.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/18.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/19.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/1Doesntexist.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/20a.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/20.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/21.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/22multiple.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/23a.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/23b.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/23.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/24a.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/24.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/25.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/26.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/27.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/28.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/29.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/2.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/30.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/31.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/32.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/33.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/34.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/35.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/36.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/37.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/38.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/39a.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/39.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/3.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/40.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/41.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/42.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/43.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/44.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/45a.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/45.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/46.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/47.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/48.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/49.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/4.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/50.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/51.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/52.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/53e.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/54multiple.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/55.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/56.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/57.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/58.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/59.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/5.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/60.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/61.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/62.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/63a.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/63.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/64.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/65.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/66a.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/66.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/67.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/68.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/69.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/6.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/70.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/72.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/73.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/74multiple.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/75.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/76.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/77.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/78.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/79.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/7.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/80.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/81.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/82.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/83.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/84.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/85.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/86.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/87a.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/87.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/88.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/89.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/8.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/90.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/91.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/92.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/93.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/94.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/95.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/96.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/97.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/98mixed.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/99.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/9.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/X56.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/XAShortGuideTo.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/XImportantNote.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/XStatusOfTPDatasets.pdf"
+},
+{
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation//Separated/100.pdf"
+        }
+    ],
+    "keywords": [
+      "education"
+    ],
+    "language": "English",
+    "links": [
+      {
+        "description": "Go to the JADE HEP Tutorial",
+        "url": "https://wwwjade.mpp.mpg.de"
+      }
+    ],
+    "publisher": "International Particle Physics Outreach Group",
+    "recid": "2000501111",
+    "run_period": "All",
+    "title": "JADE computing notes",
+    "type": {
+      "primary": "Documentation",
+      "secondary": [
+        "Activities"
+      ]
+    },
+    "use_with": {
+      "description": " <p>This tutorial . </p> "
+    }
+  }
+]

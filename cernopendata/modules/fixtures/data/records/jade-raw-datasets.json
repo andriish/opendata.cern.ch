@@ -1,0 +1,89 @@
+[
+  {
+    "abstract": {
+      "description": "Raw dataset in BOS format."
+    },
+    "accelerator": "DESY-PETRA",
+    "collaboration": {
+      "name": "JADE collaboration",
+      "recid": "666451"
+    },
+    "collections": [
+      "JADE-Primary-Datasets"
+    ],
+    "collision_information": {
+      "energy": "14-43GeV",
+      "type": "epem"
+    },
+    "date_created": "1979",
+    "date_published": "2018",
+    "distribution": {
+      "formats": [
+        "bos"
+      ],
+      "number_events": 11759539,
+      "number_files": 489,
+      "size": 1838495301652
+    },
+    "doi": "10.7483/OPENDATA.JADE.N372.QF6S",
+    "experiment": "JADE",
+    "files": [
+      {
+        "checksum": "adler32:70cf4527",
+        "description": "Dataset file index for access to data",
+        "size": 270,
+        "type": "index.json",
+        "uri": "root://eospublic.cern.ch//eos/opendata/jade/Run2011A/BTag/AOD/12Oct2013-v1/file-indexes/JADE_Run2011A_BTag_AOD_12Oct2013-v1_00000_file_index.json"
+      }
+    ],
+    "license": {
+      "attribution": "CC0"
+    },
+    "methodology": {
+      "description": " <p>All JADE datasets  "
+    },
+    "note": {
+      "description": "This dataset contains all runs.",
+      "links": [
+        {
+          "recid": "66661001"
+        }
+      ]
+    },
+    "publisher": "CERN Open Data Portal",
+    "recid": "1666665",
+    "run_period": "All",
+    "system_details": {
+      "release": "JADE2018"
+    },
+    "title": "Raw  JADE data",
+    "title_additional": "All datasets",
+    "type": {
+      "primary": "Dataset",
+      "secondary": [
+        "Collision"
+      ]
+    },
+    "usage": {
+      "description": "You can access these data through the JADE Virtual Machine. See the instructions for setting up the Virtual Machine and getting started in",
+      "links": [
+        {
+          "description": "How to install the JADE Virtual Machine",
+          "url": "/docs/jade-virtual-machine"
+        },
+        {
+          "description": "Getting started with JADE open data",
+          "url": "/docs/jade-getting-started"
+        }
+      ]
+    },
+    "validation": {
+      "description": "During data taking all the runs recorded by JADE ",
+      "links": [
+        {
+          "description": "JADE data quality monitoring: Systems and experiences",
+          "url": "http://iopscience.iop.org/1742-6596/219/7/072020/pdf/1742-6596_219_7_072020.pdf"
+        }
+      ]
+    }
+  }]

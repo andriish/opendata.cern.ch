@@ -1,44 +1,16 @@
 [
   {
+   "abstract": {
+       "description": "JADE Collaboration authors as given in Eur.Phys.J. C73 (2013) no.3, 2332"
+    },
+    
+     "note": {
+      "description": "This is a list of JADE Collaboration authors as given in Eur.Phys.J. C73 (2013) no.3, 2332. The list contains affiliations as given in Eur.Phys.J. C73 (2013) no.3, 2332."
+      
+  },
+
     "authors": [
-      {
-        "affiliation": "Max-Planck Institut for Physics (Werner-Heisenberg Institut) ",
-        "name": "Bethke, Siegfried"
-},
-      {
-        "affiliation": "Max-Planck Institut for Physics (Werner-Heisenberg Institut) ",
-        "name": "Biebel, Otmar"
-      },
-      {
-        "affiliation": "Max-Planck Institut for Physics (Werner-Heisenberg Institut)  ",
-        "name": "Blumenstengel, Mona "
-      },
-      {
-        "affiliation": "Max-Planck Institut for Physics (Werner-Heisenberg Institut) ",
-        "name": " Kluth, Stefan"
-      },
-      {
-        "affiliation": " Deutsches Elektronen Synchrotron (DESY)",
-        "name": "Olsson, Jan "
-      },
-      {
-        "affiliation": " Fermi National Accelerator Laboratory",
-        "name": "Movilla Fernandez, Pedro "
-      },
-      {
-        "affiliation": "Max-Planck Institut for Physics (Werner-Heisenberg Institut) ",
-        "name": " Christoph Pahl "
-      },
-      {
-        "affiliation": "Institut for High Energy Physics (HEPHY) ",
-        "name": "Schieck, Jochen "
-      },
-      {
-        "affiliation": "Max-Planck Institut for Physics (Werner-Heisenberg Institut) ",
-        "name": "Verbytskyi,  Andrii"
-      }
-,
-      {
+     {
        "name": "J. Allison",
        "affiliation" : "University  of Manchester, England"
       },
@@ -564,15 +536,18 @@
         "pdf"
       ]
     },
+    "accelerator": "DESY-PETRA",
     "experiment": "JADE",
     "publisher": "CERN Open Data Portal",
     "recid": "200455",
-    "title": "JADE author list for the preserved data",
+    "title": "JADE author list",
     "type": {
       "primary": "Documentation",
       "secondary": [
         "Authors"
       ]
-    }
+    },
+
+      "description": "This is a list of JADE Collaboration authors as given in Eur.Phys.J. C73 (2013) no.3, 2332. The list contains affiliations as given in Eur.Phys.J. C73 (2013) no.3, 2332."
   }
 ]
