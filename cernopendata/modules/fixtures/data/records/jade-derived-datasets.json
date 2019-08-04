@@ -902,7 +902,7 @@
       "masterclass"
     ],
     "publisher": "CERN Open Data Portal",
-    "recid": "400",
+    "recid": "994343400",
     "title": "LHCb masterclass event files for the event display",
     "type": {
       "primary": "Dataset",
@@ -915,7 +915,7 @@
       "links": [
         {
           "description": "LHCb VM image",
-          "recid": "402"
+          "recid": "9945402"
         }
       ]
     }
@@ -953,7 +953,7 @@
       "masterclass"
     ],
     "publisher": "CERN Open Data Portal",
-    "recid": "401",
+    "recid": "99401",
     "title": "LHCb event file for real measurement",
     "type": {
       "primary": "Dataset",
@@ -966,7 +966,7 @@
       "links": [
         {
           "description": "LHCb VM image",
-          "recid": "402"
+          "recid": "99402"
         }
       ]
     }

@@ -15,7 +15,7 @@
       "energy": "14-43GeV",
       "type": "epem"
     },
-    "date_created": "1979",
+    "date_created": ["1979"],
     "date_published": "2018",
     "distribution": {
       "formats": [
@@ -52,7 +52,7 @@
     },
     "publisher": "CERN Open Data Portal",
     "recid": "1666665",
-    "run_period": "All",
+    "run_period": ["All"],
     "system_details": {
       "release": "JADE2018"
     },

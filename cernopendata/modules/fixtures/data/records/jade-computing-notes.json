@@ -633,7 +633,7 @@
     ],
     "publisher": "International Particle Physics Outreach Group",
     "recid": "2000501111",
-    "run_period": "All",
+    "run_period": ["All"],
     "title": "JADE computing notes",
     "type": {
       "primary": "Documentation",
