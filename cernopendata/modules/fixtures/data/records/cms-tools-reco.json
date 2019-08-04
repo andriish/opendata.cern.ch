@@ -13,7 +13,9 @@
     "collections": [
       "CMS-Tools"
     ],
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2017",
     "distribution": {
       "formats": [
@@ -26,7 +28,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:0000000000000000000000000000000000000000",
+        "checksum": "adler32:5d7ec38e",
         "size": 14566,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/software/2011-minimumbias-raw-recotest/2011-minimumbias-raw-recotest-1.0.0.tar.gz"
       }
@@ -36,7 +38,12 @@
     },
     "publisher": "CERN Open Data Portal",
     "recid": "463",
-    "run_period": "Run2011A",
+    "run_period": [
+      "Run2011A"
+    ],
+    "source_code_repository": {
+      "url": "https://github.com/cms-opendata-validation/2011-minimumbias-raw-recotest"
+    },
     "system_details": {
       "description": "Use this code with the CMS Open Data VM environment for 2011 open data",
       "recid": "252",
@@ -78,7 +85,9 @@
     "collections": [
       "CMS-Tools"
     ],
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2017",
     "distribution": {
       "formats": [
@@ -91,7 +100,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:0000000000000000000000000000000000000000",
+        "checksum": "adler32:714143c5",
         "size": 17076,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/software/2011-minimumbias-compare-rereco/2011-minimumbias-compare-rereco-1.0.0.tar.gz"
       }
@@ -101,7 +110,12 @@
     },
     "publisher": "CERN Open Data Portal",
     "recid": "464",
-    "run_period": "Run2011A",
+    "run_period": [
+      "Run2011A"
+    ],
+    "source_code_repository": {
+      "url": "https://github.com/cms-opendata-validation/2011-minimumbias-compare-rereco"
+    },
     "system_details": {
       "description": "Use this code with the CMS Open Data VM environment for 2011 open data",
       "recid": "252",
@@ -122,9 +136,6 @@
       "links": [
         {
           "recid": "24"
-        },
-        {
-          "recid": "463"
         }
       ]
     }

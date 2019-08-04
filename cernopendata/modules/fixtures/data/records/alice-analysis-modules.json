@@ -18,7 +18,7 @@
     "experiment": "ALICE",
     "files": [
       {
-        "checksum": "sha1:0000000000000000000000000000000000000000",
+        "checksum": "adler32:1c06f1e5",
         "size": 2086046,
         "uri": "root://eospublic.cern.ch//eos/opendata/alice/modules/PtAnalysis.tgz"
       }
@@ -44,7 +44,7 @@
   },
   {
     "abstract": {
-      "description": " <p> Looking for strange particles in ALICE<br/>The exercise proposed here consists of a search for strange particles, produced from collisions at the LHC and recorded by the ALICE experiment. It is based on the recognition of their V0-decays, such as Kos \u2192 \u03c0+\u03c0-, \u039b\u2192 p + \u03c0- and cascades, such as \u039e- \u2192 \u039b + \u03c0- ( \u039b \u2192 p + \u03c0-). The identification of the strange particles is based on the topology of their decay combined with the identification of the decay products; the information from the tracks is used to calculate the invariant mass of the decaying particle, as an additional confirmation of the particle species. You will have to identify the decay products and based on their momenta calculate the invariant mass to identify the decaying particle. </p> "
+      "description": " <p> Looking for strange particles in ALICE<br/>The exercise proposed here consists of a search for strange particles, produced from collisions at the LHC and recorded by the ALICE experiment. It is based on the recognition of their V0-decays, such as Kos → π+π-, Λ→ p + π- and cascades, such as Ξ- → Λ + π- ( Λ → p + π-). The identification of the strange particles is based on the topology of their decay combined with the identification of the decay products; the information from the tracks is used to calculate the invariant mass of the decaying particle, as an additional confirmation of the particle species. You will have to identify the decay products and based on their momenta calculate the invariant mass to identify the decaying particle. </p> "
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -61,7 +61,7 @@
     "experiment": "ALICE",
     "files": [
       {
-        "checksum": "sha1:0000000000000000000000000000000000000000",
+        "checksum": "adler32:49beca01",
         "size": 31139203,
         "uri": "root://eospublic.cern.ch//eos/opendata/alice/modules/alice-mc.tgz"
       }
@@ -107,7 +107,7 @@
     "experiment": "ALICE",
     "files": [
       {
-        "checksum": "sha1:0000000000000000000000000000000000000000",
+        "checksum": "adler32:154c512a",
         "size": 15469921,
         "uri": "root://eospublic.cern.ch//eos/opendata/alice/modules/alice-raa.tgz"
       }
@@ -150,7 +150,7 @@
     "experiment": "ALICE",
     "files": [
       {
-        "checksum": "sha1:0000000000000000000000000000000000000000",
+        "checksum": "adler32:695acd4e",
         "size": 42540,
         "uri": "root://eospublic.cern.ch//eos/opendata/alice/modules/bootstrap.tgz"
       }

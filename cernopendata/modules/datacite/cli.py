@@ -23,7 +23,10 @@
 # as an Intergovernmental Organization or submit itself to any jurisdiction.
 """Command line interface for DataCite related commands."""
 
+import os
+
 import click
+from click import ClickException
 from datacite import schema40
 from flask import current_app
 from flask.cli import with_appcontext
@@ -86,11 +89,30 @@ def gen_doi(exp):
 
 @datacite.command()
 @click.option(
-    '--uuid',
-    help='Register record with given uuid')
+    '--recid',
+    help='Test serialisation of record with given recid')
 @with_appcontext
-def register(uuid):
-    """Register record with given uuid in DataCite."""
+def test_serialisation(recid):
+    """Test serialisation of record with given recid."""
+    uuid = PersistentIdentifier.get('recid', recid).object_uuid
+    record = Record.get_record(uuid)
+    experiment = record.get('experiment', None)
+    doi = record['doi']
+    # serialize record to schema40
+    doc = DataCiteSerializer().dump(record).data
+    schema40.validate(doc)
+    doc = schema40.tostring(doc)
+    click.echo(doc)
+
+
+@datacite.command()
+@click.option(
+    '--recid',
+    help='Register record with given recid')
+@with_appcontext
+def register(recid):
+    """Register record with given recid in DataCite."""
+    uuid = PersistentIdentifier.get('recid', recid).object_uuid
     record = Record.get_record(uuid)
     experiment = record.get('experiment', None)
     doi = record['doi']
@@ -106,11 +128,45 @@ def register(uuid):
     doc = DataCiteSerializer().dump(record).data
     schema40.validate(doc)
     doc = schema40.tostring(doc)
-    landing_page = '{}/{}'.format(
+    landing_page = os.path.join(
         current_app.config.get('PIDSTORE_LANDING_BASE_URL'),
-        doi)
+        recid)
+
     provider.register(url=landing_page,
                       doc=doc)
     db.session.commit()
 
     click.echo('Record registered with DOI {}'.format(doi))
+
+
+@datacite.command()
+@click.option(
+    '--recid',
+    help='Update metadata for record with given recid')
+@with_appcontext
+def update(recid):
+    """Update metadata for record with given recid in DataCite."""
+    uuid = PersistentIdentifier.get('recid', recid).object_uuid
+    record = Record.get_record(uuid)
+    doi = record['doi']
+
+    try:
+        provider = DataCiteProviderWrapper.get(pid_value=doi,
+                                               pid_type='doi')
+    except PIDDoesNotExistError:
+        raise ClickException('Record with DOI {} not registered in DataCite.'
+                             .format(doi))
+
+    # serialize record to schema40
+    doc = DataCiteSerializer().dump(record).data
+    schema40.validate(doc)
+    doc = schema40.tostring(doc)
+    landing_page = os.path.join(
+        current_app.config.get('PIDSTORE_LANDING_BASE_URL'),
+        recid)
+
+    provider.update(url=landing_page,
+                    doc=doc)
+    db.session.commit()
+
+    click.echo('Record with DOI {} updated in DataCite'.format(doi))

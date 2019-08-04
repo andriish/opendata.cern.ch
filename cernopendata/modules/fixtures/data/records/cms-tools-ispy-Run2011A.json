@@ -12,7 +12,9 @@
     "collections": [
       "CMS-Tools"
     ],
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "experiment": "CMS",
     "license": {
@@ -22,9 +24,6 @@
       {
         "description": "More information on the format can be found at",
         "url": "http://cms-outreach.github.io/ispy/#what-is-an-ig-file"
-      },
-      {
-        "url": "https://github.com/cms-outreach/ispy-analyzers/tree/Run2011A"
       }
     ],
     "methodology": {
@@ -39,7 +38,12 @@
         "type": "isRelatedTo"
       }
     ],
-    "run_period": "Run2011A",
+    "run_period": [
+      "Run2011A"
+    ],
+     "source_code_repository": {
+      "url": "https://github.com/cms-outreach/ispy-analyzers/tree/Run2011A"
+    },
     "system_details": {
       "description": "Use this code with the CMS Open Data VM environment",
       "recid": "252",

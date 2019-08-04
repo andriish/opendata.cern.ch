@@ -1,9 +1,10 @@
 1. ["I have installed the CERN Virtual Machine: now what?"](#vm)
-2. ["OK! Where can I get the CMS data?"](#data)
-3. ["Nice! But how do I analyse these data?"](#nice)
-4. [Option A: Analysing the primary dataset](#a)
-5. [Option B: Analysing reduced datasets](#b)
-6. [Performing your analysis on the PATtuples](#pat)
+2. ["Do I have to use a virtual machine?"](#container)
+3. ["OK! Where can I get the CMS data?"](#data)
+4. ["Nice! But how do I analyse these data?"](#nice)
+5. [Option A: Analysing the primary dataset](#a)
+6. [Option B: Analysing reduced datasets](#b)
+7. [Performing your analysis on the PATtuples](#pat)
 
 ## <a name="vm">"I have installed the CERN Virtual Machine: now what?"</a>
 
@@ -19,6 +20,11 @@ Then, make sure that you are always in the **CMSSW_4_2_8/src/** directory and th
 $ cd CMSSW_4_2_8/src/
 $ cmsenv
 ```
+
+## <a name="container">"Do I have to use a virtual machine?"</a>
+
+Not necessarily. You can also try to analyse CMS data in a Docker container instead of in a virtual machine. If you are interested in that,
+[instructions are here](/docs/cms-guide-docker).
 
 ## <a name="data">"OK! Where can I get the CMS data?"</a>
 
@@ -55,7 +61,7 @@ You can exit the ROOT browser through the GUI by clicking on `Browser` on the me
 
 ## <a name="nice">"Nice! But how do I analyse these data?"</a>
 
-In AOD files, reconstructed [physics objects](/docs/cms-physics-objects-2010) are included without checking their "quality", i.e. in case of our electron collection that you opened in ROOT, without ensuring that the reconstructed object is really an electron. In order to analyse only the "good quality" data, you must apply some selection criteria.
+In AOD files, reconstructed [physics objects](/docs/cms-physics-objects-2010) are included without checking their "quality". For example, the reconstructed objects in the electron collection that you opened in ROOT were not actually verified to be electrons. In order to analyse only the "good quality" data, you must apply some selection criteria.
 
 With these criteria, you are in effect reducing the dataset, either in terms of the number of collisions events it contains or in terms of the information carried by each event. Following this, you run your analysis code on the reduced dataset.
 

@@ -21,7 +21,10 @@
     "collections": [
       "CMS-Validation-Utilities"
     ],
-    "date_created": "2011-2012",
+    "date_created": [
+      "2011",
+      "2012"
+    ],
     "date_published": "2017",
     "distribution": {
       "formats": [
@@ -62,7 +65,9 @@
     },
     "publisher": "CERN Open Data Portal",
     "recid": "5001",
-    "run_period": "Run2011A",
+    "run_period": [
+      "Run2011A"
+    ],
     "system_details": {
       "description": "Use this code with the CMS Open Data VM environment",
       "recid": "252",

@@ -150,7 +150,7 @@ $('#download_caution').on('show.bs.modal', function (event) {
         modal.find('#download-msg-uri').attr("href", file_uri)
 })
 
-var recordApp = angular.module('recordApp', ['ui.bootstrap']);
+var recordApp = angular.module('recordApp', ['angular-clipboard', 'ui.codemirror', 'ui.bootstrap' ]);
 
 recordApp.controller('paginationCtrl', ['$scope', '$element', '$http', function($scope, $element, $http){
     var $ctrl = this;
@@ -309,6 +309,66 @@ recordApp.controller(
     };
   });
 
+
+recordApp.controller(
+  'filePreviewModalCtrl',
+  [
+    '$scope',
+    '$uibModal',
+    function($scope, $uibModal) {
+      var $ctrl = this;
+      $ctrl.openModal = function (content) {
+
+        var modalInstance = $uibModal.open({
+          animation: false, //$ctrl.animationsEnabled,
+          ariaLabelledBy: 'modal-title',
+          ariaDescribedBy: 'modal-body',
+          templateUrl: "/static/templates/filePreviewModal.html",
+          controller: 'filePreviewModalInstanceCtrl',
+          controllerAs: '$ctrl',
+          windowClass: 'file_preview-modal',
+          size: 'lg',
+          resolve: {
+            content: function() {
+              return content;
+            }
+          }
+        });
+      };
+    }
+  ]);
+
+recordApp.controller(
+  'filePreviewModalInstanceCtrl', [
+    '$scope',
+    '$uibModalInstance',
+    'content',
+    'clipboard',
+  function ($scope, $uibModalInstance, content, clipboard){
+    var $ctrl = this;
+
+    $ctrl.msg = null;
+    $scope.contents = content;
+
+    $scope.codemirrorLoaded = function(_editor){
+      $ctrl.copyEditor = function() {
+        var selected_content = _editor.getSelection();
+
+        if (selected_content)
+          clipboard.copyText(selected_content);
+        else
+          clipboard.copyText(content);
+        $ctrl.msg = "copied!";
+      }
+
+      setTimeout( function(){ _editor.refresh() } );
+    };
+
+    $ctrl.closeModal = function () {
+      $uibModalInstance.close();
+    };
+  }]);
+
 recordApp.controller(
   'indexFileListModalCtrl',
   [
@@ -328,6 +388,7 @@ recordApp.controller(
           controller: 'indexFileListModalInstanceCtrl',
           controllerAs: '$ctrl',
           windowClass: 'index-file-list-modal',
+          size: 'lg',
           resolve: {
             $http: function() {
               return $http;
@@ -343,6 +404,7 @@ recordApp.controller(
             }
           }
         });
+
       };
     }
   ]);
@@ -361,7 +423,6 @@ recordApp.controller(
          $ctrl.files_error = "Files are unavailable at the moment"; }
       )
 
-
     $ctrl.closeModal = function () {
       $uibModalInstance.close();
     };
@@ -377,7 +438,6 @@ recordApp.filter('bytes', function() {
     return (bytes / Math.pow(1024, Math.floor(number))).toFixed(precision) +  ' ' + units[number];
   }
 });
-
 
 </script>
 {% endblock javascript %}

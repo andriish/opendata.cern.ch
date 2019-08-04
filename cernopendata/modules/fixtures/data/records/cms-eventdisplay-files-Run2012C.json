@@ -1,7 +1,7 @@
 [
   {
     "abstract": {
-      "description": "Sample event set from /BJetPlusX/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /BJetPlusX/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -16,7 +16,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -30,7 +32,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:2b62f5b231ebcc5a097caa2df6e02622119837ee",
+        "checksum": "adler32:0b7738e7",
         "size": 3529192,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/BJetPlusX/IG/22Jan2013-v1/BJetPlusX_Run2012C_0.ig"
       }
@@ -41,9 +43,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7125",
     "relations": [
@@ -53,7 +52,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -77,7 +78,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /BTag/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /BTag/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -92,7 +93,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -106,7 +109,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:cf2f64ab67ebbb07f1209475b9b73b482197279a",
+        "checksum": "adler32:d3623468",
         "size": 3065876,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/BTag/IG/22Jan2013-v1/BTag_Run2012C_0.ig"
       }
@@ -117,9 +120,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7126",
     "relations": [
@@ -129,7 +129,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -153,7 +155,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /Commissioning/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /Commissioning/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -168,7 +170,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -182,7 +186,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:88867ab7d42aaea3f40d6dd05344b36e140eb7a1",
+        "checksum": "adler32:f70b4ee8",
         "size": 1543681,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/Commissioning/IG/22Jan2013-v1/Commissioning_Run2012C_0.ig"
       }
@@ -193,9 +197,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7127",
     "relations": [
@@ -205,7 +206,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -229,7 +232,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /DoubleElectron/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /DoubleElectron/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -244,7 +247,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -258,7 +263,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:e32873dfd23ac1b404170f0a9a729f91c95deeb1",
+        "checksum": "adler32:25d42570",
         "size": 2257530,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/DoubleElectron/IG/22Jan2013-v1/DoubleElectron_Run2012C_0.ig"
       }
@@ -269,9 +274,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7128",
     "relations": [
@@ -281,7 +283,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -305,7 +309,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /DoubleMuParked/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /DoubleMuParked/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -320,7 +324,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -334,7 +340,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:4477ed2ea68f9b101c03fc1378aa8c72b5d8dc4c",
+        "checksum": "adler32:c7743b4d",
         "size": 3012530,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/DoubleMuParked/IG/22Jan2013-v1/DoubleMuParked_Run2012C_0.ig"
       }
@@ -345,9 +351,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7129",
     "relations": [
@@ -357,7 +360,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -381,7 +386,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /DoublePhoton/Run2012C-22Jan2013-v2/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /DoublePhoton/Run2012C-22Jan2013-v2/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -396,7 +401,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -410,7 +417,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:e7263d2e7b8d7148dbd6ba643ec0654a5c21dd8c",
+        "checksum": "adler32:afee33dc",
         "size": 2581960,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/DoublePhoton/IG/22Jan2013-v2/DoublePhoton_Run2012C_0.ig"
       }
@@ -421,9 +428,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7130",
     "relations": [
@@ -433,7 +437,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -457,7 +463,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /DoublePhotonHighPt/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /DoublePhotonHighPt/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -472,7 +478,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -486,7 +494,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:13c79fb786ff0fc0f1cf0113879e69d8b1cfe3a1",
+        "checksum": "adler32:a5313ebc",
         "size": 3441201,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/DoublePhotonHighPt/IG/22Jan2013-v1/DoublePhotonHighPt_Run2012C_0.ig"
       }
@@ -497,9 +505,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7131",
     "relations": [
@@ -509,7 +514,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -533,7 +540,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /ElectronHad/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /ElectronHad/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -548,7 +555,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -562,7 +571,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:4222c37e3aa79df758eedcfbd15d6bac55127e4f",
+        "checksum": "adler32:a35e7447",
         "size": 3698072,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/ElectronHad/IG/22Jan2013-v1/ElectronHad_Run2012C_0.ig"
       }
@@ -573,9 +582,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7132",
     "relations": [
@@ -585,7 +591,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -609,7 +617,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /HTMHTParked/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /HTMHTParked/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -624,7 +632,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -638,7 +648,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:9ff633788501a8aa3613500ba5b3091262379abf",
+        "checksum": "adler32:807a3c5c",
         "size": 4539126,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/HTMHTParked/IG/22Jan2013-v1/HTMHTParked_Run2012C_0.ig"
       }
@@ -649,9 +659,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7133",
     "relations": [
@@ -661,7 +668,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -685,7 +694,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /HcalNZS/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /HcalNZS/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -700,7 +709,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -714,7 +725,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:614e01589c497c3aabd577971138d226c92cb492",
+        "checksum": "adler32:cd8d712f",
         "size": 2014385,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/HcalNZS/IG/22Jan2013-v1/HcalNZS_Run2012C_0.ig"
       }
@@ -725,9 +736,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7134",
     "relations": [
@@ -737,7 +745,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -761,7 +771,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /JetHT/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /JetHT/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -776,7 +786,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -790,7 +802,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:0e26be3cf1a712908c636fb27ce84b4d556af368",
+        "checksum": "adler32:9db33bd7",
         "size": 4834920,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/JetHT/IG/22Jan2013-v1/JetHT_Run2012C_0.ig"
       }
@@ -801,9 +813,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7135",
     "relations": [
@@ -813,7 +822,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -837,7 +848,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /JetMon/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /JetMon/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -852,7 +863,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -866,7 +879,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:7b1184bae0ac1ed3467790241deb093dd3db7f09",
+        "checksum": "adler32:e7eb1be8",
         "size": 3782469,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/JetMon/IG/22Jan2013-v1/JetMon_Run2012C_0.ig"
       }
@@ -877,9 +890,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7136",
     "relations": [
@@ -889,7 +899,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -913,7 +925,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /MET/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /MET/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -928,7 +940,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -942,7 +956,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:fa6c680c2b829cbd60ead541dd9a3946876f37a3",
+        "checksum": "adler32:67324c4a",
         "size": 3032299,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/MET/IG/22Jan2013-v1/MET_Run2012C_0.ig"
       }
@@ -953,9 +967,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7137",
     "relations": [
@@ -965,7 +976,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -989,7 +1002,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /MinimumBias/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /MinimumBias/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -1004,7 +1017,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -1018,7 +1033,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:781360c427490e96fb9049afb9ea114e216916e0",
+        "checksum": "adler32:78c0b9e5",
         "size": 1129918,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/MinimumBias/IG/22Jan2013-v1/MinimumBias_Run2012C_0.ig"
       }
@@ -1029,9 +1044,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7138",
     "relations": [
@@ -1041,7 +1053,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -1065,7 +1079,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /MuEG/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /MuEG/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -1080,7 +1094,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -1094,7 +1110,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:eb4d6aa4286e612d32a955d43d9e4486f2719aae",
+        "checksum": "adler32:ba326216",
         "size": 2713188,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/MuEG/IG/22Jan2013-v1/MuEG_Run2012C_0.ig"
       }
@@ -1105,9 +1121,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7139",
     "relations": [
@@ -1117,7 +1130,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -1141,7 +1156,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /MuHad/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /MuHad/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -1156,7 +1171,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -1170,7 +1187,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:8cb0f25da4575c3c441d7d3db6e04693982a9b6f",
+        "checksum": "adler32:bb9b379a",
         "size": 4368131,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/MuHad/IG/22Jan2013-v1/MuHad_Run2012C_0.ig"
       }
@@ -1181,9 +1198,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7140",
     "relations": [
@@ -1193,7 +1207,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -1217,7 +1233,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /MuOnia/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /MuOnia/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -1232,7 +1248,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -1246,7 +1264,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:01dc54f1e07fee641e7bf86d63bcf982599fd6f2",
+        "checksum": "adler32:bdee3189",
         "size": 2099934,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/MuOnia/IG/22Jan2013-v1/MuOnia_Run2012C_0.ig"
       }
@@ -1257,9 +1275,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7141",
     "relations": [
@@ -1269,7 +1284,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -1293,7 +1310,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /NoBPTX/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /NoBPTX/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -1308,7 +1325,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -1322,7 +1341,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:791b4b18cb79a6ea1e58e7e60cc860fe60eaeb0b",
+        "checksum": "adler32:39172f2d",
         "size": 481762,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/NoBPTX/IG/22Jan2013-v1/NoBPTX_Run2012C_0.ig"
       }
@@ -1333,9 +1352,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7142",
     "relations": [
@@ -1345,7 +1361,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -1369,7 +1387,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /PhotonHad/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /PhotonHad/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -1384,7 +1402,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -1398,7 +1418,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:b528387c215eda69cfa09cee10cf644aba4abbc7",
+        "checksum": "adler32:86682bb8",
         "size": 4210535,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/PhotonHad/IG/22Jan2013-v1/PhotonHad_Run2012C_0.ig"
       }
@@ -1409,9 +1429,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7143",
     "relations": [
@@ -1421,7 +1438,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -1445,7 +1464,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /SingleElectron/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /SingleElectron/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -1460,7 +1479,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -1474,7 +1495,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:d812a70a0a9ce1115ba2660a822836fb1efa628f",
+        "checksum": "adler32:e6473603",
         "size": 3081204,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/SingleElectron/IG/22Jan2013-v1/SingleElectron_Run2012C_0.ig"
       }
@@ -1485,9 +1506,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7144",
     "relations": [
@@ -1497,7 +1515,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -1521,7 +1541,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /SingleMu/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /SingleMu/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -1536,7 +1556,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -1550,7 +1572,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:5d9501f3d8f8a920ec3f62de9ab6a3c6b9309ceb",
+        "checksum": "adler32:ed3ab7cb",
         "size": 2212692,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/SingleMu/IG/22Jan2013-v1/SingleMu_Run2012C_0.ig"
       }
@@ -1561,9 +1583,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7145",
     "relations": [
@@ -1573,7 +1592,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -1597,7 +1618,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /SinglePhoton/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /SinglePhoton/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -1612,7 +1633,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -1626,7 +1649,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:b9550d0653802ec1b285a5e1777efbbde21013c8",
+        "checksum": "adler32:2b755677",
         "size": 3435007,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/SinglePhoton/IG/22Jan2013-v1/SinglePhoton_Run2012C_0.ig"
       }
@@ -1637,9 +1660,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7146",
     "relations": [
@@ -1649,7 +1669,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -1673,7 +1695,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /TauParked/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /TauParked/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -1688,7 +1710,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -1702,7 +1726,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:ca249e14e06df5addc6895b3df800d9a845d9d11",
+        "checksum": "adler32:8f11fe59",
         "size": 2760392,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/TauParked/IG/22Jan2013-v1/TauParked_Run2012C_0.ig"
       }
@@ -1713,9 +1737,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7147",
     "relations": [
@@ -1725,7 +1746,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -1749,7 +1772,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /TauPlusX/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /TauPlusX/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -1764,7 +1787,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -1778,7 +1803,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:f868643fe9e4b5123d5225bf2df9a4183a5219fd",
+        "checksum": "adler32:5da0f3a1",
         "size": 2785003,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/TauPlusX/IG/22Jan2013-v1/TauPlusX_Run2012C_0.ig"
       }
@@ -1789,9 +1814,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7148",
     "relations": [
@@ -1801,7 +1823,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"
@@ -1825,7 +1849,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /VBF1Parked/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /VBF1Parked/Run2012C-22Jan2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -1840,7 +1864,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2017",
     "date_reprocessed": "2012",
     "distribution": {
@@ -1854,7 +1880,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:e16296f7d65edf7523f7ff94a12cbd45856f2af7",
+        "checksum": "adler32:830936a1",
         "size": 3077135,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2012C/VBF1Parked/IG/22Jan2013-v1/VBF1Parked_Run2012C_0.ig"
       }
@@ -1865,9 +1891,6 @@
     "methodology": {
       "description": "These files contain the objects to be displayed with the online event display. No event selection, apart accepting only the validated runs, is applied."
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "7149",
     "relations": [
@@ -1877,7 +1900,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2012C",
+    "run_period": [
+      "Run2012C"
+    ],
     "system_details": {
       "global_tag": "FT_53_LV5_AN1",
       "release": "CMSSW_5_3_32"

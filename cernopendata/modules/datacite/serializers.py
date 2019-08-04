@@ -45,8 +45,17 @@ class DataCiteSerializer(Schema):
 
     def get_creators(self, obj):
         """Get creators based on authors or collaboration field."""
-        authors = obj.get('authors', obj.get('collaboration', None))
-        return [{'creatorName': x['name']} for x in authors]
+        authors = obj.get('authors', [obj.get('collaboration', None)])
+        creators = [
+            {
+                'creatorName': author['name'],
+                'nameIdentifiers': [{
+                    'nameIdentifier': author['orcid'],
+                    'nameIdentifierScheme': 'ORCID',
+                    'schemeURI': 'http://orcid.org/'
+                }] if 'orcid' in author else []
+            } for author in authors]
+        return creators
 
     def get_titles(self, obj):
         """Get title."""
@@ -54,9 +63,9 @@ class DataCiteSerializer(Schema):
 
     def get_resourcetype(self, obj):
         """Get resource type based on type field."""
-        if obj['type'] in ['Software', 'Dataset']:
-            resource_type = obj['type']
-        else:
-            resource_type = 'Other'
-
+        resource_type = 'Other'
+        if obj['type']:
+            type_primary = obj['type'].get('primary', '')
+            if type_primary in ['Software', 'Dataset']:
+                resource_type = type_primary
         return {'resourceTypeGeneral': resource_type}

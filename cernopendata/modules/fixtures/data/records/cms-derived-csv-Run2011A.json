@@ -1,7 +1,7 @@
 [
   {
     "abstract": {
-      "description": "These data were selected from the primary datasets in order to obtain candidate J/psi and Y events, candidate W and Z boson events, and general di-electron and dimuon spectra."
+      "description": "<p>These data were selected from the primary datasets in order to obtain candidate J/psi and Y events, candidate W and Z boson events, and general di-electron and dimuon spectra.</p> <p>These data were selected for use in education and outreach and contain a subset of the total event information. They are not suitable for a full physics analysis.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -102,6 +102,9 @@
         "variable": "isoHcal"
       }
     ],
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2017",
     "distribution": {
       "formats": [
@@ -111,45 +114,48 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:8a4c77c6b029232002d48fea7046b44dc0329a21",
+        "checksum": "adler32:0607d5ee",
         "size": 7969331,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2011A/SingleMu/CSV/12Oct2013-v1/Wmunu.csv"
       },
       {
-        "checksum": "sha1:09e44f937604ebfcf376df1cde989f1fb8541036",
+        "checksum": "adler32:1b06bb5d",
         "size": 9992209,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2011A/SingleElectron/CSV/12Oct2013-v1/Wenu.csv"
       },
       {
-        "checksum": "sha1:6c4240d2053407e6eacf42ea741381e3771727ca",
+        "checksum": "adler32:0d4cfe9f",
         "size": 970550,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleMu/CSV/12Oct2013-v1/Zmumu.csv"
       },
       {
-        "checksum": "sha1:afb09475fefeba76b47c4b174d9f6f332a4481f0",
+        "checksum": "adler32:3ad4c332",
         "size": 1445651,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleElectron/CSV/12Oct2013-v1/Zee.csv"
       },
       {
-        "checksum": "sha1:a340510faad27eb26e7c5507bda17be245e51b58",
+        "checksum": "adler32:3f2809bc",
         "size": 11806904,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2011A/SingleMu/CSV/12Oct2013-v1/Dimuon_SingleMu.csv"
       },
       {
-        "checksum": "sha1:0a5808fab9b380dce5d55f2aa5864f2931d49404",
+        "checksum": "adler32:5b87a72a",
         "size": 13935840,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleMu/CSV/12Oct2013-v1/Dimuon_DoubleMu.csv"
       },
       {
-        "checksum": "sha1:8cc5dae7b28a24ed17e7b1cf05cbb21092e8d85a",
+        "checksum": "adler32:214e4077",
         "size": 2639302,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleMu/CSV/12Oct2013-v1/Jpsimumu.csv"
       },
       {
-        "checksum": "sha1:690bcbb7a3c9ae4f8bb9e74f284d1ce3c50dcf3e",
+        "checksum": "adler32:5eef7b87",
         "size": 2599212,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleMu/CSV/12Oct2013-v1/Ymumu.csv"
       }
+    ],
+    "keywords": [
+      "education"
     ],
     "license": {
       "attribution": "CC0"
@@ -157,12 +163,11 @@
     "methodology": {
       "description": "\n      <p>\n        <p><strong>Wmunu</strong></p>\n        <p>An event was selected if there was one (and only one) global muon in the event that satisfies: pT > 25.0 GeV and |eta| < 2.1. Furthermore, the event was rejected if there was another global muon in the event with pT > 10 GeV in the acceptance region |eta| < 2.4.</p>\n      </p>\n      <p>\n        <p><strong>Wenu</strong></p>\n        <p>An event was selected if there is was one electron in the event with pT > 25.0 GeV. Furthermore, the event was rejected if there was a second electron present with pT > 20 GeV.</p>\n      </p>\n      <p>\n        <p><strong>Zee</strong></p>\n        <p>\n          An event was selected if there were two electrons in the event with pT > 25 GeV and the invariant mass of the two electrons was > 60 GeV and < 120 GeV.\n        </p>\n      </p>\n      <p>\n        <p><strong>Zmumu</strong></p>\n        <p>\n          An event was selected if there were two muons in the event with pT > 20 GeV and |eta| < 2.1 and the invariant mass of the two muons was > 60 GeV and < 120 GeV.\n        </p>\n      </p>\n      <p>\n        <p><strong>Dimuon</strong></p>\n        <p>\n          An event was selected if there were two muons in the event, both with |eta| < 2.4, at least one muon was a global muon, the invariant mass of the two muons was > 0.3 GeV and < 300 GeV, and they have opposite-sign charge.\n        </p>\n      </p>\n      <p>\n        <p><strong>Jpsimumu</strong></p>\n        <p>\n          An event was selected if there were two muons in the event, both with |eta| < 2.4, at least one muon was a global muon, the invariant mass of the two muons was > 2 GeV and < 5 GeV, and they have opposite-sign charge.\n        </p>\n      </p>\n      <p>\n        <p><strong>Ymumu</strong></p>\n        <p>\n          An event was selected if there were two muons in the event, both with |eta| < 2.4, at least one muon was a global muon, the invariant mass of the two muons was > 8 GeV and < 12 GeV, and they have opposite-sign charge.\n        </p>\n      </p>\n      "
     },
-    "note": {
-      "description": "These data were selected for use in education and outreach and contain a subset of the total event information. They are not suitable for a full physics analysis."
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "545",
-    "run_period": "Run2011A",
+    "run_period": [
+      "Run2011A"
+    ],
     "title": "Datasets derived from the Run2011A SingleElectron, SingleMu, DoubleElectron, and DoubleMu primary datasets",
     "type": {
       "primary": "Dataset",

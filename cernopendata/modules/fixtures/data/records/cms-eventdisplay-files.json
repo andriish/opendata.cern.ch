@@ -1,7 +1,7 @@
 [
   {
     "abstract": {
-      "description": "Sample event set from /BTau/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /BTau/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -16,7 +16,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2010",
+    "date_created": [
+      "2010"
+    ],
     "date_published": "2014",
     "distribution": {
       "formats": [
@@ -28,7 +30,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:48499564c2525bc63725e2af58f2fa3d0f64121e",
+        "checksum": "adler32:94accac5",
         "size": 2678577,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2010B/BTau/IG/Apr21ReReco-v1/BTau.ig"
       }
@@ -41,9 +43,6 @@
         }
       ]
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "600",
     "relations": [
@@ -54,7 +53,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2010B",
+    "run_period": [
+      "Run2010B"
+    ],
     "system_details": {
       "global_tag": "GR_R_42_V25::All",
       "release": "CMSSW_4_2_8"
@@ -78,7 +79,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /EGMonitor/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /EGMonitor/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -93,7 +94,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2010",
+    "date_created": [
+      "2010"
+    ],
     "date_published": "2014",
     "distribution": {
       "formats": [
@@ -105,7 +108,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:379b271729979ce90eeade4d042e87aa7a965a90",
+        "checksum": "adler32:f19be8e4",
         "size": 2073957,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2010B/EGMonitor/IG/Apr21ReReco-v1/EGMonitor.ig"
       }
@@ -118,9 +121,6 @@
         }
       ]
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "601",
     "relations": [
@@ -131,7 +131,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2010B",
+    "run_period": [
+      "Run2010B"
+    ],
     "system_details": {
       "global_tag": "GR_R_42_V25::All",
       "release": "CMSSW_4_2_8"
@@ -155,7 +157,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /Electron/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /Electron/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -170,7 +172,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2010",
+    "date_created": [
+      "2010"
+    ],
     "date_published": "2014",
     "distribution": {
       "formats": [
@@ -182,7 +186,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:e4807eec7bbcddd1695b27865aa0e87cb333c1b7",
+        "checksum": "adler32:19e263ae",
         "size": 2624275,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2010B/Electron/IG/Apr21ReReco-v1/Electron.ig"
       }
@@ -195,9 +199,6 @@
         }
       ]
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "602",
     "relations": [
@@ -208,7 +209,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2010B",
+    "run_period": [
+      "Run2010B"
+    ],
     "system_details": {
       "global_tag": "GR_R_42_V25::All",
       "release": "CMSSW_4_2_8"
@@ -232,7 +235,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /Jet/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /Jet/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -247,7 +250,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2010",
+    "date_created": [
+      "2010"
+    ],
     "date_published": "2014",
     "distribution": {
       "formats": [
@@ -259,7 +264,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:f832d2484a7ab9728670af5c057386bd1707feb1",
+        "checksum": "adler32:14180e82",
         "size": 2790679,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2010B/Jet/IG/Apr21ReReco-v1/Jet.ig"
       }
@@ -272,9 +277,6 @@
         }
       ]
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "603",
     "relations": [
@@ -285,7 +287,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2010B",
+    "run_period": [
+      "Run2010B"
+    ],
     "system_details": {
       "global_tag": "GR_R_42_V25::All",
       "release": "CMSSW_4_2_8"
@@ -309,7 +313,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /JetMETTauMonitor/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /JetMETTauMonitor/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -324,7 +328,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2010",
+    "date_created": [
+      "2010"
+    ],
     "date_published": "2014",
     "distribution": {
       "formats": [
@@ -336,7 +342,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:d8f557c22874369c6784eec4ff970b7d7761f854",
+        "checksum": "adler32:0ff08688",
         "size": 2362008,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2010B/JetMETTauMonitor/IG/Apr21ReReco-v1/JetMETTauMonitor.ig"
       }
@@ -349,9 +355,6 @@
         }
       ]
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "604",
     "relations": [
@@ -362,7 +365,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2010B",
+    "run_period": [
+      "Run2010B"
+    ],
     "system_details": {
       "global_tag": "GR_R_42_V25::All",
       "release": "CMSSW_4_2_8"
@@ -386,7 +391,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /METFwd/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /METFwd/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -401,7 +406,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2010",
+    "date_created": [
+      "2010"
+    ],
     "date_published": "2014",
     "distribution": {
       "formats": [
@@ -413,7 +420,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:e386298f835c6bb78fdd37c5f37eadfc0d24404c",
+        "checksum": "adler32:a6203e56",
         "size": 1422441,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2010B/METFwd/IG/Apr21ReReco-v1/METFwd.ig"
       }
@@ -426,9 +433,6 @@
         }
       ]
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "605",
     "relations": [
@@ -439,7 +443,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2010B",
+    "run_period": [
+      "Run2010B"
+    ],
     "system_details": {
       "global_tag": "GR_R_42_V25::All",
       "release": "CMSSW_4_2_8"
@@ -463,7 +469,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /Mu/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /Mu/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -478,7 +484,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2010",
+    "date_created": [
+      "2010"
+    ],
     "date_published": "2014",
     "distribution": {
       "formats": [
@@ -490,7 +498,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:927cd0b0650e6aa544ac11dcf3972bb25b5b4d52",
+        "checksum": "adler32:c0af2d92",
         "size": 1850051,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2010B/Mu/IG/Apr21ReReco-v1/Mu.ig"
       }
@@ -503,9 +511,6 @@
         }
       ]
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "606",
     "relations": [
@@ -516,7 +521,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2010B",
+    "run_period": [
+      "Run2010B"
+    ],
     "system_details": {
       "global_tag": "GR_R_42_V25::All",
       "release": "CMSSW_4_2_8"
@@ -540,7 +547,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /MuMonitor/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /MuMonitor/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -555,7 +562,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2010",
+    "date_created": [
+      "2010"
+    ],
     "date_published": "2014",
     "distribution": {
       "formats": [
@@ -567,7 +576,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:1e6356f236ecaa92d42347c3a6fc0073561d5371",
+        "checksum": "adler32:9374c291",
         "size": 1647687,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2010B/MuMonitor/IG/Apr21ReReco-v1/MuMonitor.ig"
       }
@@ -580,9 +589,6 @@
         }
       ]
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "607",
     "relations": [
@@ -593,7 +599,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2010B",
+    "run_period": [
+      "Run2010B"
+    ],
     "system_details": {
       "global_tag": "GR_R_42_V25::All",
       "release": "CMSSW_4_2_8"
@@ -617,7 +625,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /MuOnia/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /MuOnia/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -632,7 +640,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2010",
+    "date_created": [
+      "2010"
+    ],
     "date_published": "2014",
     "distribution": {
       "formats": [
@@ -644,7 +654,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:f1ca77749350eaff219edb4493971f90144325be",
+        "checksum": "adler32:d5066a99",
         "size": 1713609,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2010B/MuOnia/IG/Apr21ReReco-v1/MuOnia.ig"
       }
@@ -657,9 +667,6 @@
         }
       ]
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "608",
     "relations": [
@@ -670,7 +677,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2010B",
+    "run_period": [
+      "Run2010B"
+    ],
     "system_details": {
       "global_tag": "GR_R_42_V25::All",
       "release": "CMSSW_4_2_8"
@@ -694,7 +703,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /MultiJet/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /MultiJet/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -709,7 +718,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2010",
+    "date_created": [
+      "2010"
+    ],
     "date_published": "2014",
     "distribution": {
       "formats": [
@@ -721,7 +732,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:7af68d773bf17dbd1e5ded609267095374644056",
+        "checksum": "adler32:92f4d277",
         "size": 3191630,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2010B/MultiJet/IG/Apr21ReReco-v1/MultiJet.ig"
       }
@@ -734,9 +745,6 @@
         }
       ]
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "609",
     "relations": [
@@ -747,7 +755,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2010B",
+    "run_period": [
+      "Run2010B"
+    ],
     "system_details": {
       "global_tag": "GR_R_42_V25::All",
       "release": "CMSSW_4_2_8"
@@ -771,7 +781,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /Photon/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /Photon/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -786,7 +796,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2010",
+    "date_created": [
+      "2010"
+    ],
     "date_published": "2014",
     "distribution": {
       "formats": [
@@ -798,7 +810,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:56bad74163cb1775e2e2d75e538230a45feb62c3",
+        "checksum": "adler32:b362420f",
         "size": 2789061,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2010B/Photon/IG/Apr21ReReco-v1/Photon.ig"
       }
@@ -811,9 +823,6 @@
         }
       ]
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "610",
     "relations": [
@@ -824,7 +833,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2010B",
+    "run_period": [
+      "Run2010B"
+    ],
     "system_details": {
       "global_tag": "GR_R_42_V25::All",
       "release": "CMSSW_4_2_8"
@@ -848,7 +859,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /Commissioning/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /Commissioning/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -863,7 +874,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2010",
+    "date_created": [
+      "2010"
+    ],
     "date_published": "2014",
     "distribution": {
       "formats": [
@@ -875,7 +888,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:32434e15cb103281459249e86dd313121f75f50b",
+        "checksum": "adler32:67b61df4",
         "size": 1452517,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2010B/Commissioning/IG/Apr21ReReco-v1/Commissioning.ig"
       }
@@ -888,9 +901,6 @@
         }
       ]
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "611",
     "relations": [
@@ -901,7 +911,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2010B",
+    "run_period": [
+      "Run2010B"
+    ],
     "system_details": {
       "global_tag": "GR_R_42_V25::All",
       "release": "CMSSW_4_2_8"
@@ -925,7 +937,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /MinimumBias/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /MinimumBias/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -940,7 +952,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2010",
+    "date_created": [
+      "2010"
+    ],
     "date_published": "2014",
     "distribution": {
       "formats": [
@@ -952,7 +966,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:a54ec4cdcee29379572555d0cf5b64cdd783d95d",
+        "checksum": "adler32:aeefae57",
         "size": 1145257,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2010B/MinimumBias/IG/Apr21ReReco-v1/MinimumBias.ig"
       }
@@ -965,9 +979,6 @@
         }
       ]
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "612",
     "relations": [
@@ -978,7 +989,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2010B",
+    "run_period": [
+      "Run2010B"
+    ],
     "system_details": {
       "global_tag": "GR_R_42_V25::All",
       "release": "CMSSW_4_2_8"
@@ -1002,7 +1015,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /ZeroBias/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /ZeroBias/Run2010B-Apr21ReReco-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -1017,7 +1030,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2010",
+    "date_created": [
+      "2010"
+    ],
     "date_published": "2014",
     "distribution": {
       "formats": [
@@ -1029,7 +1044,7 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "sha1:976f037abde65797cc2be2eef4ee1f116c8ced3d",
+        "checksum": "adler32:034385c2",
         "size": 618628,
         "uri": "root://eospublic.cern.ch//eos/opendata/cms/Run2010B/ZeroBias/IG/Apr21ReReco-v1/ZeroBias.ig"
       }
@@ -1042,9 +1057,6 @@
         }
       ]
     },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects"
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "613",
     "relations": [
@@ -1055,7 +1067,9 @@
         "type": "isChildOf"
       }
     ],
-    "run_period": "Run2010B",
+    "run_period": [
+      "Run2010B"
+    ],
     "system_details": {
       "global_tag": "GR_R_42_V25::All",
       "release": "CMSSW_4_2_8"

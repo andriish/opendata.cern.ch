@@ -20,6 +20,26 @@
             }
           }
         },
+        "categories": {
+          "properties": {
+            "primary": {
+              "fields": {
+                "keyword": {
+                  "type": "keyword"
+                }
+              },
+              "type": "text"
+            },
+            "secondary": {
+              "fields": {
+                "keyword": {
+                  "type": "keyword"
+                }
+              },
+              "type": "text"
+            }
+          }
+        },
         "collections": {
           "fields": {
             "keyword": {
@@ -65,6 +85,15 @@
                 }
               },
               "type": "text"
+            },
+            "availability": {
+              "fields": {
+                "keyword": {
+                  "type": "keyword"
+                }
+              },
+              "type": "text",
+              "copy_to": "availability"
             }
           },
           "type": "object"
@@ -99,18 +128,6 @@
             }
           },
           "type": "text"
-        },
-        "topic": {
-          "properties": {
-            "category": {
-              "fields": {
-                "keyword": {
-                  "type": "keyword"
-                }
-              },
-              "type": "text"
-            }
-          }
         },
         "type": {
           "properties": {

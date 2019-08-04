@@ -20,17 +20,45 @@
     ],
     "see_also": [
       {
-        "term": "primary"
+        "term": "Primary"
       },
       {
-        "term": "reconstruction"
+        "term": "Reconstruction"
       },
       {
-        "term": "tag"
+        "term": "Tag"
       }
     ],
     "term": [
       "AOD"
+    ],
+    "type": {
+      "primary": "Glossary"
+    }
+  },
+  {
+    "anchor": "Barn",
+    "category": "generic",
+    "definition": "Barn is a unit of area, used to express cross sections, and is equivalent to $10^{-24}$ cm². The inverse femtobarn ($fb^{-1}$) is the typical unit used for time-integrated Luminosity.",
+    "links": [
+      {
+        "text": "Read more in Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Barn_(unit)"
+      }
+    ],
+    "see_also": [
+      {
+        "term": "Cross section"
+      },
+      {
+        "term": "Luminosity"
+      }
+    ],
+    "term": [
+      "Barn",
+      "barn",
+      "Femtobarn",
+      "femtobarn"
     ],
     "type": {
       "primary": "Glossary"
@@ -64,7 +92,41 @@
     }
   },
   {
-    "anchor": "derived",
+    "anchor": "Cross section",
+    "category": "generic",
+    "definition": "The \u201dcross section\u201d (σ) of an interaction between two particles is the transverse area that measures the probability of a collision, or scattering. It is also possible to specify this value in terms of a final-state variable, such as energy or particle angle, in what is called \u201ddifferential cross section\u201d. The sum of the differential cross section over all variables is called the \u201dtotal cross section\u201d.",
+    "links": [
+      {
+        "text": "Read more on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cross_section_(physics)"
+      }
+    ],
+    "see_also": [
+      {
+        "term": "Events"
+      },
+      {
+        "term": "Luminosity"
+      },
+      {
+        "term": "Barn"
+      },
+      {
+        "term": "Hadron"
+      }
+    ],
+    "term": [
+      "Cross section",
+      "Cross sections",
+      "cross section",
+      "cross sections"
+    ],
+    "type": {
+      "primary": "Glossary"
+    }
+  },
+  {
+    "anchor": "Derived",
     "category": "specific",
     "definition": "Contains data that have been derived from the primary datasets. The data may be reduced in the sense that (a) only part of the information is kept or (b) only part of the events are selected.",
     "experiment": [
@@ -89,27 +151,60 @@
     ],
     "see_also": [
       {
-        "term": "primary"
+        "term": "Primary"
       },
       {
-        "term": "tag"
+        "term": "Tag"
       },
       {
-        "term": "condition"
+        "term": "Condition"
       }
     ],
     "term": [
       "Derived Dataset",
-      "Derived Datasets"
+      "Derived Datasets",
+      "Derived dataset",
+      "Derived datasets",
+      "derived dataset",
+      "derived datasets"
     ],
     "type": {
       "primary": "Glossary"
     }
   },
   {
-    "anchor": "electron",
+    "anchor": "Drell-Yan",
     "category": "generic",
-    "definition": "A stable elementary particle belonging to the first generation of the \u201clepton\u201d family of particles. It has a $-$1 electrical charge, while its anti-particle, the anti-electron or positron, has a +1 electrical charge. Atoms are made of electrons orbiting positively charged nuclei. An electron has a mass of ~0.5 MeV/c$^2$, or about 1/1836 times the mass of a proton.",
+    "definition": "In hadron-hadron scattering, the Drell-Yan process produces a pair of oppositely charged leptons. This happens by the annihilation of a quark from one hadron with an antiquark from another hadron, which then creates a virtual photon or Z boson that decays into the lepton pair.",
+    "links": [
+      {
+        "text": "Read more on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Drell-Yan_process"
+      }
+    ],
+    "see_also": [
+      {
+        "term": "Hadron"
+      },
+      {
+        "term": "Quark"
+      },
+      {
+        "term": "Gluon"
+      }
+    ],
+    "term": [
+      "Drell–Yan",
+      "Drell-Yan process"
+    ],
+    "type": {
+      "primary": "Glossary"
+    }
+  },
+  {
+    "anchor": "Electron",
+    "category": "generic",
+    "definition": "A stable elementary particle belonging to the first generation of the \u201clepton\u201d family of particles. It has a -1 electrical charge, while its anti-particle, the anti-electron or positron, has a +1 electrical charge. Atoms are made of electrons orbiting positively charged nuclei. An electron has a mass of $\\sim 0.5 MeV/c^2$, or about $1/1836$ times the mass of a proton.",
     "links": [
       {
         "text": "Read more on Wikipedia",
@@ -118,17 +213,19 @@
     ],
     "see_also": [
       {
-        "term": "muon"
+        "term": "Muon"
       },
       {
-        "term": "proton"
+        "term": "Proton"
       },
       {
-        "term": "neutrino"
+        "term": "Neutrino"
       }
     ],
     "term": [
       "Electron",
+      "electron",
+      "electrons",
       "Electrons"
     ],
     "type": {
@@ -136,7 +233,45 @@
     }
   },
   {
-    "anchor": "generator",
+    "anchor": "Events",
+    "category": "generic",
+    "definition": "An event is a collision of the beams. In the LHC, it is primarily a collision of protons, but it can also use beams of ions.",
+    "links": [
+      {
+        "text": "Read more on Wikipedia, ",
+        "url": "https://en.wikipedia.org/wiki/Event_(particle_physics)"
+      },
+      {
+        "text": "Read more on Guide to the CMS Trigger System",
+        "url": "/docs/cms-guide-trigger-system"
+      }
+    ],
+    "see_also": [
+      {
+        "term": "Proton"
+      },
+      {
+        "term": "Pile-up"
+      },
+      {
+        "term": "Cross section"
+      },
+      {
+        "term": "Ion"
+      }
+    ],
+    "term": [
+      "Event",
+      "event",
+      "Events",
+      "events"
+    ],
+    "type": {
+      "primary": "Glossary"
+    }
+  },
+  {
+    "anchor": "Generator",
     "category": "generic",
     "definition": "Simulation programs used to generate particle collisions.",
     "links": [
@@ -147,22 +282,28 @@
     ],
     "see_also": [
       {
-        "term": "montecarlo"
+        "term": "Monte Carlo"
       },
       {
-        "term": "primary"
+        "term": "Primary"
       },
       {
-        "term": "derived"
+        "term": "Derived"
       },
       {
-        "term": "condition"
+        "term": "Les Houches Event file"
+      },
+      {
+        "term": "Pythia"
       }
     ],
     "term": [
       "Event generator",
+      "Event Generator",
       "Event generators",
+      "event generators",
       "Generator",
+      "generator",
       "Generators"
     ],
     "type": {
@@ -170,43 +311,7 @@
     }
   },
   {
-    "anchor": "tag",
-    "category": "specific",
-    "definition": "A Global Tag is a coherent collection of records of additional data needed by the reconstruction and analysis software. These records are stored in the Condition Database. Condition data include non-event-related information (Alignment, Calibration, Temperature, etc.) and parameters for the simulation/reconstruction/analysis software.",
-    "experiment": [
-      {
-        "name": "CMS"
-      }
-    ],
-    "links": [
-      {
-        "text": "Read more about CMS Global Tags",
-        "url": "https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideFrontierConditions"
-      }
-    ],
-    "see_also": [
-      {
-        "term": "reconstruction"
-      },
-      {
-        "term": "AOD"
-      },
-      {
-        "term": "primary"
-      }
-    ],
-    "term": [
-      "Global Tag",
-      "Global Tags",
-      "Condition Data",
-      "Condition Database"
-    ],
-    "type": {
-      "primary": "Glossary"
-    }
-  },
-  {
-    "anchor": "gluon",
+    "anchor": "Gluon",
     "category": "generic",
     "definition": "An elementary particle belonging to the \u201cboson\u201d family of particles. It is the carrier of the strong force that binds quarks together to form hadrons. It is massless and has no electrical charge but has a property known as \u201ccolour charge\u201d.",
     "links": [
@@ -217,24 +322,26 @@
     ],
     "see_also": [
       {
-        "term": "quark"
+        "term": "Quark"
       },
       {
-        "term": "photon"
+        "term": "Photon"
       }
     ],
     "term": [
       "Gluon",
-      "Gluons"
+      "Gluons",
+      "gluon",
+      "gluons"
     ],
     "type": {
       "primary": "Glossary"
     }
   },
   {
-    "anchor": "hadron",
+    "anchor": "Hadron",
     "category": "generic",
-    "definition": "A composite particle made of two or more quarks. There are two sub-categories of hadrons: \u201cbaryons\u201d such as protons and neutrons are made of three quarks (or three anti-quarks), while \u201cmesons\u201d are made of a quark and an anti-quark. Atomic nuclei can also be considered hadrons, since they are also fundamentally made of quarks. The LHC collides two species of hadrons: protons and lead nuclei (also called lead ions). Hadrons produced in collisions typically cluster together to form particle jets in the detectors.",
+    "definition": "A composite particle made of two or more quarks. There are two sub-categories of hadrons: \u201cbaryons\u201d, such as protons and neutrons, are made of three quarks (or three anti-quarks), while \u201cmesons\u201d are made of a quark and an anti-quark. Atomic nuclei can also be considered hadrons, since they are also fundamentally made of quarks. The LHC collides two species of hadrons: protons and lead nuclei (also called lead ions). Hadrons produced in collisions typically cluster together to form particle jets in the detectors.",
     "links": [
       {
         "text": "Read more on Wikipedia",
@@ -243,28 +350,33 @@
     ],
     "see_also": [
       {
-        "term": "proton"
+        "term": "Proton"
       },
       {
-        "term": "quark"
+        "term": "Quark"
       },
       {
-        "term": "jet"
+        "term": "Jet"
       },
       {
-        "term": "ion"
+        "term": "Parton"
+      },
+      {
+        "term": "Ion"
       }
     ],
     "term": [
       "Hadron",
-      "Hadrons"
+      "hadron",
+      "Hadrons",
+      "hadrons"
     ],
     "type": {
       "primary": "Glossary"
     }
   },
   {
-    "anchor": "ion",
+    "anchor": "Ion",
     "category": "generic",
     "definition": "An ion is an atom or a molecule in which the number of electrons is not the same as the number of protons. In the context of the LHC, the term \u201cheavy ion\u201d refers to the nuclei of heavy atoms such as lead.",
     "links": [
@@ -275,128 +387,30 @@
     ],
     "see_also": [
       {
-        "term": "proton"
+        "term": "Proton"
       },
       {
-        "term": "quark"
+        "term": "Quark"
       },
       {
-        "term": "jet"
+        "term": "Jet"
       },
       {
-        "term": "ion"
+        "term": "Ion"
       }
     ],
     "term": [
       "Ion",
-      "Ions"
+      "ion",
+      "Ions",
+      "ions"
     ],
     "type": {
       "primary": "Glossary"
     }
   },
   {
-    "anchor": "lumisection",
-    "category": "specific",
-    "definition": "A lumi section is a fixed time period in data taking, approximately 24 seconds.",
-    "experiment": [
-      {
-        "name": "CMS"
-      }
-    ],
-    "term": [
-      "Lumi section",
-      "lumisection"
-    ],
-    "type": {
-      "primary": "Glossary"
-    }
-  },
-  {
-    "anchor": "montecarlo",
-    "category": "generic",
-    "definition": "Refers to computational algorithms based on numerical random samplings that is used in simulation programs for generating the particle collisions and for simulating of particle interactions in the detector material. Often used as a synonym for simulated data.",
-    "links": [
-      {
-        "text": "Read more on Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Monte_Carlo_method"
-      }
-    ],
-    "see_also": [
-      {
-        "term": "generator"
-      },
-      {
-        "term": "primary"
-      },
-      {
-        "term": "derived"
-      },
-      {
-        "term": "condition"
-      }
-    ],
-    "term": [
-      "Monte Carlo"
-    ],
-    "type": {
-      "primary": "Glossary"
-    }
-  },
-  {
-    "anchor": "muon",
-    "category": "generic",
-    "definition": "An elementary particle belonging to the second generation of the \u201clepton\u201d family of particles. It has a $-$1 electrical charge, while its anti-particle, the anti-muon, has a +1 electrical charge. A muon\u2019s properties are similar to those of an electron but it is around 200 times more massive. It is represented by the Greek letter \u201c$\\mu$\u201d.",
-    "links": [
-      {
-        "text": "Read more on Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Muon"
-      }
-    ],
-    "see_also": [
-      {
-        "term": "electron"
-      },
-      {
-        "term": "neutrino"
-      }
-    ],
-    "term": [
-      "Muon",
-      "Muons"
-    ],
-    "type": {
-      "primary": "Glossary"
-    }
-  },
-  {
-    "anchor": "neutrino",
-    "category": "generic",
-    "definition": "An elementary particle belonging to the \u201clepton\u201d family of particles. Neutrinos and their anti-particles, anti-neutrinos, have no charge, although measurements show that they are not massless. Neutrinos rarely interact with matter: they can fly through lightyears of lead without coming to a stop. Therefore, they cannot be detected directly by the particle detectors at the LHC: their presence has to be inferred by detecting and measuring every other particle produced in the collisions and then applying conservation laws. Neutrinos are recorded as \u201cmissing transverse energy\u201d or MET, although MET could also be a sign of previously undiscovered, non-interacting particles.",
-    "links": [
-      {
-        "text": "Read more on Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Neutrino"
-      }
-    ],
-    "see_also": [
-      {
-        "term": "muon"
-      },
-      {
-        "term": "neutrino"
-      }
-    ],
-    "term": [
-      "Neutrino",
-      "Neutrinos"
-    ],
-    "type": {
-      "primary": "Glossary"
-    }
-  },
-  {
-    "anchor": "jet",
+    "anchor": "Jet",
     "category": "generic",
     "definition": "A jet is a shower of hadrons, which originate from a quark or a gluon, clustered together after being produced in particle collisions.",
     "links": [
@@ -407,18 +421,233 @@
     ],
     "see_also": [
       {
-        "term": "proton"
+        "term": "Proton"
       },
       {
-        "term": "quark"
+        "term": "Quark"
       },
       {
-        "term": "hadron"
+        "term": "Hadron"
       }
     ],
     "term": [
-      "Particle jet",
-      "Particle jets"
+      "jet",
+      "jets",
+      "Jet",
+      "Jets"
+    ],
+    "type": {
+      "primary": "Glossary"
+    }
+  },
+  {
+    "anchor": "Les Houches Event file",
+    "category": "generic",
+    "definition": "The Les Houches Event file format is a standard in event generators to define event listings in a common language.",
+    "links": [
+      {
+        "text": "Read more on Wikipedia,",
+        "url": "https://en.wikipedia.org/wiki/Les_Houches_Accords"
+      },
+      {
+        "text": "Les Houches Event Format paper",
+        "url": "https://arxiv.org/abs/hep-ph/0609017"
+      }
+    ],
+    "see_also": [
+      {
+        "term": "Generator"
+      },
+      {
+        "term": "Events"
+      },
+      {
+        "term": "Reconstruction"
+      }
+    ],
+    "term": [
+      "LHE",
+      "Les Houches"
+    ],
+    "type": {
+      "primary": "Glossary"
+    }
+  },
+  {
+    "anchor": "Luminosity",
+    "category": "generic",
+    "definition": "The Luminosity (L) indicates the number of events per time per cross section. The \u201dIntegrated Luminosity\u201d is the sum of the luminosity over time, and is typically measured in units of inverse femtobarn.",
+    "links": [
+      {
+        "text": "Read more on Wikipedia,",
+        "url": "https://en.wikipedia.org/wiki/Luminosity_(scattering_theory)"
+      }
+    ],
+    "see_also": [
+      {
+        "term": "Cross section"
+      },
+      {
+        "term": "Events"
+      },
+      {
+        "term": "Barn"
+      },
+      {
+        "term": "Lumisection"
+      }
+    ],
+    "term": [
+      "luminosity",
+      "Luminosity"
+    ],
+    "type": {
+      "primary": "Glossary"
+    }
+  },
+  {
+    "anchor": "Lumisection",
+    "category": "specific",
+    "definition": "A lumi section is a fixed time period in data taking, approximately 24 seconds.",
+    "experiment": [
+      {
+        "name": "CMS"
+      }
+    ],
+    "see_also": [
+      {
+        "term": "Cross section"
+      },
+      {
+        "term": "Events"
+      }
+    ],
+    "term": [
+      "Lumi section",
+      "lumi section",
+      "Lumisection",
+      "lumisection"
+    ],
+    "type": {
+      "primary": "Glossary"
+    }
+  },
+  {
+    "anchor": "Monte Carlo",
+    "category": "generic",
+    "definition": "\u201cMonte Carlo\u201d refers to computational algorithms based on numerical random samplings. It is used in simulation programs for generating the particle collisions and for simulation of particle interactions in the detector material. Often used as a synonym for simulated data.",
+    "links": [
+      {
+        "text": "Read more on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Monte_Carlo_method"
+      }
+    ],
+    "see_also": [
+      {
+        "term": "Generator"
+      },
+      {
+        "term": "Primary"
+      },
+      {
+        "term": "Derived"
+      },
+      {
+        "term": "Condition"
+      }
+    ],
+    "term": [
+      "Monte Carlo",
+      "MonteCarlo",
+      "MC",
+      "monte carlo"
+    ],
+    "type": {
+      "primary": "Glossary"
+    }
+  },
+  {
+    "anchor": "Muon",
+    "category": "generic",
+    "definition": "An elementary particle belonging to the second generation of the \u201clepton\u201d family of particles. It has a -1 electrical charge, while its anti-particle, the anti-muon, has a +1 electrical charge. A muon\u2019s properties are similar to those of an electron but it is around 200 times more massive. It is represented by the Greek letter \u201c$\\mu$\u201d.",
+    "links": [
+      {
+        "text": "Read more on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Muon"
+      }
+    ],
+    "see_also": [
+      {
+        "term": "Electron"
+      },
+      {
+        "term": "Neutrino"
+      }
+    ],
+    "term": [
+      "Muon",
+      "Muons",
+      "muon",
+      "muons"
+    ],
+    "type": {
+      "primary": "Glossary"
+    }
+  },
+  {
+    "anchor": "Neutrino",
+    "category": "generic",
+    "definition": "An elementary particle belonging to the \u201clepton\u201d family of particles. Neutrinos and their anti-particles, anti-neutrinos, have no charge, although measurements show that they are not massless. Neutrinos rarely interact with matter: they can fly through lightyears of lead without coming to a stop. Therefore, they cannot be detected directly by the particle detectors at the LHC: their presence has to be inferred by detecting and measuring every other particle produced in the collisions and then applying conservation laws. Neutrinos are recorded as \u201cmissing transverse energy\u201d or MET, although MET could also be a sign of previously undiscovered, non-interacting particles.",
+    "links": [
+      {
+        "text": "Read more on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Neutrino"
+      }
+    ],
+    "see_also": [
+      {
+        "term": "Muon"
+      },
+      {
+        "term": "Neutrino"
+      }
+    ],
+    "term": [
+      "Neutrino",
+      "Neutrinos",
+      "neutrino",
+      "neutrinos"
+    ],
+    "type": {
+      "primary": "Glossary"
+    }
+  },
+  {
+    "anchor": "Parton",
+    "category": "generic",
+    "definition": "The Parton Model is a model to describe hadrons. Any hadron can be considered to be composed by partons.",
+    "links": [
+      {
+        "text": "Read more on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Parton_(particle_physics)"
+      }
+    ],
+    "see_also": [
+      {
+        "term": "Hadron"
+      },
+      {
+        "term": "Proton"
+      },
+      {
+        "term": "Quark"
+      }
+    ],
+    "term": [
+      "parton",
+      "Parton",
+      "partons",
+      "Partons"
     ],
     "type": {
       "primary": "Glossary"
@@ -452,7 +681,7 @@
     }
   },
   {
-    "anchor": "photon",
+    "anchor": "Photon",
     "category": "generic",
     "definition": "A stable elementary particle belonging to the \u201cboson\u201d family of particles. Called the \u201cquantum\u201d of light, the photon is the carrier of the electromagnetic force and is massless with no electrical charge. It is represented by the Greek letter \u201c$\\gamma$\u201d.",
     "links": [
@@ -463,19 +692,89 @@
     ],
     "see_also": [
       {
-        "term": "gluon"
+        "term": "Gluon"
       }
     ],
     "term": [
       "Photon",
-      "Photons"
+      "Photons",
+      "photon",
+      "photons"
     ],
     "type": {
       "primary": "Glossary"
     }
   },
   {
-    "anchor": "primary",
+    "anchor": "Pile-up",
+    "category": "generic",
+    "definition": "Pile-up is the effect of multiple interactions per beam crossing and/or the effects of events overlay. These so called minimum bias events or pile-up add a non-negligible level of background to the response of the detector system. At high luminosities several separate events are likely to occur at the same bunch crossing.",
+    "links": [
+      {
+        "text": "Read more on CMS WorkBook, ",
+        "url": "https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideSimulation"
+      },
+      {
+        "text": "Read more on CMS Pile-up Simulation",
+        "url": "/docs/cms-guide-pileup-simulation"
+      }
+    ],
+    "see_also": [
+      {
+        "term": "Reconstruction"
+      },
+      {
+        "term": "Cross section"
+      },
+      {
+        "term": "Events"
+      },
+      {
+        "term": "Primary"
+      }
+    ],
+    "term": [
+      "Pileup",
+      "pileup",
+      "Pile-up",
+      "pile-up"
+    ],
+    "type": {
+      "primary": "Glossary"
+    }
+  },
+  {
+    "anchor": "Pythia",
+    "category": "generic",
+    "definition": "Pythia is a General Purpose Event Generator.",
+    "links": [
+      {
+        "text": "Official website",
+        "url": "http://home.thep.lu.se/~torbjorn/Pythia.html"
+      }
+    ],
+    "see_also": [
+      {
+        "term": "Generator"
+      },
+      {
+        "term": "Monte Carlo"
+      }
+    ],
+    "term": [
+      "Pythia",
+      "pythia",
+      "Pythia6",
+      "Pythia8",
+      "pythia6",
+      "pythia8"
+    ],
+    "type": {
+      "primary": "Glossary"
+    }
+  },
+  {
+    "anchor": "Primary",
     "category": "specific",
     "definition": "Datasets prepared after trigger selections, with no further selection criteria applied. On this portal, primary datasets refer to \u201creconstructed data\u201d.",
     "experiment": [
@@ -503,33 +802,35 @@
         "term": "AOD"
       },
       {
-        "term": "reconstruction"
+        "term": "Reconstruction"
       },
       {
-        "term": "tag"
+        "term": "Tag"
       },
       {
-        "term": "derived"
+        "term": "Derived"
       },
       {
-        "term": "trigger"
+        "term": "Trigger"
       },
       {
-        "term": "condition"
+        "term": "Condition"
       }
     ],
     "term": [
       "Primary Dataset",
-      "Primary Datasets"
+      "Primary Datasets",
+      "primary dataset",
+      "primary datasets"
     ],
     "type": {
       "primary": "Glossary"
     }
   },
   {
-    "anchor": "proton",
+    "anchor": "Proton",
     "category": "generic",
-    "definition": "A stable composite particle belonging to the \u201chadron\u201d family of particles, made of two up quarks and a down quark. It has a +1 electrical charge and is found in the nuclei of atoms. A proton has a mass of ~938 MeV/c<sup>2</sup>, or about 1836 times the mass of an electron. Protons are one of the species of particles collided at the LHC.",
+    "definition": "A stable composite particle belonging to the \u201chadron\u201d family of particles, made of two up quarks and a down quark. It has a +1 electrical charge and is found in the nuclei of atoms. A proton has a mass of $\\sim 938 MeV/c^2$, or about 1836 times the mass of an electron. Protons are one of the species of particles collided at the LHC.",
     "links": [
       {
         "text": "Read more on Wikipedia",
@@ -538,27 +839,59 @@
     ],
     "see_also": [
       {
-        "term": "hadron"
+        "term": "Hadron"
       },
       {
-        "term": "electron"
+        "term": "Electron"
       },
       {
-        "term": "jet"
+        "term": "Jet"
       }
     ],
     "term": [
       "Proton",
-      "Protons"
+      "Protons",
+      "proton",
+      "protons"
     ],
     "type": {
       "primary": "Glossary"
     }
   },
   {
-    "anchor": "quark",
+    "anchor": "Pseudorapidity",
     "category": "generic",
-    "definition": "An elementary particle that comes in six flavours: up, charm and top (all with +2/3 electrical charge) and down, strange and bottom (all with $-$1/3 electrical charge). Quarks also have a property known as \u201ccolour charge\u201d and cannot exist freely because of a phenomenon called \u201ccolour confinement\u201d: they are held together by gluons to form hadrons.",
+    "definition": "The pseudorapidity η is a coordinate that describes the angle of a particle (or jet) produced in an event relative to the beam axis. It is calculated as $\\eta = - \\ln \\left ( \\tan \\frac{\\theta}{2} \\right )$, with $\\theta$ the angle between the three-momentum and the beam axis. $\\eta = 0$ means the produced particle/jet is perpendicular to the beam axis. While a higher pseudorapidity means it is closer to the beam.",
+    "links": [
+      {
+        "text": "Read more on Wikipedia, ",
+        "url": "https://en.wikipedia.org/wiki/Pseudorapidity"
+      },
+      {
+        "text": "or the article Forward Physics at the LHC",
+        "url": "https://arxiv.org/abs/0708.0551"
+      }
+    ],
+    "see_also": [
+      {
+        "term": "Hadron"
+      },
+      {
+        "term": "Jet"
+      }
+    ],
+    "term": [
+      "Pseudorapidity",
+      "pseudorapidity"
+    ],
+    "type": {
+      "primary": "Glossary"
+    }
+  },
+  {
+    "anchor": "Quark",
+    "category": "generic",
+    "definition": "An elementary particle that comes in six flavours: up, charm and top (all with +2/3 electrical charge) and down, strange and bottom (all with -1/3 electrical charge). Quarks also have a property known as \u201ccolour charge\u201d and cannot exist freely because of a phenomenon called \u201ccolour confinement\u201d: they are held together by gluons to form hadrons.",
     "links": [
       {
         "text": "Read more on Wikipedia",
@@ -567,28 +900,61 @@
     ],
     "see_also": [
       {
-        "term": "hadron"
+        "term": "Hadron"
       },
       {
-        "term": "proton"
+        "term": "Proton"
       },
       {
-        "term": "jet"
+        "term": "Jet"
       },
       {
-        "term": "gluon"
+        "term": "Gluon"
       }
     ],
     "term": [
       "Quark",
-      "Quarks"
+      "Quarks",
+      "quark",
+      "quarks"
     ],
     "type": {
       "primary": "Glossary"
     }
   },
   {
-    "anchor": "reconstruction",
+    "anchor": "Quarkonia",
+    "category": "generic",
+    "definition": "Quarkonium (pl. quarkonia) is a bound state of a heavy quark and it's own anti-quark. It is a neutral particle and the antiparticle of itself.",
+    "links": [
+      {
+        "text": "Read more on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Quarkonium"
+      }
+    ],
+    "see_also": [
+      {
+        "term": "Quark"
+      },
+      {
+        "term": "Hadron"
+      },
+      {
+        "term": "Gluon"
+      }
+    ],
+    "term": [
+      "quarkonia",
+      "Quarkonia",
+      "quarkonium",
+      "Quarkonium"
+    ],
+    "type": {
+      "primary": "Glossary"
+    }
+  },
+  {
+    "anchor": "Reconstruction",
     "category": "specific",
     "definition": "Fragmented data from various sub-detectors are processed or \u201creconstructed\u201d to provide coherent information about individual physics objects such as electrons or particle jets. Reconstruction involves putting together information from different sub-detectors into a coherent representation of every particle collision. However, the format for the first tier of reconstructed data is often too huge for meaningful analysis, and is converted into a lighter format, such as the AOD format for CMS.",
     "experiment": [
@@ -616,14 +982,15 @@
         "term": "AOD"
       },
       {
-        "term": "primary"
+        "term": "Primary"
       },
       {
-        "term": "tag"
+        "term": "Tag"
       }
     ],
     "term": [
       "Reconstruction",
+      "reconstruction",
       "Reconstructions"
     ],
     "type": {
@@ -633,10 +1000,19 @@
   {
     "anchor": "Run",
     "category": "specific",
-    "definition": "The data collected by CMS in a given year are divided into sets called \u201cRuns\u201d. For example, the data from 2010 were divided into \u201cRunA\u201d and \u201cRunB\u201d, the latter being from the second part of the year.",
+    "definition": "The data collected by an experiment in a given year are divided into sets called \u201cRuns\u201d. For example, the data from 2010 were divided into \u201cRunA\u201d and \u201cRunB\u201d, the latter being from the second part of the year.",
     "experiment": [
       {
         "name": "CMS"
+      },
+      {
+        "name": "ATLAS"
+      },
+      {
+        "name": "ALICE"
+      },
+      {
+        "name": "LHCb"
       }
     ],
     "links": [
@@ -670,29 +1046,73 @@
     }
   },
   {
-    "anchor": "trigger",
-    "category": "generic",
-    "definition": "A system that determines which particle collisions are stored in primary datasets and which ones are discarded. The triggering is done first by a lower-level hardware-based trigger (L1) and then by the High-Level Trigger (HLT) on a computing farm.",
+    "anchor": "Tag",
+    "category": "specific",
+    "definition": "A Global Tag is a coherent collection of records of additional data needed by the reconstruction and analysis software. These records are stored in the Condition Database. Condition data include non-event-related information (Alignment, Calibration, Temperature, etc.) and parameters for the simulation/reconstruction/analysis software.",
+    "experiment": [
+      {
+        "name": "CMS"
+      }
+    ],
     "links": [
       {
-        "text": "Read more on Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Trigger_%28particle_physics%29"
+        "text": "Read more about CMS Global Tags",
+        "url": "https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideFrontierConditions"
       }
     ],
     "see_also": [
       {
-        "term": "generator"
+        "term": "Reconstruction"
       },
       {
-        "term": "primary"
+        "term": "AOD"
       },
       {
-        "term": "derived"
+        "term": "Primary"
+      }
+    ],
+    "term": [
+      "Global Tag",
+      "Global Tags",
+      "global tag",
+      "global tags",
+      "Condition Data",
+      "Condition Database"
+    ],
+    "type": {
+      "primary": "Glossary"
+    }
+  },
+  {
+    "anchor": "Trigger",
+    "category": "generic",
+    "definition": "A system that determines which particle collisions are stored in primary datasets and which ones are discarded. The triggering is done first by a lower-level hardware-based trigger (L1) and then by the High-Level Trigger (HLT) on a computing farm.",
+    "links": [
+      {
+        "text": "Read more on Wikipedia, ",
+        "url": "https://en.wikipedia.org/wiki/Trigger_%28particle_physics%29"
+      },
+      {
+        "text": "Read more on Guide to the CMS Trigger System",
+        "url": "/docs/cms-guide-trigger-system"
+      }
+    ],
+    "see_also": [
+      {
+        "term": "Generator"
+      },
+      {
+        "term": "Primary"
+      },
+      {
+        "term": "Derived"
       }
     ],
     "term": [
       "Trigger",
       "Triggers",
+      "trigger",
+      "triggers",
       "L1",
       "HLT"
     ],

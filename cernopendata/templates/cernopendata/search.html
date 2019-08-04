@@ -56,19 +56,17 @@
          >
          </invenio-search-error>
          <div class="row">
-             <div class="col-md-5 col-lg-4 col-xl-3 col-position">
+             <div class="col-md-5 col-lg-4 col-xl-4 col-position">
                  <div class="card card-style">
                      <div class="card-body content-style">
                          <invenio-search-facets
-                          order="type,experiment,year,file_type,
-                          collision_type,collision_energy,topic_category,
-                          run,keywords"
+                          order="type,experiment,year,file_type,collision_type,collision_energy,category,run,keywords"
                           template="{{ url_for('static', filename='templates/cernopendata_search_ui/facets.html') }}">
                          </invenio-search-facets>
                      </div>
                  </div>
              </div>
-             <div class="col-md-7 col-lg-8 col-xl-9 col-position">
+             <div class="col-md-7 col-lg-8 col-xl-8 col-position">
                  <div class="row">
                      <div class="col-md-12">
                          <div class="card card-style">
