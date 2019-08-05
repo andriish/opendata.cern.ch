@@ -44,7 +44,7 @@ else
         cernopendata fixtures records --skip-files --mode insert
     else
         # Prevent memory leak which happens when all fixtures are loaded at once
-        for recordfile in $(ls -Sr cernopendata/modules/fixtures/data/records/j*.json);
+        for recordfile in $(ls -Sr cernopendata/modules/fixtures/data/records/*.json);
         do
             cernopendata fixtures records -f "$recordfile" --mode insert
         done
