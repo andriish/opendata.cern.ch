@@ -1,0 +1,153 @@
+[
+  {
+    "abstract": {
+      "description": "This is a list of JADE loogbooks"
+    },
+    "accelerator": "DESY-PETRA",
+    "collaboration": {
+      "name": "JADE collaboration"
+    },
+    "collections": [
+      "JADE-Logbooks"
+    ],
+    "date_published": "2019",
+    "distribution": {
+      "formats": [
+        "pdf"
+      ],
+      "number_events": 5250,
+      "number_files": 175,
+      "size": 99152972
+    },
+    "doi": "10.7483/OPENDATA.JADE.6BDP.9K6B",
+    "experiment": "JADE",
+    "files": [
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log01.pdf"
+     },
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log02.pdf"
+     },
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log03.pdf"
+     },
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log04.pdf"
+     },
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log05.pdf"
+     },
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log06.pdf"
+     },
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log07.pdf"
+     },
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log08.pdf"
+     },
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log09.pdf"
+     },
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log10.pdf"
+     },
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log11.pdf"
+     },
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log12.pdf"
+     },
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log13.pdf"
+     },
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log14.pdf"
+     },
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log15.pdf"
+     },
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log16.pdf"
+     },
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log17.pdf"
+     },
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log18.pdf"
+     },
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log19.pdf"
+     },
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log20.pdf"
+     },
+     {
+        "checksum": "sha1:a7b769d106be94a229730b1e5ed4f5cd628b07cd",
+        "size": 60883,
+        "uri": "root://eospublic.cern.ch:1094//eos/opendata/jade/upload/documentation/LoogBooks/Log21.pdf"
+     }
+    ],
+    "keywords": [
+      "masterclass"
+    ],
+    "publisher": "CERN Open Data Portal",
+    "recid": "199966400",
+    "title": "JADE masterclass event files for the event display",
+    "type": {
+      "primary": "Dataset",
+      "secondary": [
+        "Derived"
+      ]
+    },
+    "usage": {
+      "description": "It can be visualised with the JADE event display using JADE VM image",
+      "links": [
+        {
+          "description": "JADE VM image",
+          "recid": "199966402"
+        }
+      ]
+    }
+  }
+]

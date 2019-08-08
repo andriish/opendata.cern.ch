@@ -1,28 +1,28 @@
 [
   {
     "abstract": {
-      "description": "LHCb VM image containing both the LHCb event display and the D0 lifetime measurement"
+      "description": "JADE VM image containing the JADE reconstruction software as well as some other HEP"
     },
-    "accelerator": "CERN-LHC",
+    "accelerator": "DESY-PETRA",
     "collaboration": {
-      "name": "LHCb collaboration"
+      "name": "JADE collaboration"
     },
     "collections": [
-      "LHCb-Tools"
+      "JADE-Tools"
     ],
     "date_published": "2014",
-    "experiment": "LHCb",
+    "experiment": "JADE",
     "keywords": [
       "masterclass"
     ],
     "links": [
       {
-        "url": "http://lhcbproject.web.cern.ch/lhcbproject/dist/Masterclass/vm/"
+        "url": "http://JADEproject.web.cern.ch/JADEproject/dist/Masterclass/vm/"
       }
     ],
     "publisher": "CERN Open Data Portal",
     "recid": "99402",
-    "title": "LHCb Virtual Machine image",
+    "title": "JADE Virtual Machine image",
     "type": {
       "primary": "Environment",
       "secondary": [
@@ -30,11 +30,11 @@
       ]
     },
     "usage": {
-      "description": "Please follow the tutorial on how to install the LHCb Virtual Machine",
+      "description": "Please follow the tutorial on how to install the JADE Virtual Machine",
       "links": [
         {
-          "description": "LHCb Virtual Machines: How to install",
-          "url": "/VM/LHCb"
+          "description": "JADE Virtual Machines: How to install",
+          "url": "/VM/JADE"
         }
       ]
     }
