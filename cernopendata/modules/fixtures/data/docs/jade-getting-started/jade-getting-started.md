@@ -16,19 +16,9 @@ JADE software comes via a virtual machine image. The only thing you need
 
 ## <a name="data">"What kind of JADE data will I work on?"</a>
 
-The data samples you can download from this portal consists of candidates for a 
-type of charmed particle known as a D<sup>0</sup> particle found in a sample of 
-randomly collected LHC interactions during 2011 data taking. A D<sup>0</sup> particle 
-consists of a charm quark and an up anti-quark. The particles are measured decaying 
-in the mode D<sup>0</sup>→K-π+ where the final state particles are a kaon (K-)
- consisting of a strange quark and an anti-up quark, and a pion (π+) that consists
-  of a down anti-quark and an up quark. The +, - and 0 refer to the electric charge
-   of the particle, whether it is positively charged, negatively charged or neutral.
+The data samples you can download from this portal consists all events collected by the JADE. 
 
-These particles have lifetime which are long enough that, for the purpose of this
- exercise, they are stable within the JADE detector. The particles have been
-  preselected using loose criteria so that you begin in the samples you will
-   have ith a visible signal, but background events are also present.
+
 
 ## <a name="vbox">"I have installed VirtualBox, downloaded JADE VM image and
  launched it. And now?"</a>
@@ -50,21 +40,8 @@ during 2011 data taking, which contain both signal and background
 particles. This set of two exercises is designed to teach you how to
 
 *   Use an event display of the proton-proton collisions inside the JADE detector 
-to search for charmed particles and separate this signal from backgrounds.
-*   Fit functional forms for the signal and background to the data in order to 
-measure the number of signal events in the data sample and their purity (defined 
-as the fraction of signal events in the total sample).
-*   Obtain the distribution of signal events in a given variable by taking the
- combined distribution of events in the data sample (which contains both signal 
- and background events) and subtracting the background distribution. The result 
- of the fit in the previous step is used to find a sample of pure background events
-  for subtraction, and to compute from the signal yield and purity the appropriate
-   amount of background which should be subtracted.
-*   The signal you will be looking at decays exponentially with time, analogously 
-to a radioactive isotope. You can now use the sample of events passing the previous
- step to measure the "lifetime" of the signal particle. The lifetime is defined as
-  the time taken for (e-1)/e of the signal events to decay, where e~2.718 is the
-   base of the natural logarithm. It is analogous to the concept of half-life in radioactive decay.
+*   Use an event display of the proton-proton collisions inside the JADE detector 
+
 
 ## <a name="eve">"How does the Event display exercise work?"</a>
 
@@ -98,39 +75,13 @@ in the different events.
 
 Remember that you are looking at real data so it contains both signal and background, 
 and the detector has a finite resolution, so not all displaced vertices will have exactly 
-the D<sup>0</sup> mass (even the signal ones). They should, however, be within the range 
-1816-1914 MeV (this range is around 3% each way around the true D<sup>0</sup> mass). 
-If you try to save a combination which is too far away from the real D<sup>0</sup>
- mass the exercise will warn you that you have not found the correct displaced vertex 
- pair and won't let you save it. If you are not able to find the displaced vertex for 
- an event after a few minutes, move on to the next event and come back to the one which 
- was giving you trouble if you have time at the end of the exercise. Once you have 
- looked at all events, you can examine your mass histogram by clicking the `Draw` button.
+the
 
 ## <a name="fit">"How does the D<sup>0</sup> lifetime fitting exercise work?"</a>
 
 Before describing the fitting part of the exercise, it will be useful to list the 
 variables involved in this exercise :
 
-**D<sup>0</sup> mass**: this is the invariant mass of the D<sup>0</sup> particle. 
-The signal can be seen as a peaking structure rising above a at background. The range
- of masses relevant for this analysis is 1816-1914 MeV. The signal shape is described 
- by the Gaussian (also known as "normal") distribution. The center ("mean") of this 
- distribution is the mass of the D<sup>0</sup> particle, while the width represents 
- the experimental resolution of the detector.
-
-**D<sup>0</sup> TAU**: this is the distribution of decay times of the D<sup>0</sup> 
-candidates. The signal is described by a single exponential whose slope is the D<sup>0</sup> 
-lifetime (the object of the last exercise), while the background concentrates at short decay times.
-
-**D<sup>0</sup> IP**: this is the D<sup>0</sup> distance of closest approach 
-("impact parameter") with respect to the proton-proton interaction in the event.
- The smaller the impact parameter, the more likely it is that the D<sup>0</sup> 
- actually came from that primary interaction. In order to simplify the drawing, 
- we actually plot and cut on the logarithm (base 10) of this quantity in the exercise.
-
-**D<sup>0</sup> PT**: this is the momentum of the D<sup>0</sup> transverse to 
-the LHC beamline.
 
 * * *
 
@@ -139,28 +90,7 @@ distributions The object of this exercise is to fit the distribution of the
 D<sup>0</sup> mass variable, and extract the signal yield and purity.
 
 *   Click on the `Plot` D<sup>0</sup> mass button to plot the overall mass 
-distribution. You will see a peak (signal) on top of a at distribution (background).
- The peak should be described by a Gaussian function, whose mean corresponds to the 
- mass of the D<sup>0</sup> and whose width (σ) is determined by the experimental 
- resolution of the JADE detector.
-*   Click on Fit mass distribution to fit this distribution using a Gaussian 
-function for the signal and a linear function for the background.
-*   Look at the fitted mass distribution. You can split it into three regions:
- the signal region and two background-only "sidebands": one above the signal
-  (the upper sideband) and one below the signal (the lower sideband). 
-  A Gaussian distribution contains 99.7% of its events within three standard
-   deviations of the mean, so this "three σ" region around the mean is usually
-    the definition of the signal region.
-*   Use the slider labelled Sig range to define the beginning and end of the 
-signal region. All events not falling into the signal region will be said to 
-fall into the background region.
-*   You can now use the definitions of the signal and background regions in 
-the mass variable to determine the signal and background distributions in 
-other variables. Click on the button labelled `Apply cuts and plot variables`. 
-You will see the signal (blue) and background (red) distributions for the other
- three variables plotted next to the mass distribution. You should discuss the 
- 
- exercise with an instructor at this point.
+distribution. 
 
 **Exercise 2** : measuring the D<sup>0</sup> lifetime The object of this exercise 
 is to use the signal sample which you obtained in the previous step to measure the 
@@ -170,21 +100,3 @@ distribution, and if this exponential is fitted to a distribution of the D<sup>0
 decay times, the slope of this exponential is the lifetime of the D<sup>0</sup>.
 
 *   Fit the lifetime of the D<sup>0</sup>.
-*   Compare the slope of this exponential to the D<sup>0</sup> lifetime given by 
-the Particle Data Group. Talk to an instructor about how well these agree with each other.
-*   In addition to statistical uncertainties, measurements can suffer from systematic 
-uncertainties, caused by a miscalibrated apparatus or an incorrect modelling of the 
-backgrounds. One basic technique for estimating these is to repeat the measurement 
-while changing the criteria used to select signal events. If the result changes 
-significantly when changing the criteria, we know that there is something wrong!
-*   Repeat your fit for the lifetime of the D<sup>0</sup> while varying the 
-maximum allowed D<sup>0</sup> impact parameter. The allowed values range from 
--4:0 to 1.5 in the original fit. Move this upper value from 1.5 to -2.0 in steps 
-of 0.25, and refit the D<sup>0</sup> lifetime at each point, saving the results 
-as you go along.
-*   Plot the histogram showing the fitted value of the D<sup>0</sup> lifetime as 
-a function of the upper cut on the impact parameter. Discuss the shape, and what 
-it tells you about the D<sup>0</sup> lifetime, with an instructor.
-*   What other sources of systematic uncertainty might we need to consider when
- making a lifetime measurement?
-
