@@ -1,0 +1,31 @@
+[
+  {
+    "body": {
+      "content": "jade-analysis.md",
+      "format": "md"
+    },
+    "collections": [
+      {
+        "experiment": "JADE"
+      },
+      {
+        "primary": "VM"
+      }
+    ],
+    "experiment": "JADE",
+    "short_description": {
+      "content": "JADE analysis primer"
+    },
+    "slug": "jade-analysis",
+    "tags": [
+      "Getting Started"
+    ],
+    "title": "JADE analysis primer",
+    "type": {
+      "primary": "Documentation",
+      "secondary": [
+        "Guide"
+      ]
+    }
+  }
+]
