@@ -42,7 +42,7 @@ Once Docker is installed, you can fetch a CMSSW image and create and start a con
 docker run --name opendata-2010 -it cmsopendata/cmssw_4_2_8 /bin/bash
 ```
 
-Here we fetch the `CMSSW_4_2_8` docker image from [dockerhub](https://cloud.docker.com/u/cmsopendata/repository/list) and name the container `opendata-2010`.
+Here we fetch the `CMSSW_4_2_8` docker image from [dockerhub](https://hub.docker.com/u/cmsopendata) and name the container `opendata-2010`. For low-luminosity data taken with the Castor calorimeter, the docker image CMSSW_4_2_8_lowpupatch1 should be used.
 
 As described [in this GitHub repository](https://github.com/clelange/cmssw-docker/), this will install a stand-alone CMSSW image that is a few GBs. Therefore this may take a few minutes. However, the image will only have to be downloaded once. The following will appear in your terminal once you type the `docker run` command:
 
@@ -108,6 +108,24 @@ Likewise, in order to copy a file into a running container:
 docker cp <my file> opendata:/home/cmsusr/CMSSW_5_3_32/src/
 ```
 
+### X11 forwarding with docker on linux
+
+If you want to use ROOT or some other program from within the container that needs X11-forwarding for the graphics to pop up, on linux, you can start the container with
+
+```sh
+docker run -it --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" cmsopendata/cmssw_5_3_32 /bin/bash
+```
+
+Once in the container, you can type
+
+```sh
+cmsenv
+root
+```
+
+If it has worked, you’ll see the ROOT splash screen.
+
+
 ### Exiting and restarting a container
 
 When you want to exit the container simply type `exit`.
@@ -115,3 +133,43 @@ When you want to exit the container simply type `exit`.
 If you want to restart the container (e.g. the one named `opendata`) and return to your work then use the command `docker start -i opendata`.
 
 If the container was created and started using the `--rm` option (e.g. `docker run --rm`) then the container will be removed when you exit. You can create a new container from the image using `docker run`.
+
+
+### Running CMS open data containers on WSL2
+
+The CMS open data containers, or any CentOS6-based containers, may fail if docker is run on WSL2. This problem is fixed by adding a new file `.wslconfig` with the following contents
+
+```sh
+[wsl2]
+kernelCommandLine = vsyscall=emulate
+```
+
+in \Users\[username] (without extension), then shutting down with `wsl --shutdown` in the Windows command prompt and restarting again.
+
+Test that the settings are properly passed by doing, in the WSL2 linux installation:
+
+```sh
+docker run -ti ubuntu cat /proc/cmdline
+```
+
+The ouput should contain `vsyscall=emulate`, e.g.:
+
+```sh
+initrd=\initrd.img panic=-1 pty.legacy_count=0 nr_cpus=4 vsyscall=emulate
+```
+
+### Accessing cvmfs from a container
+
+In order to access the snapshots of CMS database conditions when running CMSSW jobs, one would usually need access to the universal namespace `/cvmfs` (CernVM-File System).  In Linux and macOS it is possible to "see" the cvmfs space by installing the cvmfs client following [the offcial instructions](https://cvmfs.readthedocs.io).  In essence, there are two basic ways to achieve this:
+
+The preferred option (working for 2010 and 2011 containers) is to [install](https://cvmfs.readthedocs.io/en/stable/cpt-quickstart.html) the cvmfs client locally, on the host machine, and [mount](https://cvmfs.readthedocs.io/en/stable/cpt-configure.html#bind-mount-from-the-host) it on the container:
+
+```sh
+docker run --name opendata -it -v "/cvmfs:/cvmfs:shared" cmsopendata/cmssw_5_3_32 /bin/bash
+```
+
+The other option is to [install](https://cvmfs.readthedocs.io/en/stable/cpt-quickstart.html) the cvmfs client directly in the container after it is created (only working for the 2011 container).  For this, the container needs to get started in [privileged](https://cvmfs.readthedocs.io/en/stable/cpt-configure.html#mount-inside-a-container) mode like
+
+```sh
+docker run --privileged --name opendata -it cmsopendata/cmssw_5_3_32 /bin/bash
+```

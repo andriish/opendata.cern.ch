@@ -94,6 +94,9 @@
               },
               "type": "text",
               "copy_to": "availability"
+            },
+            "number_events": {
+              "type": "integer"
             }
           },
           "type": "object"
@@ -119,6 +122,14 @@
           "type": "text"
         },
         "publisher": {
+          "type": "text"
+        },
+        "signature": {
+          "fields": {
+            "keyword": {
+              "type": "keyword"
+            }
+          },
           "type": "text"
         },
         "title": {

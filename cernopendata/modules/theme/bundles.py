@@ -130,13 +130,14 @@ opera_js = NpmBundle(
     'node_modules/demobbed-viewer/js/lib/bootstrap.min.js',
     'node_modules/demobbed-viewer/js/lib/three.min.js',
     'node_modules/demobbed-viewer/js/lib/three3DExtras.min.js',
+    'node_modules/demobbed-viewer/js/lib/TrackballControls.js',
     'node_modules/demobbed-viewer/js/DetCfg-def.js',
     'node_modules/demobbed-viewer/js/Utils-def.js',
     'node_modules/demobbed-viewer/js/Hits-defs.js',
     'node_modules/demobbed-viewer/js/Vertex-def.js',
     'node_modules/demobbed-viewer/js/TrackECC-def.js',
     'node_modules/demobbed-viewer/js/Event-def.js',
-    'node_modules/demobbed-viewer/js/loadEvent.js',
+    'node_modules/demobbed-viewer/js/loadUserSpecifiedEvent.js',
     'node_modules/demobbed-viewer/js/changeEventSample.js',
     'node_modules/demobbed-viewer/js/DetElems-defs.js',
     'node_modules/demobbed-viewer/js/MgrGeomED-def.js',
@@ -151,7 +152,8 @@ opera_js = NpmBundle(
     'node_modules/demobbed-viewer/js/MgrDrawECC-funcAdd.js',
     output='gen/cernopendata.opera.%(version)s.js',
     npm={
-        "demobbed-viewer": "~1.2.0"
+        "demobbed-viewer-dev-js":
+            "git+https://git@github.com/cernopendata/demobbed-viewer.git"
     },
 )
 
@@ -160,7 +162,8 @@ opera_css = NpmBundle(
     filters='node-scss, cleancss',
     output='gen/cernopendata.opera.%(version)s.css',
     npm={
-        "demobbed-viewer": "~1.2.0"
+        "demobbed-viewer-dev-css":
+            "git+https://git@github.com/cernopendata/demobbed-viewer.git"
     }
 )
 
