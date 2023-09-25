@@ -61,6 +61,16 @@
       "Run2010B"
     ],
     "system_details": {
+      "container_images": [
+        {
+          "name": "docker.io/cmsopendata/cmssw_4_2_8-slc5_amd64_gcc434:latest",
+          "registry": "dockerhub"
+        },
+        {
+          "name": "gitlab-registry.cern.ch/cms-cloud/cmssw-docker-opendata/cmssw_4_2_8-slc5_amd64_gcc434:latest",
+          "registry": "gitlab"
+        }
+      ],
       "global_tag": "FT_R_42_V10A::All",
       "release": "CMSSW_4_2_8"
     },
@@ -76,7 +86,7 @@
       "description": "<p>These data are in RAW format and not directly usable in analysis. The reconstructed data reprocessed from these RAW data are included in the data of <a href=\"/record/8\">this record</a>. \n  The reconstruction step can be repeated with the configuration file below and the resulting AOD has been confirmed to be identical with the original one with comparison code available in <a href=\"/record/464\">Validation code to plot basic physics objects from AOD</a></p>",
       "links": [
         {
-          "description": "Example configuration file for reconstruction",
+          "description": "Configuration file for reconstruction",
           "url": "/eos/opendata/cms/configuration-files/RAWtoAOD/raw_MinimumBias10.py"
         }
       ]
@@ -161,6 +171,16 @@
       "Run2010B"
     ],
     "system_details": {
+      "container_images": [
+        {
+          "name": "docker.io/cmsopendata/cmssw_4_2_8-slc5_amd64_gcc434:latest",
+          "registry": "dockerhub"
+        },
+        {
+          "name": "gitlab-registry.cern.ch/cms-cloud/cmssw-docker-opendata/cmssw_4_2_8-slc5_amd64_gcc434:latest",
+          "registry": "gitlab"
+        }
+      ],
       "global_tag": "FT_R_42_V10A::All",
       "release": "CMSSW_4_2_8"
     },
@@ -176,7 +196,7 @@
       "description": "<p>These data are in RAW format and not directly usable in analysis. The reconstructed data reprocessed from these RAW data are included in the data of <a href=\"/record/14\">this record</a>. \n    The reconstruction step can be repeated with the configuration file below and the resulting AOD has been confirmed to be identical with the original one with comparison code available in <a href=\"/record/464\">Validation code to plot basic physics objects from AOD</a> </p>",
       "links": [
         {
-          "description": "Example configuration file for reconstruction",
+          "description": "Configuration file for reconstruction",
           "url": "/eos/opendata/cms/configuration-files/RAWtoAOD/raw_Mu10.py"
         }
       ]
@@ -261,6 +281,16 @@
       "Run2010B"
     ],
     "system_details": {
+      "container_images": [
+        {
+          "name": "docker.io/cmsopendata/cmssw_4_2_8-slc5_amd64_gcc434:latest",
+          "registry": "dockerhub"
+        },
+        {
+          "name": "gitlab-registry.cern.ch/cms-cloud/cmssw-docker-opendata/cmssw_4_2_8-slc5_amd64_gcc434:latest",
+          "registry": "gitlab"
+        }
+      ],
       "global_tag": "FT_R_42_V10A::All",
       "release": "CMSSW_4_2_8"
     },
@@ -276,7 +306,7 @@
       "description": "<p>These data are in RAW format and not directly usable in analysis. The reconstructed data reprocessed from these RAW data are included in the data of <a href=\"/record/4\">this record</a>. \n    The reconstruction step can be repeated with the configuration file below and the resulting AOD has been confirmed to be identical with the original one with comparison code available in <a href=\"/record/464\">Validation code to plot basic physics objects from AOD</a> </p>",
       "links": [
         {
-          "description": "Example configuration file for reconstruction",
+          "description": "Configuration file for reconstruction",
           "url": "/eos/opendata/cms/configuration-files/RAWtoAOD/raw_Electron10.py"
         }
       ]
@@ -361,6 +391,16 @@
       "Run2010B"
     ],
     "system_details": {
+      "container_images": [
+        {
+          "name": "docker.io/cmsopendata/cmssw_4_2_8-slc5_amd64_gcc434:latest",
+          "registry": "dockerhub"
+        },
+        {
+          "name": "gitlab-registry.cern.ch/cms-cloud/cmssw-docker-opendata/cmssw_4_2_8-slc5_amd64_gcc434:latest",
+          "registry": "gitlab"
+        }
+      ],
       "global_tag": "FT_R_42_V10A::All",
       "release": " CMSSW_4_2_8"
     },
@@ -376,7 +416,7 @@
       "description": "<p>These data are in RAW format and not directly usable in analysis. The reconstructed data reprocessed from these RAW data are included in the data of <a href=\"/record/5\">this record</a>. \n    The reconstruction step can be repeated with the configuration file attached to this record and the resulting AOD has been confirmed to be identical with the original one with comparison code available in <a href=\"/record/464\">Validation code to plot basic physics objects from AOD</a> </p>",
       "links": [
         {
-          "description": "Example configuration file for reconstruction",
+          "description": "Configuration file for reconstruction",
           "url": "/eos/opendata/cms/configuration-files/RAWtoAOD/raw_Jet10.py"
         }
       ]

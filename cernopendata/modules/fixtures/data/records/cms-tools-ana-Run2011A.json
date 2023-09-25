@@ -6,11 +6,14 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "Rodriguez Marrero, Ana"
+        "name": "Rodriguez Marrero, Ana",
+        "orcid": "0000-0002-7145-630X"
       },
       {
+        "affiliation": "Helsinki Inst. of Phys.",
         "name": "Lassila-Perini, Kati",
-        "orcid": "0000-0002-5502-1795"
+        "orcid": "0000-0002-5502-1795",
+        "rorid": "01x2x1522"
       }
     ],
     "collections": [
@@ -99,11 +102,14 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "Rodriguez Marrero, Ana"
+        "name": "Rodriguez Marrero, Ana",
+        "orcid": "0000-0002-7145-630X"
       },
       {
+        "affiliation": "Helsinki Inst. of Phys.",
         "name": "Lassila-Perini, Kati",
-        "orcid": "0000-0002-5502-1795"
+        "orcid": "0000-0002-5502-1795",
+        "rorid": "01x2x1522"
       }
     ],
     "collections": [

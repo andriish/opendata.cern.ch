@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # This file is part of CERN Open Data Portal.
-# Copyright (C) 2015, 2016, 2017, 2018 CERN.
+# Copyright (C) 2015, 2016, 2017, 2018, 2020, 2021, 2023 CERN.
 #
 # CERN Open Data Portal is free software; you can redistribute it
 # and/or modify it under the terms of the GNU General Public License as
@@ -22,13 +22,17 @@
 # waive the privileges and immunities granted to it by virtue of its status
 # as an Intergovernmental Organization or submit itself to any jurisdiction.
 
-# Use CentOS7:
-FROM centos:7
+# Use Invenio's CentOS7 image with Python-3.6
+FROM docker.io/inveniosoftware/centos7-python:3.6
 
-# Install CERN Open Data Portal web node pre-requisites:
-RUN yum update -y && \
-    yum install -y \
+# Use XRootD 4.12.7
+ENV XROOTD_VERSION=4.12.7
+
+# Install CERN Open Data Portal web node pre-requisites
+# hadolint ignore=DL3033
+RUN yum install -y \
         ca-certificates \
+        cmake3 \
         curl \
         git \
         rlwrap \
@@ -38,74 +42,106 @@ RUN yum update -y && \
     yum install -y \
         epel-release && \
     yum groupinstall -y "Development Tools" && \
-    yum install -y \
-        libffi-devel \
-        libxml2-devel \
-        libxslt-devel \
-        npm \
-        jq \
-        python-devel \
-        python-pip
+    yum --setopt=obsoletes=0 install -y \
+        cmake3 gcc-c++ zlib-devel openssl-devel libuuid-devel python3-devel jq \
+        openssl-devel \
+        devtoolset-7-gcc-c++ \
+        https://storage-ci.web.cern.ch/storage-ci/xrootd/release/cc-7-x86_64/v${XROOTD_VERSION}/xrootd-libs-${XROOTD_VERSION}-1.el7.x86_64.rpm \
+        https://storage-ci.web.cern.ch/storage-ci/xrootd/release/cc-7-x86_64/v${XROOTD_VERSION}/xrootd-client-libs-${XROOTD_VERSION}-1.el7.x86_64.rpm \
+        https://storage-ci.web.cern.ch/storage-ci/xrootd/release/cc-7-x86_64/v${XROOTD_VERSION}/xrootd-devel-${XROOTD_VERSION}-1.el7.x86_64.rpm \
+        https://storage-ci.web.cern.ch/storage-ci/xrootd/release/cc-7-x86_64/v${XROOTD_VERSION}/xrootd-client-${XROOTD_VERSION}-1.el7.x86_64.rpm \
+        https://storage-ci.web.cern.ch/storage-ci/xrootd/release/cc-7-x86_64/v${XROOTD_VERSION}/xrootd-client-devel-${XROOTD_VERSION}-1.el7.x86_64.rpm \
+        https://storage-ci.web.cern.ch/storage-ci/xrootd/release/cc-7-x86_64/v${XROOTD_VERSION}/python3-xrootd-${XROOTD_VERSION}-1.el7.x86_64.rpm && \
+    yum clean -y all
 
-# Install pinned xrootd version and their dependencies:
-RUN yum install -y \
-        expect \
-        policycoreutils \
-        selinux-policy && \
-    rpm -Uvh \
-      http://xrootd.web.cern.ch/xrootd/sw/releases/4.7.1/rpms/user_xrootd/slc7/x86_64/xrootd-libs-4.7.1-1.el7.x86_64.rpm \
-      http://xrootd.web.cern.ch/xrootd/sw/releases/4.7.1/rpms/user_xrootd/slc7/x86_64/xrootd-server-libs-4.7.1-1.el7.x86_64.rpm \
-      http://xrootd.web.cern.ch/xrootd/sw/releases/4.7.1/rpms/user_xrootd/slc7/x86_64/xrootd-server-4.7.1-1.el7.x86_64.rpm \
-      http://xrootd.web.cern.ch/xrootd/sw/releases/4.7.1/rpms/user_xrootd/slc7/x86_64/xrootd-selinux-4.7.1-1.el7.noarch.rpm \
-      http://xrootd.web.cern.ch/xrootd/sw/releases/4.7.1/rpms/user_xrootd/slc7/x86_64/xrootd-client-devel-4.7.1-1.el7.x86_64.rpm \
-      http://xrootd.web.cern.ch/xrootd/sw/releases/4.7.1/rpms/user_xrootd/slc7/x86_64/xrootd-client-4.7.1-1.el7.x86_64.rpm \
-      http://xrootd.web.cern.ch/xrootd/sw/releases/4.7.1/rpms/user_xrootd/slc7/x86_64/xrootd-client-libs-4.7.1-1.el7.x86_64.rpm \
-      http://xrootd.web.cern.ch/xrootd/sw/releases/4.7.1/rpms/user_xrootd/slc7/x86_64/xrootd-devel-4.7.1-1.el7.x86_64.rpm \
-      http://xrootd.web.cern.ch/xrootd/sw/releases/4.7.1/rpms/user_xrootd/slc7/x86_64/xrootd-4.7.1-1.el7.x86_64.rpm \
-      http://xrootd.web.cern.ch/xrootd/sw/releases/4.7.1/rpms/user_xrootd/slc7/x86_64/xrootd-python-4.7.1-1.el7.x86_64.rpm
+RUN pip uninstall pipenv -y && pip install --upgrade pip==20.2.4 setuptools==51.0.0 wheel==0.36.2 && \
+    npm install -g --unsafe-perm node-sass@4.14.1 clean-css@3.4.24 requirejs@2.3.6 uglify-js@3.12.1 jsonlint@1.6.3 d3@6.3.1
 
-# Clean after ourselves:
-RUN yum clean -y all
+# Change group to root to support OpenShift runtime
+RUN chgrp -R 0 "${INVENIO_INSTANCE_PATH}" && \
+    chmod -R g=u "${INVENIO_INSTANCE_PATH}"
 
-# Configuration for CERN Open Data Portal instance:
-ENV APP_INSTANCE_PATH=/usr/local/var/cernopendata/var/cernopendata-instance
+# Create `code` dir and set Invenio user as owner
+ENV CODE_DIR=/code
+RUN mkdir ${CODE_DIR} && chown invenio:root ${CODE_DIR}
 
-RUN pip install --upgrade pip==9 setuptools wheel && \
-    npm install -g node-sass@3.8.0 clean-css@3.4.24 requirejs uglify-js jsonlint
+# Run application as Invenio user
+USER ${INVENIO_USER_ID}
 
-ADD requirements-production-local-forks.txt /tmp
-ADD requirements-production.txt /tmp
-RUN pip install -r /tmp/requirements-production-local-forks.txt
-RUN pip install -r /tmp/requirements-production.txt
+# Set default Invenio user Python base for site-packages
+ENV PYTHONUSERBASE=${INVENIO_INSTANCE_PATH}/python
 
-# Add CERN Open Data Portal sources to `code` and work there:
-WORKDIR /code
-ADD . /code
+# Add Invenio user Python base to global PATH
+ENV PATH=$PATH:${INVENIO_INSTANCE_PATH}/python/bin
+RUN pip install --user xrootd==${XROOTD_VERSION} xrootdpyfs==0.2.2
 
-RUN /code/scripts/create-instance.sh && \
-    chgrp -R 0 ${APP_INSTANCE_PATH} && \
-    chmod -R g=u ${APP_INSTANCE_PATH}
+# Install requirements
+COPY requirements-production-local-forks.txt /tmp
+COPY requirements-production.txt /tmp
+RUN pip install --user --no-deps -r /tmp/requirements-production-local-forks.txt
+RUN pip install --user -r /tmp/requirements-production.txt
 
-# uWSGI configuration
-ARG UWSGI_WSGI_MODULE=cernopendata.wsgi:application
-ENV UWSGI_WSGI_MODULE ${UWSGI_WSGI_MODULE:-cernopendata.wsgi:application}
-ARG UWSGI_PORT=5000
-ENV UWSGI_PORT ${UWSGI_PORT:-5000}
-ARG UWSGI_PROCESSES=2
-ENV UWSGI_PROCESSES ${UWSGI_PROCESSES:-2}
-ARG UWSGI_THREADS=2
-ENV UWSGI_THREADS ${UWSGI_THREADS:-2}
+# Check for any broken Python dependencies
+RUN pip check
+
+# Add CERN Open Data Portal sources to `code` and work there
+WORKDIR ${CODE_DIR}
+COPY . ${CODE_DIR}
+USER root
+RUN chown -R "${INVENIO_USER_ID}":root "${CODE_DIR}"
+USER ${INVENIO_USER_ID}
 
 # Debug off by default
 ARG DEBUG=""
 ENV DEBUG=${DEBUG:-""}
 
+# Install CERN Open Data Portal sources
+# hadolint ignore=DL3013
+RUN if [ "$DEBUG" ]; then pip install --user -e ".[all]" && pip check; else pip install --user ".[all]" && pip check; fi;
+
+# Create instance
+RUN scripts/create-instance.sh
+
+# Configure uWSGI
+ARG UWSGI_BUFFER_SIZE=8192
+ENV UWSGI_BUFFER_SIZE ${UWSGI_BUFFER_SIZE:-8192}
+ARG UWSGI_IDLE=60
+ENV UWSGI_IDLE ${UWSGI_IDLE:-60}
+ARG UWSGI_MAX_REQUESTS=1000
+ENV UWSGI_MAX_REQUESTS ${UWSGI_MAX_REQUESTS:-1000}
+ARG UWSGI_MAX_WORKER_LIFETIME=1800
+ENV UWSGI_MAX_WORKER_LIFETIME ${UWSGI_MAX_WORKER_LIFETIME:-1800}
+ARG UWSGI_PORT=5000
+ENV UWSGI_PORT ${UWSGI_PORT:-5000}
+ARG UWSGI_PROCESSES=4
+ENV UWSGI_PROCESSES ${UWSGI_PROCESSES:-4}
+ARG UWSGI_THREADS=1
+ENV UWSGI_THREADS ${UWSGI_THREADS:-1}
+ARG UWSGI_WSGI_MODULE=cernopendata.wsgi:application
+ENV UWSGI_WSGI_MODULE ${UWSGI_WSGI_MODULE:-cernopendata.wsgi:application}
+
 # Install Python packages needed for development
-RUN if [ "$DEBUG" ]; then pip install -r requirements-dev.txt; fi;
+RUN if [ "$DEBUG" ]; then pip install --user -r requirements-dev.txt && pip check; fi;
 
-RUN adduser --uid 1000 invenio --gid 0 && \
-    chown -R invenio:root /code
-USER 1000
-
-# Start the CERN Open Data Portal application:
-CMD uwsgi --module ${UWSGI_WSGI_MODULE} --socket 0.0.0.0:${UWSGI_PORT} --master --processes ${UWSGI_PROCESSES} --threads ${UWSGI_THREADS} --stats /tmp/stats.socket
+# Start the CERN Open Data Portal application
+# hadolint ignore=DL3025
+CMD uwsgi \
+        --buffer-size ${UWSGI_BUFFER_SIZE} \
+        --cheap \
+        --die-on-term \
+        --enable-threads \
+        --idle ${UWSGI_IDLE} \
+        --master \
+        --max-requests ${UWSGI_MAX_REQUESTS} \
+        --max-worker-lifetime ${UWSGI_MAX_WORKER_LIFETIME} \
+        --memory-report \
+        --module ${UWSGI_WSGI_MODULE} \
+        --need-app \
+        --processes ${UWSGI_PROCESSES} \
+        --py-call-osafterfork \
+        --single-interpreter \
+        --socket 0.0.0.0:${UWSGI_PORT} \
+        --stats /tmp/stats.socket \
+        --threads ${UWSGI_THREADS} \
+        --vacuum \
+        --wsgi-disable-file-wrapper

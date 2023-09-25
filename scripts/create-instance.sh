@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 # This file is part of Invenio.
-# Copyright (C) 2015, 2016, 2017 CERN.
+# Copyright (C) 2015, 2016, 2017, 2020 CERN.
 #
 # Invenio is free software; you can redistribute it
 # and/or modify it under the terms of the GNU General Public License as
@@ -25,13 +25,20 @@
 set -o errexit
 set -o nounset
 
-pip install -r requirements-production-local-forks.txt
-pip install -r requirements-production.txt
-pip install -e .[all]
-mkdir -p ${APP_INSTANCE_PATH}
-cernopendata npm
-cd ${APP_INSTANCE_PATH}/static
-CI=true npm install
-npm install d3@3.3.13
+mkdir -p "${INVENIO_INSTANCE_PATH}"
+cd "${INVENIO_INSTANCE_PATH}"/static
+
+npm install git+https://github.com/cernopendata/demobbed-viewer.git --prefix $INVENIO_INSTANCE_PATH/static
+npm install ispy-webgl@0.9.8-COD3.11 --prefix $INVENIO_INSTANCE_PATH/static
+
+cd node_modules/demobbed-viewer \
+    && rm index.html LICENCE README.md package.json \
+    && cd "${INVENIO_INSTANCE_PATH}"/static
+
+cd node_modules/ispy-webgl \
+    && rm index.html LICENSE README.md package.json \
+    && cd "${INVENIO_INSTANCE_PATH}"/static \
+    && rm package-lock.json
+
 cernopendata collect -v
-cernopendata assets build
+cernopendata webpack clean buildall

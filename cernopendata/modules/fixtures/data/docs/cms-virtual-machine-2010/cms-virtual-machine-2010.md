@@ -4,37 +4,38 @@ The CMS-specific VM includes the [ROOT framework](http://root.cern.ch/) and [CMS
 2.  [How to Test & Validate?](#testvalidate2010)
 3.  [Issues & Limitations](#issues2010)
 
-## <a name="install2010"></a>Step 1: How to install a CERN Virtual Machine
-
+## <a name="install2010">Step 1: How to install a CERN Virtual Machine</a>
 ### Installing VirtualBox
 
 VirtualBox is a free, open source and multiplatform application to run virtual machines: you can [download](https://www.VirtualBox.org/wiki/Downloads) the package for your platform from the Downloads page.
 
 You will need administrative ("root") privileges on every platform to perform the installation of VirtualBox.
 
-Note: the latest tested version of VirtualBox working with this CMS-specific CernVM image is 5.2.2\. If you have troubles with the latest version of VirtualBox, pick that one: the full history of VirtualBox versions is available [on a different page.](https://www.VirtualBox.org/wiki/Download_Old_Builds)
+Note: the latest tested version of VirtualBox working with this CMS-specific CernVM image is 6.1.10\. If you have troubles with the latest version of VirtualBox, pick that one: the full history of VirtualBox versions is available [on a different page.](https://www.VirtualBox.org/wiki/Download_Old_Builds)
 
 ### Downloading and Creating a Virtual Machine
 
 **Important**: Before you download the CernVM, note that the imported settings may not always work on your host machine. Please see [Issues and Limitations](#issues2010) or [the CMS guide to troubleshooting](/docs/cms-guide-troubleshooting) if you encounter any problems with booting the VM.
 
-Next download the CMS-specific CernVM image as OVA file from: [CMS VM Image for 2010 CMS Open Data](/record/250). It is recommended using the version "CMS-OpenData-1.1.2".
+Next download the CMS-specific CernVM image as OVA file from: [CMS VM Image for 2010 CMS Open Data](/record/250). It is recommended using the version "CMS-OpenData-1.1.4".
 
-By double clicking the downloaded file, VirtualBox imports the image with ready-to-run settings. Then, you launch the CMS-specific CernVM, which boots into the graphical user interface and sets up the CMS environment.
+By double clicking the downloaded file, VirtualBox imports the image with ready-to-run settings. In VirtualBox version 6, you need to unselect "import disks as VDI" on the initial import screen. Then, you launch the CMS-specific CernVM, which boots into the graphical user interface and sets up the CMS environment. Be patient, it will take a while.
 
-## <a name="testvalidate2010"></a>Step 2: How to Test & Validate?
+## <a name="testvalidate2010">Step 2: How to Test & Validate?</a>
 
 The validation procedure tests that the CMS environment is installed and operational on your virtual machine, and that you have access to the ROOT files. You may skip this step if you want, and head straight to [Getting Started with CMS data](/docs/cms-getting-started-2010). However, these steps give you a quick introduction to the CMS environment.
 
 ### Set up the CMS environment and run a demo analyzer
 
-In the "CMS-OpenData-1.1.2" VM, open a terminal from the "CMS Shell" icon from the desktop (only if using the VM version "CMS-OpenData-1.0.0-rc7", open a terminal with the X terminal emulator from an icon bottom-left of the VM screen).
+In the "CMS-OpenData-1.1.4" VM, open a terminal from the "CMS Shell" icon from the desktop (note that the X terminal emulator from an icon bottom-left of the VM screen opens a shell with an operating system incompatible with the CMS software release to be used).
 
 Execute the following command; this command builds the local release area (the directory structure) for [CMSSW](/glossary/CMSSW), and only needs to be run once (note that it may take a while):
 
 ```shell
 cmsrel CMSSW_4_2_8
 ```
+
+Note that if you get a warning message about the current OS being SLC7, you are using a wrong terminal. Open a "CMS Shell" terminal as explained above and execute the cmsrel command there.
 
 Change to the <kbd>CMSSW_4_2_8/src/</kbd> directory:
 
@@ -105,7 +106,7 @@ Severity # Occurrences Total Occurrences
 System 3 3
 ```
 
-## <a name="issues2010"></a>Known Issues & Limitations
+## <a name="issues2010">Known Issues & Limitations</a>
 
 ### Validation report
 

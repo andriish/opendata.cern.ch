@@ -6,13 +6,16 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "Jomhari, Nur Zulaiha"
+        "name": "Jomhari, Nur Zulaiha",
+        "orcid": "0000-0001-9127-7408"
       },
       {
-        "name": "Geiser, Achim"
+        "name": "Geiser, Achim",
+        "orcid": "0000-0003-0355-102X"
       },
       {
-        "name": "Bin Anuar, Afiq Aizuddin"
+        "name": "Bin Anuar, Afiq Aizuddin",
+        "orcid": "0000-0002-2988-9830"
       }
     ],
     "collections": [
@@ -107,7 +110,7 @@
       "Run2012C"
     ],
     "source_code_repository": {
-      "description" : "A code repository based on the files attached to this record is also provided in:",
+      "description": "A code repository based on the files attached to this record is also provided in:",
       "url": "https://github.com/cms-opendata-analyses/HiggsExample20112012"
     },
     "system_details": {
@@ -119,7 +122,8 @@
     "type": {
       "primary": "Software",
       "secondary": [
-        "Analysis"
+        "Analysis",
+        "Workflow"
       ]
     },
     "usage": {
@@ -201,13 +205,16 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "Jomhari, Nur Zulaiha"
+        "name": "Jomhari, Nur Zulaiha",
+        "orcid": "0000-0001-9127-7408"
       },
       {
-        "name": "Geiser, Achim"
+        "name": "Geiser, Achim",
+        "orcid": "0000-0003-0355-102X"
       },
       {
-        "name": "Bin Anuar, Afiq Aizuddin"
+        "name": "Bin Anuar, Afiq Aizuddin",
+        "orcid": "0000-0002-2988-9830"
       }
     ],
     "collections": [

@@ -9,9 +9,12 @@ include .inveniorc
 include Dockerfile
 include LICENSE
 include babel.ini
+include elasticsearch-proxy/Dockerfile
+include elasticsearch-proxy/nginx.conf
 include nginx/Dockerfile
 include pytest.ini
 include sentry/Dockerfile
+recursive-include cernopendata *.config
 recursive-include cernopendata *.css
 recursive-include cernopendata *.csv
 recursive-include cernopendata *.gif
@@ -21,13 +24,17 @@ recursive-include cernopendata *.jpeg
 recursive-include cernopendata *.jpg
 recursive-include cernopendata *.js
 recursive-include cernopendata *.json
+recursive-include cernopendata *.jsx
 recursive-include cernopendata *.less
+recursive-include cernopendata *.md
+recursive-include cernopendata *.overrides
 recursive-include cernopendata *.png
+recursive-include cernopendata *.py
 recursive-include cernopendata *.scss
 recursive-include cernopendata *.svg
 recursive-include cernopendata *.tpl
 recursive-include cernopendata *.txt
-recursive-include cernopendata *.md
+recursive-include cernopendata *.variables
 recursive-include cernopendata *.xml
 recursive-include nginx *.conf
 recursive-include scripts *.cfg
@@ -38,3 +45,4 @@ recursive-include sentry *.json
 recursive-include sentry *.py
 recursive-include sentry *.sh
 recursive-include sentry *.yml
+recursive-exclude elasticsearch-proxy *

@@ -6,13 +6,16 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "Geiser, Achim"
+        "name": "Geiser, Achim",
+        "orcid": "0000-0003-0355-102X"
       },
       {
-        "name": "Dutta, Irene"
+        "name": "Dutta, Irene",
+        "orcid": "0000-0003-0953-4503"
       },
       {
-        "name": "Hirvonsalo, Harri"
+        "name": "Hirvonsalo, Harri",
+        "orcid": "0000-0002-5503-510X"
       },
       {
         "name": "Sheeran, Bridget"
@@ -113,7 +116,7 @@
       "Run2010B"
     ],
     "source_code_repository": {
-      "description" : "A code repository based on the files attached to this record is also provided in:",
+      "description": "A code repository based on the files attached to this record is also provided in:",
       "url": "https://github.com/cms-opendata-validation/2010-mu-mumonitor-dimuon"
     },
     "system_details": {
@@ -158,13 +161,16 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "Geiser, Achim"
+        "name": "Geiser, Achim",
+        "orcid": "0000-0003-0355-102X"
       },
       {
-        "name": "Dutta, Irene"
+        "name": "Dutta, Irene",
+        "orcid": "0000-0003-0953-4503"
       },
       {
-        "name": "Hirvonsalo, Harri"
+        "name": "Hirvonsalo, Harri",
+        "orcid": "0000-0002-5503-510X"
       },
       {
         "name": "Sheeran, Bridget"
@@ -250,7 +256,7 @@
       "Run2010B"
     ],
     "source_code_repository": {
-      "description" : "A code repository based on the files attached to this record is also provided in:",
+      "description": "A code repository based on the files attached to this record is also provided in:",
       "url": "https://github.com/cms-opendata-validation/2010-commissioning-dimuon"
     },
     "system_details": {
@@ -292,13 +298,16 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "Geiser, Achim"
+        "name": "Geiser, Achim",
+        "orcid": "0000-0003-0355-102X"
       },
       {
-        "name": "Dutta, Irene"
+        "name": "Dutta, Irene",
+        "orcid": "0000-0003-0953-4503"
       },
       {
-        "name": "Hirvonsalo, Harri"
+        "name": "Hirvonsalo, Harri",
+        "orcid": "0000-0002-5503-510X"
       },
       {
         "name": "Sheeran, Bridget"
@@ -399,7 +408,7 @@
       "Run2010B"
     ],
     "source_code_repository": {
-      "description" : "A code repository based on the files attached to this record is also provided in:",
+      "description": "A code repository based on the files attached to this record is also provided in:",
       "url": "https://github.com/cms-opendata-validation/2010-minimumbias-trackvertex"
     },
     "system_details": {

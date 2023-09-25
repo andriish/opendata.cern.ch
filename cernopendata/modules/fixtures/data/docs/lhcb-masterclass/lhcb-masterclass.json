@@ -1,0 +1,28 @@
+[
+  {
+    "body": {
+      "content": "lhcb-masterclass.md",
+      "format": "md"
+    },
+    "collections": [
+      {
+        "experiment": "LHCb"
+      }
+    ],
+    "experiment": "LHCb",
+    "short_description": {
+      "content": "Instructions on the LHCb Masterclass exercise are provided here"
+    },
+    "slug": "lhcb-masterclass",
+    "tags": [
+      "Masterclass"
+    ],
+    "title": "Instructions for LHCb Masterclass",
+    "type": {
+      "primary": "Documentation",
+      "secondary": [
+        "Guide"
+      ]
+    }
+  }
+]

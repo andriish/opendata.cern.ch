@@ -1,13 +1,14 @@
 [
   {
     "abstract": {
-      "description": "This document contains the LHCb Data Access Policy. This was adopted at the Collaboration Board meeting on 27th Feb 2013."
+      "description": "This document contains the LHCb Data Access Policy. This was adopted at the Collaboration Board meeting on 27th Feb 2013. The policy was later revised in February 2020 (version 2)."
     },
     "accelerator": "CERN LHC",
     "authors": [
       {
         "affiliation": "U. Edinburgh",
-        "name": "Clarke, Peter"
+        "name": "Clarke, Peter",
+        "rorid": "01nrxwf90"
       }
     ],
     "collaboration": {
@@ -29,6 +30,11 @@
         "checksum": "adler32:303cbf52",
         "size": 254288,
         "uri": "root://eospublic.cern.ch//eos/opendata/lhcb/documentation/LHCb-Data-Policy.pdf"
+      },
+      {
+        "checksum": "adler32:cb4c18fa",
+        "size": 111092,
+        "uri": "root://eospublic.cern.ch//eos/opendata/lhcb/documentation/LHCb-Data-Policy-v2.pdf"
       }
     ],
     "language": "English",
@@ -84,9 +90,8 @@
     "recid": "411",
     "relations": [
       {
-        "doi": "10.7483/OPENDATA.CMS.7347.JDWH",
-        "recid": "414",
-        "title": "2018 CMS data preservation, re-use and open access policy",
+        "description": "This document is replaced by a new revision of the CMS data policy in",
+        "recid": "415",
         "type": "isChildOf"
       }
     ],
@@ -132,6 +137,13 @@
     },
     "publisher": "CERN Open Data Portal",
     "recid": "414",
+    "relations": [
+      {
+        "description": "This document is replaced by a new revision of the CMS data policy in",
+        "recid": "415",
+        "type": "isChildOf"
+      }
+    ],
     "title": "2018 CMS data preservation, re-use and open access policy",
     "type": {
       "primary": "Documentation",
@@ -142,7 +154,49 @@
   },
   {
     "abstract": {
-      "description": "This document contains the ALICE data preservation strategy and policy."
+      "description": "This document describes the CMS collaboration's policy on long-term data preservation, re-use and open access. The policy was first approved by the CMS Collaboration Board in March 2012. It was updated in 2020 and this updated policy has been approved by the CMS Collaboration Board in September 2020."
+    },
+    "accelerator": "CERN LHC",
+    "collaboration": {
+      "name": "CMS collaboration"
+    },
+    "collections": [
+      "Data-Policies"
+    ],
+    "date_published": "2020",
+    "distribution": {
+      "formats": [
+        "pdf"
+      ]
+    },
+    "doi": "10.7483/OPENDATA.CMS.1BNU.8V1W",
+    "experiment": "CMS",
+    "files": [
+      {
+        "checksum": "adler32:a0c0edb3",
+        "size": 109931,
+        "uri": "root://eospublic.cern.ch//eos/opendata/cms/documentation/CMS-Data-Policy-1.3.pdf"
+      }
+    ],
+    "language": "English",
+    "prepublication": {
+      "date": "2020-09-25",
+      "place": "Geneva",
+      "publisher": "CERN"
+    },
+    "publisher": "CERN Open Data Portal",
+    "recid": "415",
+    "title": "2020 CMS data preservation, re-use and open access policy",
+    "type": {
+      "primary": "Documentation",
+      "secondary": [
+        "Policy"
+      ]
+    }
+  },
+  {
+    "abstract": {
+      "description": "<p>This document contains the ALICE data preservation strategy and policy from 2013.<p><p>The ALICE open data strategy was updated in November 2020 following the joint <a href=\"/record/416\">CERN Open Data Policy for LHC Experiments</a>. Please see that document for more details.</p>"
     },
     "accelerator": "CERN LHC",
     "collaboration": {
@@ -184,7 +238,7 @@
   },
   {
     "abstract": {
-      "description": "This document contains the policy document regarding the access to ATLAS data by non-ATLAS members which was endorsed by the ATLAS Collaboration Board in June 2014."
+      "description": "This document contains the policy document regarding the access to ATLAS data by non-ATLAS members, which was endorsed by the ATLAS Collaboration Board in June 2014. The current revised version below was endorsed in February 2021."
     },
     "accelerator": "CERN LHC",
     "collaboration": {
@@ -203,6 +257,11 @@
     "experiment": "ATLAS",
     "files": [
       {
+        "checksum": "adler32:1edb1540",
+        "size": 198607,
+        "uri": "root://eospublic.cern.ch//eos/opendata/atlas/documentation/ATLAS-Data-Policy-2021.pdf"
+      },
+      {
         "checksum": "adler32:3a659c7f",
         "size": 345466,
         "uri": "root://eospublic.cern.ch//eos/opendata/atlas/documentation/ATLAS-Data-Policy.pdf"
@@ -217,6 +276,56 @@
     "publisher": "CERN Open Data Portal",
     "recid": "413",
     "title": "ATLAS Data Access Policy",
+    "type": {
+      "primary": "Documentation",
+      "secondary": [
+        "Policy"
+      ]
+    }
+  },
+  {
+    "abstract": {
+      "description": "This document defines the CERN Open Data policy for the LHC experiments (ALICE, ATLAS, CMS and LHCb). The policy has been endorsed by the collaboration boards of these experiments."
+    },
+    "accelerator": "CERN LHC",
+    "authors": [
+      {
+        "name": "CERN"
+      }
+    ],
+    "collections": [
+      "Data-Policies"
+    ],
+    "date_published": "2020",
+    "distribution": {
+      "formats": [
+        "pdf"
+      ]
+    },
+    "doi": "10.7483/OPENDATA.0XO6.HYY1",
+    "experiment": "",
+    "files": [
+      {
+        "checksum": "adler32:3f46761e",
+        "size": 173093,
+        "uri": "root://eospublic.cern.ch//eos/opendata/alice/documentation/CERN-OPEN-2020-013.pdf"
+      }
+    ],
+    "language": "English",
+    "links": [
+      {
+        "description": "CERN-OPEN-2020-013 on the CERN Document Server",
+        "url": "https://cds.cern.ch/record/2745133"
+      }
+    ],
+    "prepublication": {
+      "date": "2020-11-20",
+      "place": "Geneva",
+      "publisher": "CERN"
+    },
+    "publisher": "CERN Open Data Portal",
+    "recid": "416",
+    "title": "CERN Open Data Policy for the LHC Experiments ",
     "type": {
       "primary": "Documentation",
       "secondary": [
