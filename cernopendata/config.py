@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # This file is part of CERN Open Data Portal.
-# Copyright (C) 2017, 2018 CERN.
+# Copyright (C) 2017, 2018, 2020, 2022 CERN.
 #
 # CERN Open Data Portal is free software; you can redistribute it
 # and/or modify it under the terms of the GNU General Public License as
@@ -24,16 +24,17 @@
 
 """CERN Open Data configuration."""
 
-from __future__ import absolute_import, print_function
-
 import os
 
 from invenio_records_files.api import _Record
 from invenio_records_rest.config import RECORDS_REST_ENDPOINTS
-from invenio_records_rest.facets import range_filter, terms_filter
+from invenio_records_rest.facets import terms_filter
 from invenio_records_rest.utils import allow_all
 
 from cernopendata.modules.pages.config import *
+from cernopendata.modules.records.search.query import cernopendata_range_filter
+from cernopendata.modules.search_ui.helpers import \
+    CODSearchAppInvenioRestConfigHelper
 from cernopendata.modules.theme.config import *
 
 # Debug
@@ -42,6 +43,9 @@ DEBUG = os.environ.get(
     False
 )
 TEMPLATES_AUTO_RELOAD = DEBUG
+
+# Mail debug
+MAIL_DEBUG = 0
 
 # Piwik tracking code: set None to disabled it
 THEME_PIWIK_ID = os.environ.get('PIWIK_ID', None)
@@ -57,13 +61,47 @@ LOGGING_SENTRY_CELERY = os.environ.get(
         "LOGGING_SENTRY_CELERY", False
     )
 
+# Security
+# ========
+#: Flask-Talisman secure headers
+APP_DEFAULT_SECURE_HEADERS = {
+    'force_https': False,
+    'force_https_permanent': False,
+    'force_file_save': False,
+    'frame_options': 'sameorigin',
+    'frame_options_allow_from': None,
+    'strict_transport_security': True,
+    'strict_transport_security_preload': False,
+    'strict_transport_security_max_age': 31556926,  # One year in seconds
+    'strict_transport_security_include_subdomains': True,
+    'content_security_policy': {
+        'default-src': ["'self'"],
+        'object-src': ["'none'"],
+        'script-src': [
+            "'self'",
+            "'unsafe-eval'",
+            "'unsafe-inline'",
+            "https://cdnjs.cloudflare.com",
+        ],
+        'font-src': [
+            "'self'",
+            "data:",
+            "https://cdnjs.cloudflare.com",
+        ],
+    },
+    'content_security_policy_report_uri': None,
+    'content_security_policy_report_only': False,
+    'session_cookie_secure': True,
+    'session_cookie_http_only': True
+}
+
+SESSION_COOKIE_SECURE = not DEBUG
+SESSION_COOKIE_SAMESITE = "Lax"
+
 # Assets
 # ======
-#: Switch of assets debug.
-# ASSETS_DEBUG = DEBUG
-#: Switch of automatic building.
-# ASSETS_AUTO_BUILD = True
-
+#: Default application theme.
+APP_THEME = ['semantic-ui']
 
 # Static file
 COLLECT_STORAGE = 'flask_collect.storage.link' \
@@ -146,12 +184,6 @@ RECORDS_UI_ENDPOINTS = dict(
         view_imp='cernopendata.modules.records.utils:record_file_page',
         record_class='invenio_records_files.api:Record',
     ),
-    recid_preview=dict(
-        pid_type='recid',
-        route='/record/<pid_value>/preview/<path:filename>',
-        view_imp='invenio_previewer.views:preview',
-        record_class='invenio_records_files.api:Record',
-    ),
     recid_export=dict(
         pid_type='recid',
         route='/record/<pid_value>/export/<format>',
@@ -193,6 +225,10 @@ RECORDS_REST_ENDPOINTS['recid'].update({
                              ':json_v1_response'),
         'application/ld+json': ('cernopendata.modules.records.serializers'
                                 ':schemaorg_jsonld_response'),
+    },
+    'search_serializers': {
+        'application/json': ('cernopendata.modules.records.serializers'
+                             ':json_v1_search'),
     },
 })
 
@@ -251,12 +287,12 @@ RECORDS_REST_SORT_OPTIONS = {
             order=1,
         ),
         'mostrecent': dict(
-            fields=['-_created'],
+            fields=['recid'],
             title='Most recent',
-            default_order='asc',
-            order=2,
+            default_order='desc',
+            order=1,
         ),
-        'title': dict(fields=['title.keyword'],
+        'title': dict(fields=['title.exact'],
                       title='Title A-Z',
                       default_order='asc',
                       order=1)
@@ -269,51 +305,60 @@ RECORDS_REST_SORT_OPTIONS = {
     }
 }
 
-RECORDS_REST_DEFAULT_SORT = {
-    'records-glossary-term-v1.0.0': {
-        'noquery': 'anchor'
-    }
-}
+# FIXME: KeyError: 'query'
+# RECORDS_REST_DEFAULT_SORT = {
+#     'records-glossary-term-v1.0.0': {
+#         'noquery': 'anchor'
+#     }
+# }
+
+# TODO: based on invenio-records-rest default config
+RECORDS_REST_DEFAULT_SORT = dict(
+    _all=dict(
+        query='bestmatch',
+        noquery='mostrecent',
+    )
+)
 
 RECORDS_REST_FACETS = {
     '_all': {
         'aggs': dict(
-            experiment=dict(terms=dict(
-                field='experiment.keyword',
-                order=dict(_term='asc'))),
             type=dict(terms=dict(
                 field='type.primary.keyword',
-                order=dict(_term='asc')),
+                order=dict(_key='asc')),
                 aggs=dict(subtype=dict(terms=dict(
                           field="type.secondary.keyword",
-                          order=dict(_term='asc'))))),
+                          order=dict(_key='asc'))))),
+            experiment=dict(terms=dict(
+                field='experiment.keyword',
+                order=dict(_key='asc'))),
+            year=dict(terms=dict(
+                field='date_created.keyword',
+                order=dict(_key='asc'))),
             file_type=dict(terms=dict(
                 field='distribution.formats.keyword',
                 size=50,
-                order=dict(_term='asc'))),
-            year=dict(terms=dict(
-                field='date_created.keyword',
-                order=dict(_term='asc'))),
-            keywords=dict(terms=dict(
-                field='keywords.keyword',
-                order=dict(_term='asc'))),
+                order=dict(_key='asc'))),
             collision_type=dict(terms=dict(
                 field='collision_information.type.keyword',
-                order=dict(_term='asc'))),
+                order=dict(_key='asc'))),
             collision_energy=dict(terms=dict(
                 field='collision_information.energy.keyword',
-                order=dict(_term='asc'))),
+                order=dict(_key='asc'))),
             category=dict(terms=dict(
                 field='categories.primary.keyword',
-                order=dict(_term='asc')),
+                order=dict(_key='asc')),
                 aggs=dict(subcategory=dict(terms=dict(
                           field="categories.secondary.keyword",
-                          order=dict(_term='asc'))))),
-            availability=dict(terms=dict(
-                field='distribution.availability.keyword',
+                          order=dict(_key='asc'))))),
+            magnet_polarity=dict(terms=dict(
+                field='magnet_polarity.keyword',
                 order=dict(_term='asc'))),
-            signature=dict(terms=dict(
-                field='signature.keyword',
+            stripping_stream=dict(terms=dict(
+                field='stripping.stream.keyword',
+                order=dict(_term='asc'))),
+            stripping_version=dict(terms=dict(
+                field='stripping.version.keyword',
                 order=dict(_term='asc'))),
             event_number={
                 'range': {
@@ -350,30 +395,192 @@ RECORDS_REST_FACETS = {
                         }
                     ]
                 }
-            }
+            },
+            signature=dict(terms=dict(
+                field='signature.keyword',
+                order=dict(_key='asc'))),
+            keywords=dict(terms=dict(
+                field='keywords.keyword',
+                order=dict(_key='asc'))),
         ),
         'post_filters': dict(
-            experiment=terms_filter('experiment.keyword'),
             type=terms_filter('type.primary.keyword'),
             subtype=terms_filter('type.secondary.keyword'),
+            experiment=terms_filter('experiment.keyword'),
             year=terms_filter('date_created.keyword'),
+            file_type=terms_filter('distribution.formats.keyword'),
             tags=terms_filter('tags.keyword'),
-            keywords=terms_filter('keywords.keyword'),
             collision_type=terms_filter('collision_information.type.keyword'),
             collision_energy=terms_filter('collision_information.energy'
                                           '.keyword'),
             category=terms_filter('categories.primary.keyword'),
             subcategory=terms_filter('categories.secondary.keyword'),
-            file_type=terms_filter('distribution.formats.keyword'),
+            magnet_polarity=terms_filter('magnet_polarity.keyword'),
+            stripping_stream=terms_filter('stripping.stream.keyword'),
+            stripping_version=terms_filter('stripping.version.keyword'),
+            event_number=cernopendata_range_filter(
+                            'distribution.number_events'),
             collections=terms_filter('collections.keyword'),
-            availability=terms_filter('distribution.availability.keyword'),
             signature=terms_filter('signature.keyword'),
-            event_number=range_filter('distribution.number_events')
+            keywords=terms_filter('keywords.keyword'),
         )
     }
 }
 
 """Facets per index for the default facets factory."""
+
+# Generated by scripts/get_facet_hierarchy.py
+FACET_HIERARCHY = {
+    "category": {
+        "B physics and Quarkonia": {"subcategory": set()},
+        "Exotica": {"subcategory": {"Miscellaneous", "Gravitons"}},
+        "Higgs Physics": {
+            "subcategory": {
+                "Beyond Standard Model",
+                "Standard Model"
+            }
+        },
+        "Physics Modelling": {"subcategory": set()},
+        "Standard Model Physics": {
+            "subcategory": {
+                "Drell-Yan",
+                "ElectroWeak",
+                "Forward and Small-x " "QCD Physics",
+                "Minimum Bias",
+                "QCD",
+                "Top physics",
+            }
+        },
+        "Supersymmetry": {"subcategory": set()},
+    },
+    "collision_energy": {
+        "0.9TeV": {},
+        "0TeV": {},
+        "13TeV": {},
+        "2.76TeV": {},
+        "7TeV": {},
+        "8TeV": {},
+    },
+    "collision_type": {"Interfill": {}, "PbPb": {}, "pp": {}},
+    "event_number": {
+        "0--999": {},
+        "1000--9999": {},
+        "10000--99999": {},
+        "100000--999999": {},
+        "1000000--9999999": {},
+        "10000000--": {},
+    },
+    "experiment": {
+        "ALICE": {},
+        "ATLAS": {},
+        "CMS": {},
+        "LHCb": {},
+        "OPERA": {}
+    },
+    "file_type": {
+        "C": {},
+        "aod": {},
+        "aodsim": {},
+        "cc": {},
+        "csv": {},
+        "docx": {},
+        "fevtdebughlt": {},
+        "gen-sim": {},
+        "gen-sim-digi-raw": {},
+        "gen-sim-reco": {},
+        "gz": {},
+        "h5": {},
+        "html": {},
+        "ig": {},
+        "ipynb": {},
+        "jpg": {},
+        "json": {},
+        "m4v": {},
+        "miniaodsim": {},
+        "nanoaod": {},
+        "ova": {},
+        "pdf": {},
+        "png": {},
+        "py": {},
+        "raw": {},
+        "reco": {},
+        "root": {},
+        "tar": {},
+        "tar.gz": {},
+        "txt": {},
+        "xls": {},
+        "xml": {},
+        "zip": {},
+    },
+    "keywords": {
+        "datascience": {},
+        "education": {},
+        "external resource": {},
+        "heavy-ion physics": {},
+        "masterclass": {},
+        "teaching": {},
+    },
+    "signature": {
+        "H": {},
+        "Jpsi": {},
+        "W": {},
+        "Y": {},
+        "Z": {},
+        "electron": {},
+        "missing transverse energy": {},
+        "muon": {},
+        "photon": {},
+    },
+    "type": {
+        "Dataset": {"subtype": {"Simulated", "Derived", "Collision"}},
+        "Documentation": {
+            "subtype": {
+                "About",
+                "Activities",
+                "Authors",
+                "Guide",
+                "Help",
+                "Policy",
+                "Report",
+            }
+        },
+        "Environment": {"subtype": {"VM", "Condition", "Validation"}},
+        "Glossary": {"subtype": set()},
+        "News": {"subtype": set()},
+        "Software": {
+            "subtype": {
+                "Analysis",
+                "Framework",
+                "Tool",
+                "Validation",
+                "Workflow"
+            }
+        },
+        "Supplementaries": {
+            "subtype": {
+                "Configuration",
+                "Configuration HLT",
+                "Configuration LHE",
+                "Configuration RECO",
+                "Configuration SIM",
+                "Luminosity",
+                "Trigger",
+            }
+        },
+    },
+    "year": {
+        "2008": {},
+        "2009": {},
+        "2010": {},
+        "2011": {},
+        "2012": {},
+        "2016": {},
+        "2018": {},
+        "2019": {},
+    },
+}
+
+"""Hierarchy of facets containing subfacets."""
 
 # Files
 # ======
@@ -396,20 +603,18 @@ CERNOPENDATA_DISABLE_DOWNLOADS = os.environ.get(
 )
 # Search
 # ======
-#: Default API endpoint for search UI.
-SEARCH_UI_SEARCH_API = "/api/records/"
-#: Default template for search UI.
-# SEARCH_UI_BASE_TEMPLATE = 'cernopendata/page.html'
-#: Default template for search UI.
-SEARCH_UI_SEARCH_TEMPLATE = 'cernopendata/search.html'
-SEARCH_UI_JSTEMPLATE_FACETS = 'templates/cernopendata_search_ui/facets.html'
-SEARCH_UI_JSTEMPLATE_ERROR = 'templates/cernopendata_search_ui/error.html'
 #: Default Elasticsearch document type.
 SEARCH_DOC_TYPE_DEFAULT = None
 #: Do not map any keywords.
 SEARCH_ELASTIC_KEYWORD_MAPPING = {}
 
+#: Configure the search page template.
+SEARCH_UI_SEARCH_TEMPLATE = 'cernopendata_search_ui/search.html'
 SEARCH_UI_SEARCH_INDEX = '_all'
+#: Override the React-SearchKit config generator to support range aggs.
+SEARCH_UI_SEARCH_CONFIG_GEN = {
+    'invenio_records_rest': CODSearchAppInvenioRestConfigHelper,
+}
 
 # OAI-PMH
 # =======
@@ -480,3 +685,6 @@ SEARCH_ELASTIC_HOSTS = [
         **params
     )
 ]
+
+ANNOUNCEMENT_BANNER_MESSAGE = os.getenv('ANNOUNCEMENT_BANNER_MESSAGE', '')
+"""Message to display in all pages as a banner (HTML allowed)."""

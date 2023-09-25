@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # This file is part of CERN Open Data Portal.
-# Copyright (C) 2017, 2018 CERN.
+# Copyright (C) 2017, 2018, 2021, 2022, 2023 CERN.
 #
 # CERN Open Data Portal is free software; you can redistribute it
 # and/or modify it under the terms of the GNU General Public License as
@@ -41,19 +41,18 @@ tests_require = [
     'check-manifest>=0.25',
     'coverage>=4.0',
     'isort>=4.2.2',
-    'locustio>=0.8,<0.14',
+    'locustio>=0.8,<0.13',
     'mock>=1.3.0',
     'pydocstyle>=1.0.0',
     'pycodestyle>=2.4.0',
     'pytest-cache>=1.0',
     'pytest-cov>=1.8.0',
-    'pytest-pep8>=1.0.6',
     'pytest>=2.8.0',
 ]
 
 extras_require = {
     'docs': [
-        'Sphinx>=1.4.2',
+        'Sphinx>=1.4.2,<5.0.0',
     ],
     'tests': tests_require,
 }
@@ -67,41 +66,58 @@ setup_requires = [
 ]
 
 install_requires = [
-    'Flask-BabelEx>=0.9.3',
-    'Flask-Breadcrumbs>=0.4.0',
-    'Flask-CeleryExt>=0.2.2',
+    # General Invenio dependencies
+    'invenio-app==1.3.0',
+    'invenio-base==1.2.5',
+    'invenio-config==1.0.3',
+    # Custom Invenio `base` bundle
+    'invenio-assets==1.2.7',
+    'invenio-accounts==1.4.5',
+    'invenio-logging[sentry]==1.3.0',
+    'invenio-rest==1.2.1',
+    'invenio-theme==1.3.6',
+    # Custom Invenio `metadata` bundle
+    'invenio-indexer==1.2.0',
+    'invenio-jsonschemas==1.1.0',
+    'invenio-pidstore==1.2.1',
+    'invenio-records-rest[datacite]==1.7.2',
+    'invenio-records-ui==1.2.0',
+    'invenio-records==1.4.0a3',
+    'invenio-search-ui==2.0.4',
+    # Custom Invenio `files` bundle
+    'invenio-previewer==1.3.2',
+    'invenio-records-files==1.2.1',
+    # Custom Invenio `postgresql` bundle
+    'invenio-db[versioning,postgresql]==1.0.5',
+    # Custom Invenio `elasticsearch7` bundle
+    'invenio-search[elasticsearch7]==1.4.1',
+    # Specific Invenio dependencies
+    'invenio-xrootd>=1.0.0a6',
+    'xrootdpyfs>=0.2.2',
+    # Specific dependencies
     'Flask-Markdown>=0.3.0',
-    'Flask-Menu>=0.5.0',
     'Flask-Mistune>=0.1.1',
-    'Flask>=0.12.4',
-    'python-slugify>=1.2.4',
-    'datacite>=0.3.0',
-    'invenio-assets>=1.0.0b6',
-    'invenio-base>=1.0.0a9',
-    'invenio-celery>=1.0.0b1',
-    'invenio-config>=1.0.0b1',
-    'invenio-db[versioning,postgresql]>=1.0.0b3',
-    'invenio-i18n>=1.0.0b1',
-    'invenio-indexer>=1.0.0a1',
-    'invenio-jsonschemas==1.0.0a5',
-    'invenio-logging==1.0.0b3',
-    'invenio-pidstore>=1.0.0b1',
-    'invenio-previewer>=1.0.0a11',
-    'invenio-records-files==1.0.0a10',
-    'invenio-records-rest==1.0.0b1',
-    'invenio-records-ui==1.0.0b1',
-    'invenio-records==1.0.0b2',
-    'invenio-search-ui>=1.0.0a2',
-    'invenio-search>=1.0.0a9',
-    'invenio-theme==1.0.0b2',
-    'invenio-xrootd>=1.0.0a4',
     'mistune>=0.7.4',
     'pymdown-extensions>=5.0.0',
     'python-markdown-math>=0.3',
-    'raven>=6.3.0',  # required by invenio-logging
-    'uWSGI>=2.0.15',
-    'uwsgitop>=0.10',
-    'xrootdpyfs>=0.1.4',
+    'python-slugify>=1.2.4',
+    # Webserver
+    'uWSGI>=2.0.21',
+    'uwsgitop>=0.11',
+    # Pin SQLAlchemy version due to sqlalchemy-utils compatibility
+    # <https://github.com/kvesteri/sqlalchemy-utils/issues/505>
+    'SQLAlchemy<1.4.0',
+    # Pin Flask-SQLAlchemy version due to apply_driver_hacks
+    'Flask-SQLAlchemy<2.5.0',
+    # Pin Celery due to worker runtime issues
+    'celery==5.0.4',
+    # Pin XRootD consistently with Dockerfile
+    'xrootd==4.12.7',
+    # Pin Flask/gevent/greenlet/raven to make master work again
+    'Flask<1.2',
+    'gevent<1.6',
+    'greenlet<1.2',
+    'raven<6.11',
 ]
 
 packages = find_packages()
@@ -125,33 +141,13 @@ setup(
             'cernopendata = '
             'cernopendata.cli:cli',
         ],
-        'invenio_assets.bundles': [
-            'cernopendata_js = cernopendata.modules.theme.bundles:js',
-            'cernopendata_front_js = cernopendata.modules.theme.bundles'
-            ':front_js',
-            'cernopendata_theme_css = cernopendata.modules.theme.bundles:css',
-            'cernopendata_visualise_css = '
-            'cernopendata.modules.theme.bundles:visualise_css',
-            'cernopendata_visualise_js = '
-            'cernopendata.modules.theme.bundles:visualise_js',
-            'cernopendata_search_js = cernopendata.modules.theme.bundles'
-            ':search_js',
-            'cernopendata_glossary_js = cernopendata.modules.theme.bundles'
-            ':glossary_js',
-            'cernopendata_glossary_css = cernopendata.modules.theme.bundles'
-            ':glossary_css',
-            'opera_js = cernopendata.modules.theme.bundles'
-            ':opera_js',
-            'opera_css = cernopendata.modules.theme.bundles'
-            ':opera_css',
-            'ispy_js = cernopendata.modules.theme.bundles'
-            ':ispy_js',
-            'ispy_css = cernopendata.modules.theme.bundles'
-            ':ispy_css',
-            'codemirror_js = cernopendata.modules.theme.bundles'
-            ':codemirror_js',
-            'codemirror_css = cernopendata.modules.theme.bundles'
-            ':codemirror_css',
+        'invenio_assets.webpack': [
+            'cernopendata_theme = cernopendata.modules.theme.webpack:theme',
+            'cernopendata_glossary = cernopendata.modules.theme.webpack:glossary',
+            'cernopendata_search = cernopendata.modules.theme.webpack:search_ui',
+            'cernopendata_visualise = cernopendata.modules.theme.webpack:visualise',
+            'cernopendata_records_file_box = '
+            'cernopendata.modules.theme.webpack:records_file_box',
         ],
         'invenio_base.apps': [
             'cernopendata_xrootd = cernopendata.modules.xrootd:CODPXRootD',
@@ -218,8 +214,8 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',
         'Operating System :: OS Independent',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',

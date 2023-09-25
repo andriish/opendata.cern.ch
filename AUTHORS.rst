@@ -13,7 +13,9 @@ The list of contributors in alphabetical order:
 - `Anxhela Dani <https://github.com/anxheladani>`_
 - `Artemis Lavasa <https://github.com/artemislav>`_
 - `Arturo Sanchez <https://github.com/artfisica>`_
+- `Audrius Mecionis <https://orcid.org/0000-0002-3759-1663>`_
 - `Clemens Lange <https://github.com/clelange>`_
+- `Daan Rosendal <https://github.com/DaanRosendal>`_
 - `Diego Rodriguez <https://orcid.org/0000-0003-0649-2002>`_
 - `Edgar Carrera <https://github.com/caredg>`_
 - `Eric Engestrom <https://github.com/1ace>`_
@@ -33,12 +35,14 @@ The list of contributors in alphabetical order:
 - `Mantas Savaniakas <https://github.com/mantasavas>`_
 - `Matt Bellis <https://github.com/mattbellis>`_
 - `Mihaela Gheata <https://github.com/mgheata>`_
+- `Osama Sh. Almomani <https://github.com/OsamaMomani>`_
 - `Pamfilos Fokianos <https://github.com/pamfilos>`_
 - `Patricia Herterich <https://github.com/pherterich>`_
 - `Sebastian Feger <https://github.com/sefeg>`_
 - `Sergey Dmitrievsky <https://github.com/dmitr25>`_
 - `Silvia Amerio <https://github.com/samerio>`_
 - `Stefan Wunsch <https://github.com/stwunsch>`_
+- `Suchith Krishna S Donni <https://github.com/sksDonni>`_
 - `Thomas McCauley <https://github.com/tpmccauley>`_
 - `Tibor Šimko <https://orcid.org/0000-0001-7202-5803>`_
 - `Tim Smith <https://github.com/TimSmithCH>`_

@@ -214,28 +214,39 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "affiliation": "LAL, IN2P3/CNRS & University Paris-Sud, France",
-        "name": "Adam-Bourdarios, Claire"
+        "affiliation": "Orsay, LAL; Paris, IN2P3; Orsay",
+        "rorid": "046w3ze59; 03fd77x13; 028rypz17",
+        "name": "Adam-Bourdarios, Claire",
+        "orcid": "0000-0002-2634-4958"
       },
       {
-        "affiliation": "Physics Department, Royal Holloway, University of London, UK",
-        "name": "Cowan, Glen"
+        "affiliation": "Royal Holloway, U. of London",
+        "rorid": "04g2vpn86",
+        "name": "Cowan, Glen",
+        "orcid": "0000-0001-8363-9827"
       },
       {
-        "affiliation": "TAO team, INRIA & LRI, CNRS & University Paris-Sud, France",
-        "name": "Germain, Cecile"
+        "affiliation": "INRIA, Saclay; LRI, Paris 11; Orsay",
+        "rorid": "02kvxyf05; 04e3ktk27; 028rypz17",
+        "name": "Germain, Cecile",
+        "orcid": "0000-0002-9764-9783"
       },
       {
         "affiliation": "ChaLearn",
-        "name": "Guyon, Isabelle"
+        "name": "Guyon, Isabelle",
+        "orcid": "0000-0002-9266-1783"
       },
       {
-        "affiliation": "LAL, IN2P3/CNRS & University Paris-Sud, France",
-        "name": "Kégl, Balázs"
+        "affiliation": "Orsay, LAL; Paris, IN2P3; Orsay",
+        "rorid": "046w3ze59; 03fd77x13; 028rypz17",
+        "name": "Kégl, Balázs",
+        "orcid": "0000-0001-5610-1060"
       },
       {
-        "affiliation": "LAL, IN2P3/CNRS & University Paris-Sud, France",
-        "name": "Rousseau, David"
+        "affiliation": "Orsay, LAL; Paris, IN2P3; Orsay",
+        "rorid": "046w3ze59; 03fd77x13; 028rypz17",
+        "name": "Rousseau, David",
+        "orcid": "0000-0001-7613-8063"
       }
     ],
     "collections": [
@@ -291,8 +302,10 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "affiliation": "LAL, IN2P3/CNRS & University Paris-Sud, France",
-        "name": "Kégl, Balázs"
+        "affiliation": "Orsay, LAL; Paris, IN2P3; Orsay",
+        "rorid": "046w3ze59; 03fd77x13; 028rypz17",
+        "name": "Kégl, Balázs",
+        "orcid": "0000-0001-5610-1060"
       }
     ],
     "collections": [
@@ -326,13 +339,20 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "Binet, Sébastien"
+        "name": "Binet, Sébastien",
+        "orcid": "0000-0003-4913-6104"
       },
       {
-        "name": "Kégl, Balázs"
+        "affiliation": "Orsay, LAL; Paris, IN2P3; Orsay",
+        "rorid": "046w3ze59; 03fd77x13; 028rypz17",
+        "name": "Kégl, Balázs",
+        "orcid": "0000-0001-5610-1060"
       },
       {
-        "name": "Rousseau, David"
+        "affiliation": "Orsay, LAL; Paris, IN2P3; Orsay",
+        "rorid": "046w3ze59; 03fd77x13; 028rypz17",
+        "name": "Rousseau, David",
+        "orcid": "0000-0001-7613-8063"
       }
     ],
     "collections": [

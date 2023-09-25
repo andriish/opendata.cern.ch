@@ -6,7 +6,8 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "McCauley, Thomas"
+        "name": "McCauley, Thomas",
+        "orcid": "0000-0001-6589-8286"
       }
     ],
     "collections": [
@@ -104,7 +105,8 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "McCauley, Thomas"
+        "name": "McCauley, Thomas",
+        "orcid": "0000-0001-6589-8286"
       }
     ],
     "collections": [
@@ -325,7 +327,8 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "McCauley, Thomas"
+        "name": "McCauley, Thomas",
+        "orcid": "0000-0001-6589-8286"
       }
     ],
     "collections": [
@@ -543,7 +546,8 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "McCauley, Thomas"
+        "name": "McCauley, Thomas",
+        "orcid": "0000-0001-6589-8286"
       }
     ],
     "collections": [
@@ -713,7 +717,8 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "McCauley, Thomas"
+        "name": "McCauley, Thomas",
+        "orcid": "0000-0001-6589-8286"
       }
     ],
     "collections": [
@@ -879,7 +884,8 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "McCauley, Thomas"
+        "name": "McCauley, Thomas",
+        "orcid": "0000-0001-6589-8286"
       }
     ],
     "collections": [
@@ -1096,7 +1102,8 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "McCauley, Thomas"
+        "name": "McCauley, Thomas",
+        "orcid": "0000-0001-6589-8286"
       }
     ],
     "collections": [
@@ -1242,7 +1249,8 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "McCauley, Thomas"
+        "name": "McCauley, Thomas",
+        "orcid": "0000-0001-6589-8286"
       }
     ],
     "collections": [
@@ -1388,7 +1396,8 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "McCauley, Thomas"
+        "name": "McCauley, Thomas",
+        "orcid": "0000-0001-6589-8286"
       }
     ],
     "collections": [
@@ -1560,7 +1569,8 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "McCauley, Thomas"
+        "name": "McCauley, Thomas",
+        "orcid": "0000-0001-6589-8286"
       }
     ],
     "collections": [
@@ -1732,7 +1742,8 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "McCauley, Thomas"
+        "name": "McCauley, Thomas",
+        "orcid": "0000-0001-6589-8286"
       }
     ],
     "collections": [
@@ -2178,7 +2189,8 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "McCauley, Thomas"
+        "name": "McCauley, Thomas",
+        "orcid": "0000-0001-6589-8286"
       }
     ],
     "collections": [
@@ -2239,9 +2251,6 @@
     },
     "publisher": "CERN Open Data Portal",
     "recid": "5209",
-    "run_period": [
-      "Run2011A"
-    ],
     "relations": [
       {
         "description": "This data file and other similar data files can be found from ",
@@ -2250,6 +2259,9 @@
         "title": "Higgs candidate events for use in education and outreach",
         "type": "isChildOf"
       }
+    ],
+    "run_period": [
+      "Run2011A"
     ],
     "signature": [
       "H",
@@ -2287,7 +2299,8 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "McCauley, Thomas"
+        "name": "McCauley, Thomas",
+        "orcid": "0000-0001-6589-8286"
       }
     ],
     "collections": [
@@ -2360,9 +2373,6 @@
     },
     "publisher": "CERN Open Data Portal",
     "recid": "5210",
-    "run_period": [
-      "Run2011A"
-    ],
     "relations": [
       {
         "description": "This data file and other similar data files can be found from ",
@@ -2371,6 +2381,9 @@
         "title": "Higgs candidate events for use in education and outreach",
         "type": "isChildOf"
       }
+    ],
+    "run_period": [
+      "Run2011A"
     ],
     "signature": [
       "muon",

@@ -6,7 +6,8 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "Rodriguez Marrero, Ana"
+        "name": "Rodriguez Marrero, Ana",
+        "orcid": "0000-0002-7145-630X"
       }
     ],
     "collections": [
@@ -60,8 +61,9 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "affiliation": "Lapland University of Applied Sciences",
-        "name": "Puhakka, Anssi"
+        "affiliation": "Lapland, U. Appl. Sci.",
+        "name": "Puhakka, Anssi",
+        "rorid": "047h64h89"
       }
     ],
     "collections": [
@@ -86,7 +88,8 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "McCauley, Thomas"
+        "name": "McCauley, Thomas",
+        "orcid": "0000-0001-6589-8286"
       }
     ],
     "collections": [
@@ -121,7 +124,8 @@
     "accelerator": "CERN-LHC",
     "authors": [
       {
-        "name": "McCauley, Thomas"
+        "name": "McCauley, Thomas",
+        "orcid": "0000-0001-6589-8286"
       }
     ],
     "collections": [
