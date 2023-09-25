@@ -1,6 +1,5 @@
 ============
  Developing
-(This is JADE branch)
 ============
 
 .. contents::
